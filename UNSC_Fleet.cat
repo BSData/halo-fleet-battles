@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="77a9-9244-34e8-0d37" revision="1" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9131-e6b1-7a3d-6abf" name="Capital Element" defaultEntryId="a209-5d16-8852-3256" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a209-5d16-8852-3256" targetId="f9c6-8c39-b73e-fc7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="386a-543c-b1e0-c84e" name="Capital Element" defaultEntryId="3340-84ee-520b-b951" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="3340-84ee-520b-b951" targetId="f9c6-8c39-b73e-fc7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="dd0c-f298-0747-20a7" name="Cerberus Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="93a2-c8d0-9db3-5431" name="Capital Element" defaultEntryId="782d-1f9d-dcbc-72a2" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="782d-1f9d-dcbc-72a2" targetId="7c0c-02f6-5c28-bf09" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a84a-8be7-3feb-9277" name="Cyclops Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="98a9-2ea5-fcba-2eba" name="Non-Capital Element" defaultEntryId="978e-044b-6a74-092e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="978e-044b-6a74-092e" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="0e28-541e-1a85-9cee" name="Non-Capital Element" defaultEntryId="f9a2-b0c7-9109-7a6f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f9a2-b0c7-9109-7a6f" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="747b-97b9-5f3b-9a96" name="Non-Capital Element" defaultEntryId="95b0-cb73-bc0f-5c9a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="95b0-cb73-bc0f-5c9a" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="1f24-5c96-8d2e-ada9" name="Capital Element" defaultEntryId="e403-844e-d750-ab1b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="e403-844e-d750-ab1b" targetId="e1fc-994b-088f-20a8" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e2b0-ec8e-0fb0-4fd9" name="Fleet Commander" points="0.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="658b-ef6f-0c90-f45a" name="Fleet Commander" defaultEntryId="bf60-65fe-4b52-31ed" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="145e-edc8-1d6e-9f23" name="Lord Hood" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="43e8-a12f-44a3-2e2b" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="99fd-6e10-e135-790c" targetId="79c7-0e4b-a389-c516" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="99bc-a6be-12d9-61d5" name="Unique Ability" hidden="false" book="Reference Sheet" page="1115">
+                  <description>Lord Hood is unflappable under pressure and measured in all aspects of his command. He can choose to add +1 to the Initiative Dice roll each Turn.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="3e27-1381-6210-4150" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Lord Hood" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="0-1"/>
+                    <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="Full 1000pts"/>
+                    <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="4 VPs"/>
+                    <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="+100pts Per Spartan"/>
+                    <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="5"/>
+                    <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="1"/>
+                    <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="cad3-f722-b7d4-3d62" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1115">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="1d1d-213e-bbea-d667" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1115">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Do what it takes"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may roll a Halo Dice during the Repair Phase. On the Roll of a &quot;1&quot; or &quot;2&quot; the formation may remove a single Damage Marker from its base."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Repairs Step of the End Phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="278c-93c8-7e6b-0d2d" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1115">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="9297-ce2a-d5b9-c5e2" profileTypeId="0a73-7ae5-e666-8ed9" name="4" hidden="false" book="Reference Sheet" page="1115">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Inspiration"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from ALL Elements in a selected Battle Group."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the selected Battle Group&apos;s Activation."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="feb1-bce1-208c-a72f" profileTypeId="0a73-7ae5-e666-8ed9" name="5" hidden="false" book="Reference Sheet" page="1115">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Engage in Strength!"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="ONCE per Turn, Lord Hood can call a general attack order, allowing up to TWO standard Battle Groups to activate together, performing their respective Movement and Attack Segments as if they were a single Battle Group for the remainder of the Game Turn."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Execute Orders step of the Orders Phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="bf60-65fe-4b52-31ed" name="Michael Stanforth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="d4df-8076-579d-b266" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="ae94-70cc-d36a-1de4" targetId="79c7-0e4b-a389-c516" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="86a1-8f23-6d0f-a404" name="Unique Ability" hidden="false" book="Reference Sheet" page="1064">
+                  <description>Vice Admiral Stanforth galvanised the UNSC forces at Reach into a formidable force using a combination of raw charisma and intuitive command skills. Stanforth may re-roll TWO Fleet Orders Dice once per Turn. The second result MUST be accepted.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="e281-161a-45cc-e276" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Michael Stanforth" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="0-1"/>
+                    <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="Full 1000pts"/>
+                    <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="4 VPs"/>
+                    <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="+100pts Per Spartan"/>
+                    <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="5"/>
+                    <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="1"/>
+                    <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="4ed2-d0e3-ea62-b1ab" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1064">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="9866-ca22-355d-4480" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1064">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Brace! Brace! Brace!"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="When targeted by a Firing Solution or when Colliding with Terrain, the total number of attack successes rolled against the nominated target is reduced by -2."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued before any inital Attack Dice Roll."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="f0d3-c525-bd42-f60b" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1064">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="a224-99e4-7ec5-74d5" profileTypeId="0a73-7ae5-e666-8ed9" name="4" hidden="false" book="Reference Sheet" page="1064">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Prepare for Boarders"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security detail present on-board a single friendly Capital Element by +4 for this Turn."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the Boarding Resolution Phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="23f9-f2d0-9575-e84d" profileTypeId="0a73-7ae5-e666-8ed9" name="5" hidden="false" book="Reference Sheet" page="1064">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Take it to them!"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Attack Dice of EACH friendly Security Detail on-board a target enemy element by +2."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the Boarding Resolution Phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4f42-8d6b-c922-16ab" name="Gorgon Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9fe3-bbaf-43a2-4a92" name="Non-Capital Element" defaultEntryId="4d22-3848-4a01-bcd6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4d22-3848-4a01-bcd6" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="ede2-9603-e9b8-e2ce" name="Non-Capital Element" defaultEntryId="8c29-2e52-6a47-360c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8c29-2e52-6a47-360c" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="e473-a45a-d79d-89e9" name="Capital Element" defaultEntryId="7f8e-01e3-37d5-7dcd" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7f8e-01e3-37d5-7dcd" targetId="31e9-c7a3-2aeb-e871" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="ce56-6166-6f77-f6db" name="Capital Element" defaultEntryId="50c7-52db-7ba5-7d43" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="50c7-52db-7ba5-7d43" targetId="31e9-c7a3-2aeb-e871" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="62c7-b19d-d3ee-3b01" name="Harpy Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="0929-0a2a-4b3e-ec14" name="Non-Capital Element" defaultEntryId="2296-bd61-443f-0595" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="2296-bd61-443f-0595" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="3389-4071-f533-c58a" name="Non-Capital Element" defaultEntryId="f967-50c6-9b58-54ca" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f967-50c6-9b58-54ca" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="051c-ec14-6d05-16a8" name="Non-Capital Element" defaultEntryId="af0f-a957-0ad0-ab8c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="af0f-a957-0ad0-ab8c" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="fac7-84bb-b67c-0be6" name="Non-Capital Element" defaultEntryId="5a5b-bff5-d305-8793" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5a5b-bff5-d305-8793" targetId="bfc5-5642-ba69-9a7a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="b080-3513-23e8-a892" name="Non-Capital Element" defaultEntryId="3b7d-6537-e44e-5d7e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="3b7d-6537-e44e-5d7e" targetId="bfc5-5642-ba69-9a7a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7850-b5a9-4204-50bd" name="Non-Capital Element" defaultEntryId="47ec-72c8-a7c4-1de7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="47ec-72c8-a7c4-1de7" targetId="bfc5-5642-ba69-9a7a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="dbc6-b164-298b-38f9" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="bb2c-3310-037d-a584" name="Heroic Character" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="1994-ceed-69d3-7241" name="Cortana" points="80.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="ff83-f1ab-2450-afaf" name="Unique Ability" hidden="false" book="Reference Sheet" page="1116">
+                  <description>Cortana is resourceful and cunning, and her survival is a priority for the UNSC. Should the Element containing Cortana be Destroyed, roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, Cortana may be placed on a nearby friendly vessel within 12&quot;. Should Cortana roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, Cortana is removed from the game and the enemy Fleet gains an additional +4 VPs.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="2dac-a888-4578-c562" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Cortana" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="None"/>
+                    <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="-"/>
+                    <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="-"/>
+                    <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="-"/>
+                    <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="3"/>
+                    <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="3"/>
+                    <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value="Assigned"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="9b86-3be3-a90e-c57d" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1116">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Ghost in the machine"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Cortana can hack the command and control network of the enemy Battle Group. For this Turn only, reduce all Attack Firepower Ratings of an enemy Battle Group by -2."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order must be issued during the Execute Orders Step of the Orders Phase."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="b1ac-0764-0049-9c7a" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1116">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="The Defensive Option"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Defensive Roll made by a Capital Ship by +1 this turn."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued after a Capital Element has been targeted by an enemy attack."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+                <profile id="9216-9cd6-db62-ae17" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1116">
+                  <characteristics>
+                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Missile Command"/>
+                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Cortana takes control of all missile Targeting in a Battle Group, and removes the stipulation for any Missile Barrage to target the closest enemy when firing in their Fore Arc."/>
+                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued prior to an enemy target being nominated for an attack by Missile Weapons."/>
+                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="b4de-8f02-ab74-8952" targetId="68b7-713b-323d-841f" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6032-0d32-94e6-4153" name="Orthrus Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e8ba-2bf3-a4ac-d451" name="Capital Element" defaultEntryId="59c8-6f53-f45d-1918" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="59c8-6f53-f45d-1918" targetId="11f3-ac3f-c0d5-5e96" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="4556-8624-6a2f-b382" name="Capital Element" defaultEntryId="79c1-bc38-546d-2bb0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="79c1-bc38-546d-2bb0" targetId="11f3-ac3f-c0d5-5e96" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5c09-bfef-f8dd-94b6" name="Shield Wall Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="929f-c7bf-05db-4a74" name="Non-Capital Element" defaultEntryId="dc50-f065-e39c-7146" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="dc50-f065-e39c-7146" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7381-b8e2-4ca5-ae47" name="Non-Capital Element" defaultEntryId="2056-0b7a-eace-c955" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="2056-0b7a-eace-c955" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="9cc7-de22-5067-61a0" name="Non-Capital Element" defaultEntryId="6ac9-cf40-6937-8f45" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6ac9-cf40-6937-8f45" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c331-efba-01a9-8945" name="Standard Battle Group" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="08fe-aab0-ae10-b1dc" name="Capital Element" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="08fe-aab0-ae10-b1dc" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="f9c6-8c39-b73e-fc7c" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="11f3-ac3f-c0d5-5e96" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="99a7-c70a-6d68-941c" targetId="2431-0c8b-4dc2-1701" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6669-1db9-8226-b050" targetId="31e9-c7a3-2aeb-e871" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d692-7c2d-85f2-1e96" targetId="f9c6-8c39-b73e-fc7c" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2a8d-c978-1ba8-b132" targetId="11f3-ac3f-c0d5-5e96" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1929-2894-5546-3b93" targetId="c1ba-bf41-1a5a-7e4a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="04ac-cb8a-a761-c7d9" name="Non-Capital Element" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="2431-0c8b-4dc2-1701" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="31e9-c7a3-2aeb-e871" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="f9c6-8c39-b73e-fc7c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="abdf-b5c3-c8ce-2e7c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="11f3-ac3f-c0d5-5e96" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="5.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="c1ba-bf41-1a5a-7e4a" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="69a9-21d6-08e1-4714" targetId="9d8c-7eef-b8cb-2cc5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="42b0-6b68-0280-6db6" targetId="bfc5-5642-ba69-9a7a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9399-f72c-732c-317d" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+              <modifiers>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="9399-f72c-732c-317d" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="11f3-ac3f-c0d5-5e96" name="Epoch Heavy Cruiser" points="175.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4603-9a33-77f4-c43b" targetId="cb88-f3b2-b72b-35d9" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2431-0c8b-4dc2-1701" name="Marathon Heavy Cruiser" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d979-cff5-364a-3045" targetId="041e-ed14-a3c5-6c05" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7c0c-02f6-5c28-bf09" name="Paired Marathon Heavy Cruiser" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="af57-2738-0b41-e86e" targetId="9644-193f-5b1b-cbc0" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bfc5-5642-ba69-9a7a" name="Paris Frigates in Arrowhead Formation" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="cb71-6800-a9a8-baf0" targetId="2a55-a6dc-98ba-4c81" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9d8c-7eef-b8cb-2cc5" name="Paris Frigates in Shield Formation" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="be3b-2a9c-0783-0226" targetId="2f54-2db8-7aee-98a7" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="abdf-b5c3-c8ce-2e7c" name="Paris Frigates in Trident Formation" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="cc58-0ea2-4666-05d3" targetId="85a7-73c0-ca0e-468f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f9c6-8c39-b73e-fc7c" name="Reinforced Marathon Heavy Cruiser" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ba72-a61b-fa9e-f5d7" targetId="0dfb-cf23-35b9-c37a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c1ba-bf41-1a5a-7e4a" name="Supported Epoch Heavy Cruiser" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e70c-d02b-a6a8-5e9c" targetId="7fda-c2e6-4409-cde6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="31e9-c7a3-2aeb-e871" name="Supported Marathon Heavy Cruiser" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="71b3-547a-3c6f-95c6" targetId="beed-9e24-57e1-ac61" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e1fc-994b-088f-20a8" name="Supported Marathon Heavy Cruiser (Cyclops)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0d79-c10e-b046-a522" targetId="ca87-af4b-653b-30d2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="68b7-713b-323d-841f" name="Assigned" hidden="false" book="">
+      <description>This Heroic Character must be assigned to a specific Formation Base within the Fleet at the start of the battle.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8264-58a6-992f-782c" name="Carrier Action" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="f4ee-f9b7-2863-78f5" name="Elusive" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="832b-60db-8cd7-8c91" name="Hard Burn" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="8afc-927c-eb75-5ce9" name="Heroic Save" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="da14-8c34-2ad1-187d" name="MAC" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="a6bc-2cb7-5f63-b77e" name="Missile Barrage" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="0877-287d-9080-e907" name="Missiles" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="98c7-6410-cddf-f675" name="Point Defence" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="8a23-fff0-82ec-7f61" name="Titanium Armour" hidden="false">
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="cb88-f3b2-b72b-35d9" profileTypeId="ada5-a7de-6104-01ff" name="Epoch Heavy Cruiser" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="9-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="6"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Carrier Action (3), Hard Burn (1&quot;), Missile Barrage*, Point Defence (5), Titanium Armour (4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="041e-ed14-a3c5-6c05" profileTypeId="ada5-a7de-6104-01ff" name="Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="6-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="2"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="3"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Missile Barrage*, Point Defence (4), Titanium Armour (3)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9644-193f-5b1b-cbc0" profileTypeId="ada5-a7de-6104-01ff" name="Paired Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1109">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-10-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="6"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="4"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Missile Barrage*, Point Defence (8), Titanium Armour (6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2a55-a6dc-98ba-4c81" profileTypeId="ada5-a7de-6104-01ff" name="Paris Frigates in Arrowhead Formation" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="10&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="3-3-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="1"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="0"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="1"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Elusive Hard Burn (3&quot;), Missile Barrage*, Point Defence (2), Titanium Armour (2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2f54-2db8-7aee-98a7" profileTypeId="ada5-a7de-6104-01ff" name="Paris Frigates in Shield Formation" hidden="false" book="Reference Sheet" page="1109">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="10&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="4-4-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="2"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="0"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="2"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (3&quot;),  Missile Barrage*,  Point Defence (3), Titanium Armour (2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="85a7-73c0-ca0e-468f" profileTypeId="ada5-a7de-6104-01ff" name="Paris Frigates in Trident Formation" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="10&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="4-3-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="1"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="0"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="1"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Elusive Hard Burn (3&quot;), Missile Barrage*, Point Defence (2), Titanium Armour (2)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0dfb-cf23-35b9-c37a" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1109">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Missile Barrage*, Point Defence (5), Titanium Armour (5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="79c7-0e4b-a389-c516" profileTypeId="e2bb-69c6-0aee-1f0b" name="Spartan" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="12&quot;"/>
+        <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="6"/>
+        <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="5"/>
+        <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="Assault Specialist (2), Heroic Save (Spartan)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7fda-c2e6-4409-cde6" profileTypeId="ada5-a7de-6104-01ff" name="Supported Epoch Heavy Cruiser" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="6"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Carrier Action (3), Hard Burn (1&quot;), Missile Barrage*, Point Defence (6), Titanium Armour (5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="beed-9e24-57e1-ac61" profileTypeId="ada5-a7de-6104-01ff" name="Supported Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Missile Barrage*, Point Defence (4), Titanium Armour (4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ca87-af4b-653b-30d2" profileTypeId="ada5-a7de-6104-01ff" name="Supported Marathon Heavy Cruiser (Cyclops)" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="5"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Point Defence (4), Titanium Armour (4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
