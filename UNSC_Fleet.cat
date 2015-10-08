@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="2" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="3" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -91,240 +91,6 @@
               <modifiers/>
             </link>
           </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e2b0-ec8e-0fb0-4fd9" name="Fleet Commander" points="0.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="658b-ef6f-0c90-f45a" name="Fleet Commander" defaultEntryId="bf60-65fe-4b52-31ed" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="145e-edc8-1d6e-9f23" name="Lord Hood" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="43e8-a12f-44a3-2e2b" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers>
-                    <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="99fd-6e10-e135-790c" targetId="79c7-0e4b-a389-c516" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="99bc-a6be-12d9-61d5" name="Unique Ability" hidden="false" book="Reference Sheet" page="1115">
-                  <description>Lord Hood is unflappable under pressure and measured in all aspects of his command. He can choose to add +1 to the Initiative Dice roll each Turn.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="3e27-1381-6210-4150" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Lord Hood" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="0-1"/>
-                    <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="Full 1000pts"/>
-                    <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="4 VPs"/>
-                    <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="+100pts Per Spartan"/>
-                    <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="5"/>
-                    <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="1"/>
-                    <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="cad3-f722-b7d4-3d62" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1115">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="1d1d-213e-bbea-d667" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1115">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Do what it takes"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may roll a Halo Dice during the Repair Phase. On the Roll of a &quot;1&quot; or &quot;2&quot; the formation may remove a single Damage Marker from its base."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Repairs Step of the End Phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="278c-93c8-7e6b-0d2d" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1115">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="9297-ce2a-d5b9-c5e2" profileTypeId="0a73-7ae5-e666-8ed9" name="4" hidden="false" book="Reference Sheet" page="1115">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Inspiration"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from ALL Elements in a selected Battle Group."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the selected Battle Group&apos;s Activation."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="feb1-bce1-208c-a72f" profileTypeId="0a73-7ae5-e666-8ed9" name="5" hidden="false" book="Reference Sheet" page="1115">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Engage in Strength!"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="ONCE per Turn, Lord Hood can call a general attack order, allowing up to TWO standard Battle Groups to activate together, performing their respective Movement and Attack Segments as if they were a single Battle Group for the remainder of the Game Turn."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Execute Orders step of the Orders Phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="bf60-65fe-4b52-31ed" name="Michael Stanforth" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="d4df-8076-579d-b266" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers>
-                    <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="ae94-70cc-d36a-1de4" targetId="79c7-0e4b-a389-c516" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="86a1-8f23-6d0f-a404" name="Unique Ability" hidden="false" book="Reference Sheet" page="1064">
-                  <description>Vice Admiral Stanforth galvanised the UNSC forces at Reach into a formidable force using a combination of raw charisma and intuitive command skills. Stanforth may re-roll TWO Fleet Orders Dice once per Turn. The second result MUST be accepted.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="e281-161a-45cc-e276" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Michael Stanforth" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="0-1"/>
-                    <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="Full 1000pts"/>
-                    <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="4 VPs"/>
-                    <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="+100pts Per Spartan"/>
-                    <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="5"/>
-                    <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="1"/>
-                    <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="4ed2-d0e3-ea62-b1ab" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1064">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="9866-ca22-355d-4480" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1064">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Brace! Brace! Brace!"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="When targeted by a Firing Solution or when Colliding with Terrain, the total number of attack successes rolled against the nominated target is reduced by -2."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued before any inital Attack Dice Roll."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="f0d3-c525-bd42-f60b" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1064">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="a224-99e4-7ec5-74d5" profileTypeId="0a73-7ae5-e666-8ed9" name="4" hidden="false" book="Reference Sheet" page="1064">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Prepare for Boarders"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security detail present on-board a single friendly Capital Element by +4 for this Turn."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the Boarding Resolution Phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="23f9-f2d0-9575-e84d" profileTypeId="0a73-7ae5-e666-8ed9" name="5" hidden="false" book="Reference Sheet" page="1064">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Take it to them!"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Attack Dice of EACH friendly Security Detail on-board a target enemy element by +2."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the Boarding Resolution Phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -453,20 +219,20 @@
     <entry id="dbc6-b164-298b-38f9" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="bb2c-3310-037d-a584" name="Heroic Character" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="f2da-5730-d5ee-57ee" name="Heroic Character" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="1994-ceed-69d3-7241" name="Cortana" points="80.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="3eed-38d8-ad05-7d24" name="Cortana" points="80.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules>
-                <rule id="ff83-f1ab-2450-afaf" name="Unique Ability" hidden="false" book="Reference Sheet" page="1116">
+                <rule id="b38c-9f3c-640b-6c71" name="Unique Ability" hidden="false" book="Reference Sheet" page="1116">
                   <description>Cortana is resourceful and cunning, and her survival is a priority for the UNSC. Should the Element containing Cortana be Destroyed, roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, Cortana may be placed on a nearby friendly vessel within 12&quot;. Should Cortana roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, Cortana is removed from the game and the enemy Fleet gains an additional +4 VPs.</description>
                   <modifiers/>
                 </rule>
               </rules>
               <profiles>
-                <profile id="2dac-a888-4578-c562" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Cortana" hidden="false">
+                <profile id="e93f-aee5-ef4c-a764" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Cortana" hidden="false">
                   <characteristics>
                     <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="None"/>
                     <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="-"/>
@@ -478,7 +244,7 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="9b86-3be3-a90e-c57d" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1116">
+                <profile id="d0db-b480-a607-a621" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1116">
                   <characteristics>
                     <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
                     <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Ghost in the machine"/>
@@ -491,7 +257,7 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="b1ac-0764-0049-9c7a" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1116">
+                <profile id="5196-910a-945e-e752" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1116">
                   <characteristics>
                     <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
                     <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="The Defensive Option"/>
@@ -504,7 +270,7 @@
                   </characteristics>
                   <modifiers/>
                 </profile>
-                <profile id="9216-9cd6-db62-ae17" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1116">
+                <profile id="9998-5dd5-cab0-b70a" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1116">
                   <characteristics>
                     <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
                     <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Missile Command"/>
@@ -519,7 +285,7 @@
                 </profile>
               </profiles>
               <links>
-                <link id="b4de-8f02-ab74-8952" targetId="68b7-713b-323d-841f" linkType="rule">
+                <link id="6f6c-24a6-32ea-1968" targetId="68b7-713b-323d-841f" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -538,6 +304,224 @@
       </modifiers>
       <rules/>
       <profiles/>
+      <links/>
+    </entry>
+    <entry id="9a31-6f8b-e339-a680" name="Lord Hood" points="120.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="24fe-1263-e048-901d" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e2a6-bade-def7-89d1" targetId="79c7-0e4b-a389-c516" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7deb-2adc-ee8e-c6be" name="Unique Ability - Lord Hood" hidden="false" book="Reference Sheet" page="1115">
+          <description>Lord Hood is unflappable under pressure and measured in all aspects of his command. He can choose to add +1 to the Initiative Dice roll each Turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="90d4-4e97-b13c-c705" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Lord Hood" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="0-1"/>
+            <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="Full 1000pts"/>
+            <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="4 VPs"/>
+            <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="+100pts Per Spartan"/>
+            <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="5"/>
+            <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="1"/>
+            <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="90c5-5ac0-0ee6-c24d" profileTypeId="0a73-7ae5-e666-8ed9" name="Hood 1" hidden="false" book="Reference Sheet" page="1115">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f3b2-ca0f-1ce0-2d61" profileTypeId="0a73-7ae5-e666-8ed9" name="Hood 2" hidden="false" book="Reference Sheet" page="1115">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Do what it takes"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may roll a Halo Dice during the Repair Phase. On the Roll of a &quot;1&quot; or &quot;2&quot; the formation may remove a single Damage Marker from its base."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Repairs Step of the End Phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7d94-fb8a-6b33-a95b" profileTypeId="0a73-7ae5-e666-8ed9" name="Hood 3" hidden="false" book="Reference Sheet" page="1115">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f470-dd39-06f7-7cb6" profileTypeId="0a73-7ae5-e666-8ed9" name="Hood 4" hidden="false" book="Reference Sheet" page="1115">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Inspiration"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from ALL Elements in a selected Battle Group."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the selected Battle Group&apos;s Activation."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="68d3-dc20-5114-7f2f" profileTypeId="0a73-7ae5-e666-8ed9" name="Hood 5" hidden="false" book="Reference Sheet" page="1115">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Engage in Strength!"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="ONCE per Turn, Lord Hood can call a general attack order, allowing up to TWO standard Battle Groups to activate together, performing their respective Movement and Attack Segments as if they were a single Battle Group for the remainder of the Game Turn."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Execute Orders step of the Orders Phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="33fc-6402-b82f-98c9" name="Michael Stanforth" points="100.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="016f-0861-fcda-4a93" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="01b3-16d8-0459-c201" targetId="79c7-0e4b-a389-c516" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5d9e-3831-2d0e-efcf" name="Unique Ability - Michael Stanforth" hidden="false" book="Reference Sheet" page="1064">
+          <description>Vice Admiral Stanforth galvanised the UNSC forces at Reach into a formidable force using a combination of raw charisma and intuitive command skills. Stanforth may re-roll TWO Fleet Orders Dice once per Turn. The second result MUST be accepted.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="db8b-f6d5-7c76-16c4" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Michael Stanforth" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="0-1"/>
+            <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value="Full 1000pts"/>
+            <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value="4 VPs"/>
+            <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value="+100pts Per Spartan"/>
+            <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="5"/>
+            <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="1"/>
+            <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9cc9-8c9e-85af-41cf" profileTypeId="0a73-7ae5-e666-8ed9" name="Stanforth 1" hidden="false" book="Reference Sheet" page="1064">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c96a-1f0e-ccfd-c094" profileTypeId="0a73-7ae5-e666-8ed9" name="Stanforth 2" hidden="false" book="Reference Sheet" page="1064">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Brace! Brace! Brace!"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="When targeted by a Firing Solution or when Colliding with Terrain, the total number of attack successes rolled against the nominated target is reduced by -2."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued before any inital Attack Dice Roll."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5477-090c-518f-07bb" profileTypeId="0a73-7ae5-e666-8ed9" name="Stanforth 3" hidden="false" book="Reference Sheet" page="1064">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3988-42cf-8d41-7013" profileTypeId="0a73-7ae5-e666-8ed9" name="Stanforth 4" hidden="false" book="Reference Sheet" page="1064">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Prepare for Boarders"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security detail present on-board a single friendly Capital Element by +4 for this Turn."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the Boarding Resolution Phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="119b-040d-72dc-6751" profileTypeId="0a73-7ae5-e666-8ed9" name="Stanforth 5" hidden="false" book="Reference Sheet" page="1064">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Take it to them!"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Attack Dice of EACH friendly Security Detail on-board a target enemy element by +2."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued during the Orders Step of the Boarding Resolution Phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="6032-0d32-94e6-4153" name="Orthrus Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -577,7 +561,7 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="dc50-f065-e39c-7146" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+            <link id="dc50-f065-e39c-7146" targetId="9d8c-7eef-b8cb-2cc5" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -587,7 +571,7 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="2056-0b7a-eace-c955" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+            <link id="2056-0b7a-eace-c955" targetId="9d8c-7eef-b8cb-2cc5" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -597,7 +581,7 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="6ac9-cf40-6937-8f45" targetId="abdf-b5c3-c8ce-2e7c" linkType="entry">
+            <link id="6ac9-cf40-6937-8f45" targetId="9d8c-7eef-b8cb-2cc5" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1006,7 +990,7 @@
         <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Point Defence (4), Titanium Armour (4)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Hard Burn (2&quot;), Point Defence (4), Titanium Armour (4), Carrier (1)"/>
       </characteristics>
       <modifiers/>
     </profile>

@@ -1,240 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" revision="1" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" revision="2" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="7190-8816-3e90-0b5f" name="Fleet Commander" points="0.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="0893-507a-efe3-3cc2" name="Fleet Commander" defaultEntryId="2b62-557a-2089-1d77" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d729-78b8-6e76-b390" name="Xytan &apos;Jar Wattinree" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1113">
-              <entries>
-                <entry id="402d-b493-330d-01f1" name="Zealot" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers>
-                    <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="3d0a-836e-b070-b0e4" targetId="487b-758e-6cd1-f566" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="46a5-de0d-2aed-c206" name="Unique Ability" hidden="false" book="">
-                  <description>A gifted military opportunist, Xytan &apos;Jar Wattniree is capable of taking advantage of the slightest flaw in an opponent&apos;s plan. During the Execute Orders step of the Orders Phase he can force the opponent to re-roll a single Order Dice each turn, but the second result MUST be accepted.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="460d-feb0-60d8-7903" profileTypeId="bf24-0efa-b186-13c4" name="Xytan &apos;Jar Wattinree" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="32de-5f20-0d39-5386" name="Zealots" value="0-4"/>
-                    <characteristic characteristicId="9173-5a05-122b-8ab2" name="Per" value="Per Full 1000pts"/>
-                    <characteristic characteristicId="66d5-dac9-0978-7f6d" name="KIA" value="1 VP"/>
-                    <characteristic characteristicId="0192-ad10-20b8-665e" name="Costs" value="+25pts Per Zealot"/>
-                    <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="5"/>
-                    <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
-                    <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="96be-251a-0111-ed13" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="e83b-e626-3ef5-d7df" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Power to the defences"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="2487-3bdf-e2ad-1bfd" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="f502-18c0-9ed2-e14f" profileTypeId="0a73-7ae5-e666-8ed9" name="4" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Perfect Time to Strike"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="3"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Covenant Fleet automatically gain the Initative this Turn."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order may be issued during the Execute Orders Step of the Order Dice Phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="e400-b835-0048-a3c7" profileTypeId="0a73-7ae5-e666-8ed9" name="5" hidden="false" book="">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Superiority"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security Detail rating of ALL zealots in a Fleet by +2 for the remainder of the Turn."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order must be issued during the Execute orders step of the Boarding Resolution Phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="2b62-557a-2089-1d77" name="Rho &apos;Barutamee" points="100.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1065">
-              <entries>
-                <entry id="47bc-5a1f-3a7d-cf64" name="Zealot" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers>
-                    <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="e8f8-8a06-c21c-af56" targetId="487b-758e-6cd1-f566" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="e90c-6492-bbf9-423b" name="Unique Ability" hidden="false" book="">
-                  <description>ho &apos;Barutamee is a skilled military leader and an excellent tactician. He can therefore choose to re-roll the initiative Dice each turn, but the second result MUST be accepted.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="0dba-6de0-c93e-721a" profileTypeId="bf24-0efa-b186-13c4" name="Rho &apos;Barutamee" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="32de-5f20-0d39-5386" name="Zealots" value="0-4"/>
-                    <characteristic characteristicId="9173-5a05-122b-8ab2" name="Per" value="Per Full 1000pts"/>
-                    <characteristic characteristicId="66d5-dac9-0978-7f6d" name="KIA" value="1 VP"/>
-                    <characteristic characteristicId="0192-ad10-20b8-665e" name="Costs" value="+30pts Per Zealot"/>
-                    <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="5"/>
-                    <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
-                    <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="1d10-a2f3-dc74-1aa6" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1065">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="ca9c-1280-2348-e514" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1065">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Power to the defences"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="131e-6bab-58a0-f183" profileTypeId="0a73-7ae5-e666-8ed9" name="3" hidden="false" book="Reference Sheet" page="1065">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="a4fa-133b-0c03-a2a7" profileTypeId="0a73-7ae5-e666-8ed9" name="4" hidden="false" book="Reference Sheet" page="1065">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Fix those defences!"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="3"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from a Capital Element in the Fleet."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="Issue this order during the Orders Step of the selected Element&apos;s Activation."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="e86e-8b40-6146-f132" profileTypeId="0a73-7ae5-e666-8ed9" name="5" hidden="false" book="Reference Sheet" page="1065">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Enhanced Targeting"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Firing Solution by +2."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued prior to rolling the Inital Attack Dice Pool, either when rolling for Firing Solutions OR when rolling as part of a Defensive Dice Pool Roll against enemy Boarders."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="16fe-8cfc-ea81-28d8" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -676,6 +442,224 @@
       <modifiers/>
       <rules/>
       <profiles/>
+      <links/>
+    </entry>
+    <entry id="9687-9bb6-9e1f-4890" name="Rho &apos;Barutamee" points="100.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1065">
+      <entries>
+        <entry id="b3d5-e9e2-8cf6-b161" name="Zealot" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a645-d3ce-71b0-c955" targetId="487b-758e-6cd1-f566" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="151a-11a1-66dc-4524" name="Unique Ability - Rho &apos;Barutamee" hidden="false" book="">
+          <description>ho &apos;Barutamee is a skilled military leader and an excellent tactician. He can therefore choose to re-roll the initiative Dice each turn, but the second result MUST be accepted.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="50ed-6538-ad37-bd04" profileTypeId="bf24-0efa-b186-13c4" name="Rho &apos;Barutamee" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="32de-5f20-0d39-5386" name="Zealots" value="0-4"/>
+            <characteristic characteristicId="9173-5a05-122b-8ab2" name="Per" value="Per Full 1000pts"/>
+            <characteristic characteristicId="66d5-dac9-0978-7f6d" name="KIA" value="1 VP"/>
+            <characteristic characteristicId="0192-ad10-20b8-665e" name="Costs" value="+30pts Per Zealot"/>
+            <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="5"/>
+            <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
+            <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="19da-7a29-8af3-44e6" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 1" hidden="false" book="Reference Sheet" page="1065">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ae3b-5050-adba-f319" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 2" hidden="false" book="Reference Sheet" page="1065">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Power to the defences"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4c69-2c39-d946-b088" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 3" hidden="false" book="Reference Sheet" page="1065">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="39ae-d63c-4b7b-340a" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 4" hidden="false" book="Reference Sheet" page="1065">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Fix those defences!"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="3"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from a Capital Element in the Fleet."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="Issue this order during the Orders Step of the selected Element&apos;s Activation."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c3f0-201d-61ec-5e50" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 5" hidden="false" book="Reference Sheet" page="1065">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Enhanced Targeting"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Firing Solution by +2."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued prior to rolling the Inital Attack Dice Pool, either when rolling for Firing Solutions OR when rolling as part of a Defensive Dice Pool Roll against enemy Boarders."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="646c-3ecd-7003-f4e0" name="Xytan &apos;Jar Wattinree" points="120.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1113">
+      <entries>
+        <entry id="deb0-9bd9-98db-d3ce" name="Zealot" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c9d8-c55c-e860-6674" targetId="487b-758e-6cd1-f566" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a171-14fd-dcfc-92b3" name="Unique Ability - Xytan &apos;Jar Wattinree" hidden="false" book="">
+          <description>A gifted military opportunist, Xytan &apos;Jar Wattniree is capable of taking advantage of the slightest flaw in an opponent&apos;s plan. During the Execute Orders step of the Orders Phase he can force the opponent to re-roll a single Order Dice each turn, but the second result MUST be accepted.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2953-5c4d-61ca-37b6" profileTypeId="bf24-0efa-b186-13c4" name="Xytan &apos;Jar Wattinree" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="32de-5f20-0d39-5386" name="Zealots" value="0-4"/>
+            <characteristic characteristicId="9173-5a05-122b-8ab2" name="Per" value="Per Full 1000pts"/>
+            <characteristic characteristicId="66d5-dac9-0978-7f6d" name="KIA" value="1 VP"/>
+            <characteristic characteristicId="0192-ad10-20b8-665e" name="Costs" value="+25pts Per Zealot"/>
+            <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="5"/>
+            <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
+            <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="6292-4776-b1dc-1b79" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 1" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="71b4-7438-531a-416c" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 2" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Power to the defences"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f591-43fb-e37a-7b17" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 3" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5d79-d8eb-b1ca-d949" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 4" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Perfect Time to Strike"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="3"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Covenant Fleet automatically gain the Initative this Turn."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order may be issued during the Execute Orders Step of the Order Dice Phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a1f9-31ec-6c14-f419" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 5" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
+            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Superiority"/>
+            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
+            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
+            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
+            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security Detail rating of ALL zealots in a Fleet by +2 for the remainder of the Turn."/>
+            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order must be issued during the Execute orders step of the Boarding Resolution Phase."/>
+            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
   </entries>
