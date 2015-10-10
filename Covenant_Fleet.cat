@@ -50,7 +50,7 @@
               </entryGroups>
               <modifiers/>
               <rules>
-                <rule id="c6d2-bcc8-6bd4-0f62" name="Unique Ability" hidden="false" book="Reference Sheet" page="1114">
+                <rule id="c6d2-bcc8-6bd4-0f62" name="Unique Ability - Minister of Etiology" hidden="false" book="Reference Sheet" page="1114">
                   <description>Whilst utterly self-possed and concerned only with politics, the Minister claims a high rank within the covenant Hierarchy and can bend even Fleet Commanders to his will. After any Inital Order Dice have been rolled during the Order Dice Phase, the Minister may change a SINGLE friendly Covenant Order Dice to be any result.</description>
                   <modifiers/>
                 </rule>
@@ -657,6 +657,54 @@
         </link>
       </links>
     </entry>
+    <entry id="da2c-2ca7-a4ce-d4c8" name="Enhanced Targeting" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7734-2277-5e14-7cb8" targetId="29d7-cad2-7d44-ebc6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1af1-c2a9-1b5c-e171" name="Fix those Defences!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5622-c0fa-fbb6-0721" targetId="1fd6-657d-5726-a9a4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d6f3-f298-65b5-7526" name="Focused Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8f32-3e22-436d-e96b" targetId="f756-aa8f-d660-2295" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b588-1f0b-18f7-d194" name="Form Up!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9d70-b162-a12a-df91" targetId="75e0-cb0b-9676-53e9" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="1e4e-ff32-b9fd-02c7" name="ORS Heavy Cruiser" points="200.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -701,6 +749,54 @@
           <modifiers/>
         </link>
         <link id="bf4e-96b0-b9f6-d816" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d806-0981-d9f2-0901" name="Perfect Time to Strike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a913-2940-007a-7ebc" targetId="9b2f-7002-cbce-7e5c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6d06-24ee-ab07-38e0" name="Power to the Defences" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="22ab-15c9-7037-394f" targetId="7ffe-8ddc-8fbd-42d1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c332-8ef4-5998-007d" name="Prepare my Transport" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="57c6-e3ab-ebb7-b0cb" targetId="00a1-c497-f67a-9b67" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b4e8-6325-e780-72d7" name="Protect the Minister" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3ea8-37d1-72f8-68e7" targetId="033c-200a-e211-b551" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -810,6 +906,18 @@
         </link>
       </links>
     </entry>
+    <entry id="054a-1f04-0662-4e7e" name="Superiority" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2135-9e37-26c8-d2af" targetId="39e6-0da3-781c-dbd2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="768b-2312-232c-897b" name="Supported CCS Battlecruiser" points="170.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -858,149 +966,56 @@
         </link>
       </links>
     </entry>
-    <entry id="d6f3-f298-65b5-7526" name="Focused Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="8f32-3e22-436d-e96b" targetId="f756-aa8f-d660-2295" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b588-1f0b-18f7-d194" name="Form Up!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9d70-b162-a12a-df91" targetId="75e0-cb0b-9676-53e9" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1af1-c2a9-1b5c-e171" name="Fix those Defences!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="5622-c0fa-fbb6-0721" targetId="1fd6-657d-5726-a9a4" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="da2c-2ca7-a4ce-d4c8" name="Enhanced Targeting" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7734-2277-5e14-7cb8" targetId="29d7-cad2-7d44-ebc6" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d806-0981-d9f2-0901" name="Perfect Time to Strike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="a913-2940-007a-7ebc" targetId="9b2f-7002-cbce-7e5c" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6d06-24ee-ab07-38e0" name="Power to the Defences" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="22ab-15c9-7037-394f" targetId="7ffe-8ddc-8fbd-42d1" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c332-8ef4-5998-007d" name="Prepare my Transport" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="57c6-e3ab-ebb7-b0cb" targetId="00a1-c497-f67a-9b67" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b4e8-6325-e780-72d7" name="Protect the Minister" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="3ea8-37d1-72f8-68e7" targetId="033c-200a-e211-b551" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="054a-1f04-0662-4e7e" name="Superiority" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="2135-9e37-26c8-d2af" targetId="39e6-0da3-781c-dbd2" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="8ba2-3a37-0ad9-a5f4" name="[CA] Carrier Action" hidden="false">
+    <rule id="01a7-55d0-ac0c-1e9f" name="[AS] Assault Specialist" hidden="false" book="Core Rulebook" page="113">
+      <description>Elements with the Assault Specialist Loadout may elect to add or deduct the Value shown in parenthesis from the result on the Boarding Result Table. If both sides involved in a Boarding Action have the Assault Specialist Loadout they cancel each other out irrespective of the Values involved.</description>
       <modifiers/>
     </rule>
-    <rule id="9c12-93e6-c692-8596" name="[CS] Cloaking System" hidden="false">
+    <rule id="8ba2-3a37-0ad9-a5f4" name="[CA] Carrier Action" hidden="false" book="Core Rulebook" page="114">
+      <description>Elements with the Carrier Action (Value) Loadout may re-launch a number of Wings equal to the Value listed in their Loadout&apos;s parenthesis during the End Phase. The Wing or Wings are immediately deployed within 8&quot; of their Formation Base.
+
+Wings deployed in this manner must be formed into a legal Wing and they may only be taken from the casualties in the Faction&apos;s Scrapyard.</description>
       <modifiers/>
     </rule>
-    <rule id="6e18-e6aa-aa5b-b1fa" name="[DA] Defence Array" hidden="false">
+    <rule id="9c12-93e6-c692-8596" name="[CS] Cloaking System" hidden="false" book="Core Rulebook" page="108">
+      <description>An Element with this Loadout causes enemy Attacks to suffer -1 to their Firepower Rating when firing at Long Range.</description>
       <modifiers/>
     </rule>
-    <rule id="6bb8-b2e0-af1f-96d0" name="[E] Elusive" hidden="false">
+    <rule id="6e18-e6aa-aa5b-b1fa" name="[DA] Defence Array" hidden="false" book="Core Rulebook" page="108">
+      <description>An Element with the Defence Arrays (Value) Loadout may add the Value listed in Parathesis to its Defence Dice Pool when defending against Attack by the enemy or when colliding with Terrain.</description>
       <modifiers/>
     </rule>
-    <rule id="bd1d-02c5-3aa3-3b1a" name="[G] Glide" hidden="false">
+    <rule id="6bb8-b2e0-af1f-96d0" name="[E] Elusive" hidden="false" book="Core Rulebook" page="108">
+      <description>An Element with the Elusive Loadout causes any attack made by an enemy Element against it to suffer a -1 to its Firepower Rating. However, if the attacker is a Bomber Wing on an Attack Run, or if ALL Elements initiating the Firing Solution at the target also have the Elusive Loadout, this modifier is ignored.</description>
       <modifiers/>
     </rule>
-    <rule id="248c-6776-b409-21ca" name="[HS] Heroic Save" hidden="false">
+    <rule id="bd1d-02c5-3aa3-3b1a" name="[G] Glide" hidden="false" book="Core Rulebook" page="107">
+      <description>Elements with the Glide (Distance&quot;) Loadout may forgo their standard Movement to move laterally (sideways) instead. The distance they may travel is denote in parenthesis. An Element using its Glide Loadout may not make any Turning Action during its Movement.</description>
       <modifiers/>
     </rule>
-    <rule id="7be2-48c0-aa34-1063" name="[PD] Point Defence" hidden="false">
+    <rule id="248c-6776-b409-21ca" name="[HS] Heroic Save" hidden="false" book="Core Rulebook" page="114">
+      <description>If at any time a Token with the Heroic Save (Type) Loadout should be called upon to be removed as a casualty, roll a single Halo Dice and refer to the Type listed in parenthesis.
+
+Spartans: on a roll of anything other than a &quot;SKULL&quot;, the Spartan Token remains in play and is NOT removed as a casualty.
+
+Zzealots: on a roll of a &quot;1&quot; or &quot;2&quot;, the ZZealot Token remains in play and is NOT removed as a casualty.
+
+Troopers: on a roll of a &quot;2&quot;, the Trooper Token is NOT removed as a casualty.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7be2-48c0-aa34-1063" name="[PD] Point Defence" hidden="false" book="Core Rulebook" page="112">
+      <description>This Loadout represents weapons most commonly used to defend against Bombers and Boarding Craft that are performing Attack Runs or Boarding Assaults against a target Element.
+
+In addition, Point Defence systems can also be used to defend against attacks made by Elements with the Missile Weapons Loadout. In all cases, the value inside the parenthesis is the number of Dice added to an elements Defence Dice Pool Prior to rolling.</description>
       <modifiers/>
     </rule>
     <rule id="c301-6ba5-af0d-8c8b" name="Assigned" hidden="false" book="">
       <description>This Heroic Character must be assigned to a specific Formation Base within the Fleet at the start of the battle.</description>
       <modifiers/>
     </rule>
-    <rule id="0cf5-9967-48af-50d2" name="Beam" hidden="false">
-      <modifiers/>
-    </rule>
     <rule id="b8a9-b785-ce16-eb94" name="Missiles" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="2cc2-115c-1f88-31a5" name="Orders" hidden="false">
       <modifiers/>
     </rule>
     <rule id="015b-430c-def9-611e" name="Plasma" hidden="false">

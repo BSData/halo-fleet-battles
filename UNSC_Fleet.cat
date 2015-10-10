@@ -257,23 +257,21 @@
               </entryGroups>
               <modifiers/>
               <rules>
-                <rule id="b38c-9f3c-640b-6c71" name="Unique Ability" hidden="false" book="Reference Sheet" page="1116">
+                <rule id="b38c-9f3c-640b-6c71" name="Unique Ability - Cortana" hidden="false" book="Reference Sheet" page="1116">
                   <description>Cortana is resourceful and cunning, and her survival is a priority for the UNSC. Should the Element containing Cortana be Destroyed, roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, Cortana may be placed on a nearby friendly vessel within 12&quot;. Should Cortana roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, Cortana is removed from the game and the enemy Fleet gains an additional +4 VPs.</description>
                   <modifiers/>
                 </rule>
               </rules>
               <profiles>
-                <profile id="2277-bbf2-e8db-81f5" profileTypeId="ada5-a7de-6104-01ff" name="Cortana" hidden="false">
+                <profile id="2277-bbf2-e8db-81f5" profileTypeId="cdb8-9b5e-c8de-5a0e" name="Cortana" hidden="false">
                   <characteristics>
-                    <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement"/>
-                    <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track"/>
-                    <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating"/>
-                    <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers"/>
-                    <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft"/>
-                    <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail"/>
-                    <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class"/>
-                    <characteristic characteristicId="be70-6774-adfd-7240" name="Size"/>
-                    <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts"/>
+                    <characteristic characteristicId="a821-d480-157e-a66e" name="Spartans" value="None"/>
+                    <characteristic characteristicId="b365-18ee-ebfa-4102" name="Per" value=""/>
+                    <characteristic characteristicId="ed77-ed06-99a1-b350" name="KIA" value=""/>
+                    <characteristic characteristicId="f653-6785-f32f-0ad8" name="Costs" value=""/>
+                    <characteristic characteristicId="02b7-0d0d-8a43-b483" name="Order Dice" value="3"/>
+                    <characteristic characteristicId="8a7d-1ecf-be79-6ce6" name="No. Shared" value="3"/>
+                    <characteristic characteristicId="ccd3-8060-4bbc-9938" name="Notes"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -661,6 +659,42 @@
   <rules/>
   <links/>
   <sharedEntries>
+    <entry id="1a31-4d0b-8f7b-607f" name="Brace! Brace! Brace!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e3ea-75b4-b87c-502e" targetId="3174-b6d2-c392-2160" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2593-671e-525e-ad33" name="Do what it takes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9f79-c74c-6bb3-cbf1" targetId="a4f7-5c03-ee21-0f7b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b88b-de96-c90f-8d0c" name="Engage in Strenght" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="93c7-7269-1ba3-65b2" targetId="5e5b-8bb3-1148-2376" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="11f3-ac3f-c0d5-5e96" name="Epoch Heavy Cruiser" points="175.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -688,6 +722,54 @@
         </link>
       </links>
     </entry>
+    <entry id="c144-f2c3-c294-6a07" name="Focused Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7dca-e56b-4abf-e6f8" targetId="52b3-5836-c11c-c893" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ff31-9621-25b5-55aa" name="Form Up!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a4a3-3fc5-2771-8b69" targetId="3079-ae8c-3093-a617" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a6b0-17f8-e087-d4af" name="Ghost in the Machine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e594-ac2a-e0a6-93c3" targetId="bc46-16be-8fe8-e4e0" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c29c-d0fe-bd77-6071" name="Inspiration" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6e0d-d82b-7d8e-dc68" targetId="2797-2f4f-7ff5-354f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="2431-0c8b-4dc2-1701" name="Marathon Heavy Cruiser" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -708,6 +790,18 @@
           <modifiers/>
         </link>
         <link id="896d-2ec0-37d9-f656" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6026-7fff-fbca-d650" name="Missile Command" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d5cc-85b6-ddb0-6c43" targetId="f9f2-ce23-4068-37c3" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -814,6 +908,18 @@
         </link>
       </links>
     </entry>
+    <entry id="5e1f-5b19-cb82-a59d" name="Prepare for Boarders!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7a9b-187e-d348-866f" targetId="08fa-641c-65f1-1c88" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f9c6-8c39-b73e-fc7c" name="Reinforced Marathon Heavy Cruiser" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -916,86 +1022,14 @@
         </link>
       </links>
     </entry>
-    <entry id="2593-671e-525e-ad33" name="Do what it takes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="239c-6152-f5f9-b089" name="Take it to them" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="9f79-c74c-6bb3-cbf1" targetId="a4f7-5c03-ee21-0f7b" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b88b-de96-c90f-8d0c" name="Engage in Strenght" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="93c7-7269-1ba3-65b2" targetId="5e5b-8bb3-1148-2376" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c144-f2c3-c294-6a07" name="Focused Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7dca-e56b-4abf-e6f8" targetId="52b3-5836-c11c-c893" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ff31-9621-25b5-55aa" name="Form Up!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="a4a3-3fc5-2771-8b69" targetId="3079-ae8c-3093-a617" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c29c-d0fe-bd77-6071" name="Inspiration" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6e0d-d82b-7d8e-dc68" targetId="2797-2f4f-7ff5-354f" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a6b0-17f8-e087-d4af" name="Ghost in the Machine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="e594-ac2a-e0a6-93c3" targetId="bc46-16be-8fe8-e4e0" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6026-7fff-fbca-d650" name="Missile Command" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="d5cc-85b6-ddb0-6c43" targetId="f9f2-ce23-4068-37c3" linkType="profile">
+        <link id="6ea5-1cca-b741-7add" targetId="586b-788e-ca89-d19a" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1012,64 +1046,49 @@
         </link>
       </links>
     </entry>
-    <entry id="1a31-4d0b-8f7b-607f" name="Brace! Brace! Brace!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="e3ea-75b4-b87c-502e" targetId="3174-b6d2-c392-2160" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5e1f-5b19-cb82-a59d" name="Prepare for Boarders!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7a9b-187e-d348-866f" targetId="08fa-641c-65f1-1c88" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="239c-6152-f5f9-b089" name="Take it to them" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6ea5-1cca-b741-7add" targetId="586b-788e-ca89-d19a" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
-    <rule id="8264-58a6-992f-782c" name="[CA] Carrier Action" hidden="false">
+    <rule id="3069-695c-b6f0-87c4" name="[AS] Assault Specialist" hidden="false" book="Core Rulebook" page="113">
+      <description>Elements with the Assault Specialist Loadout may elect to add or deduct the Value shown in parenthesis from the result on the Boarding Result Table. If both sides involved in a Boarding Action have the Assault Specialist Loadout they cancel each other out irrespective of the Values involved.</description>
       <modifiers/>
     </rule>
-    <rule id="f4ee-f9b7-2863-78f5" name="[E] Elusive" hidden="false">
+    <rule id="8264-58a6-992f-782c" name="[CA] Carrier Action" hidden="false" book="Core Rulebook" page="114">
+      <description>Elements with the Carrier Action (Value) Loadout may re-launch a number of Wings equal to the Value listed in their Loadout&apos;s parenthesis during the End Phase. The Wing or Wings are immediately deployed within 8&quot; of their Formation Base.
+
+Wings deployed in this manner must be formed into a legal Wing and they may only be taken from the casualties in the Faction&apos;s Scrapyard.</description>
       <modifiers/>
     </rule>
-    <rule id="832b-60db-8cd7-8c91" name="[HB] Hard Burn" hidden="false">
+    <rule id="f4ee-f9b7-2863-78f5" name="[E] Elusive" hidden="false" book="Core Rulebook" page="108">
+      <description>An Element with the Elusive Loadout causes any attack made by an enemy Element against it to suffer a -1 to its Firepower Rating. However, if the attacker is a Bomber Wing on an Attack Run, or if ALL Elements initiating the Firing Solution at the target also have the Elusive Loadout, this modifier is ignored.</description>
       <modifiers/>
     </rule>
-    <rule id="8afc-927c-eb75-5ce9" name="[HS] Heroic Save" hidden="false">
+    <rule id="832b-60db-8cd7-8c91" name="[HB] Hard Burn" hidden="false" book="Core Rulebook" page="107">
+      <description>Elements with this Loadout may increase their movement by the value listed in parenthesis, provided the Element DOES NOT execute a Turning Action during its Activation.</description>
       <modifiers/>
     </rule>
-    <rule id="a6bc-2cb7-5f63-b77e" name="[MB] Missile Barrage*" hidden="false">
+    <rule id="8afc-927c-eb75-5ce9" name="[HS] Heroic Save" hidden="false" book="Core Rulebook" page="114">
+      <description>If at any time a Token with the Heroic Save (Type) Loadout should be called upon to be removed as a casualty, roll a single Halo Dice and refer to the Type listed in parenthesis.
+
+Spartans: on a roll of anything other than a &quot;SKULL&quot;, the Spartan Token remains in play and is NOT removed as a casualty.
+
+Zzealots: on a roll of a &quot;1&quot; or &quot;2&quot;, the ZZealot Token remains in play and is NOT removed as a casualty.
+
+Troopers: on a roll of a &quot;2&quot;, the Trooper Token is NOT removed as a casualty.</description>
       <modifiers/>
     </rule>
-    <rule id="98c7-6410-cddf-f675" name="[PD] Point Defence" hidden="false">
+    <rule id="a6bc-2cb7-5f63-b77e" name="[MB] Missile Barrage*" hidden="false" book="Core Rulebook" page="109">
+      <description>Despite being launched from the Port and Starboard Missile housing of a vessel, these weapons may redirect themselves to target Elements within the Fore Arc with a SINGLE salvo. However, unlike standard Firing Solutions, this salvo of Missiles MUST target the CLOSEST enemy Element in the firing Element&apos;s Fore Arc, and Port and Starboard Arcs may not be used during the Activation.</description>
       <modifiers/>
     </rule>
-    <rule id="8a23-fff0-82ec-7f61" name="[TA] Titanium Armour" hidden="false">
+    <rule id="98c7-6410-cddf-f675" name="[PD] Point Defence" hidden="false" book="Core Rulebook" page="112">
+      <description>This Loadout represents weapons most commonly used to defend against Bombers and Boarding Craft that are performing Attack Runs or Boarding Assaults against a target Element.
+
+In addition, Point Defence systems can also be used to defend against attacks made by Elements with the Missile Weapons Loadout. In all cases, the value inside the parenthesis is the number of Dice added to an elements Defence Dice Pool Prior to rolling.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8a23-fff0-82ec-7f61" name="[TA] Titanium Armour" hidden="false" book="Core Rulebook" page="113">
+      <description>An Element with the Titanium Armour (value) Loadout may add the Value listed in the parenthesis to its Defence Dice Pool when defending against an Attack, provided the Attack is made against the FIRST level of Damage on the Element&apos;s Damage Track. Once an Element with Titanium Armour takes a Damage Token, the benefit of Titanium Armour is lost, and the Value can no longer be added to any Defence Dice Pools.</description>
       <modifiers/>
     </rule>
     <rule id="68b7-713b-323d-841f" name="Assigned" hidden="false" book="">
@@ -1082,14 +1101,11 @@
     <rule id="0877-287d-9080-e907" name="Missiles" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="0986-ba6e-0a43-4fe4" name="Orders" hidden="false">
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="3174-b6d2-c392-2160" profileTypeId="0a73-7ae5-e666-8ed9" name="Brace! Brace! Brace!" hidden="false">
       <characteristics>
-        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/1/-1"/>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/1/-"/>
         <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="When targeted by a Firing Solution or when Colliding with Terrain, the total number of attack successes rolled against the nominated target is reduced by -2."/>
         <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued before any inital Attack Dice Roll."/>
         <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
