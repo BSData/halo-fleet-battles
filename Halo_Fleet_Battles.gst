@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="7c36-0273-dca1-f058" revision="1" battleScribeVersion="1.15" name="Halo Fleet Battles" authorName="Lewis K" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="7c36-0273-dca1-f058" revision="2" battleScribeVersion="1.15" name="Halo Fleet Battles" authorName="Lewis K" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="f967-29af-0633-b04d" name="Standard Force" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -74,11 +74,7 @@
     </profileType>
     <profileType id="0a73-7ae5-e666-8ed9" name="Orders">
       <characteristics>
-        <characteristic id="b789-0e16-f311-0dd0" name="Type"/>
-        <characteristic id="1450-4564-b938-a440" name="Order"/>
-        <characteristic id="d565-9474-f48b-03db" name="AI"/>
-        <characteristic id="dc88-72fa-f09d-366a" name="DI"/>
-        <characteristic id="212b-0547-9af2-2e82" name="CI"/>
+        <characteristic id="d565-9474-f48b-03db" name="Icons A/D/C"/>
         <characteristic id="3789-e78d-e265-a24f" name="Effect"/>
         <characteristic id="9a4a-802a-b52b-2e10" name="Use"/>
         <characteristic id="2387-0454-d0a5-49c6" name="Notes"/>

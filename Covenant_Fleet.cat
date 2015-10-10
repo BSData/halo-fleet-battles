@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" revision="2" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" revision="4" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="16fe-8cfc-ea81-28d8" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -26,7 +26,28 @@
                   </links>
                 </entry>
               </entries>
-              <entryGroups/>
+              <entryGroups>
+                <entryGroup id="e684-eca2-70e8-dbbf" name="Order" defaultEntryId="f952-497a-34cc-ceb0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="f952-497a-34cc-ceb0" targetId="c332-8ef4-5998-007d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+                <entryGroup id="a398-b947-6914-7cc5" name="Order" defaultEntryId="6b2e-aa79-dda6-6054" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="6b2e-aa79-dda6-6054" targetId="b4e8-6325-e780-72d7" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
               <modifiers/>
               <rules>
                 <rule id="c6d2-bcc8-6bd4-0f62" name="Unique Ability" hidden="false" book="Reference Sheet" page="1114">
@@ -44,32 +65,6 @@
                     <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="3"/>
                     <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
                     <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes" value="Assigned"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="8465-edd8-a42e-03da" profileTypeId="0a73-7ae5-e666-8ed9" name="1" hidden="false" book="Reference Sheet" page="1114">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Prepare my transport"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="2"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Minister of Etiology is never without an escape plan. Should the Element containing the Minister be Destroyed, roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, the Minister may be placed on a nearby friendly vessel within 12&quot;. Should the Minister roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, the Minister is removed from the game and the enemy Fleet gains an additional +4 VPs."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value=""/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-                <profile id="61cb-6455-c259-eba4" profileTypeId="0a73-7ae5-e666-8ed9" name="2" hidden="false" book="Reference Sheet" page="1114">
-                  <characteristics>
-                    <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-                    <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Protect the Minister"/>
-                    <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-                    <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-                    <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="2"/>
-                    <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Minister may force an enemy Firing Solutio targeting his own formation base to retarget a different member of his Battle Group - even if a loadout would require his formation base to be the nominated base (Missile Barrage, for example)."/>
-                    <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued after the formation containing the Minister is declared the target of a firing solution."/>
-                    <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -113,6 +108,101 @@
       <modifiers/>
       <rules/>
       <profiles/>
+      <links/>
+    </entry>
+    <entry id="9687-9bb6-9e1f-4890" name="Rho &apos;Barutamee" points="100.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1065">
+      <entries>
+        <entry id="b3d5-e9e2-8cf6-b161" name="Zealot" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a645-d3ce-71b0-c955" targetId="487b-758e-6cd1-f566" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="1c85-9335-9102-5b66" name="Order" defaultEntryId="f3ba-4532-2b4e-87d5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f3ba-4532-2b4e-87d5" targetId="d6f3-f298-65b5-7526" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="007c-c25a-8b97-1318" name="Order" defaultEntryId="20b2-dc2a-83f2-469a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="20b2-dc2a-83f2-469a" targetId="b588-1f0b-18f7-d194" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="4fdd-b0c5-4c09-e85a" name="Order" defaultEntryId="b279-480b-52de-5ab8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b279-480b-52de-5ab8" targetId="6d06-24ee-ab07-38e0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="20a4-82ac-580c-f18c" name="Order" defaultEntryId="c372-71b7-54b1-94da" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c372-71b7-54b1-94da" targetId="1af1-c2a9-1b5c-e171" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="3a4e-230b-d62d-4fb7" name="Order" defaultEntryId="3447-5df2-4713-65ab" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="3447-5df2-4713-65ab" targetId="da2c-2ca7-a4ce-d4c8" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="151a-11a1-66dc-4524" name="Unique Ability - Rho &apos;Barutamee" hidden="false" book="">
+          <description>ho &apos;Barutamee is a skilled military leader and an excellent tactician. He can therefore choose to re-roll the initiative Dice each turn, but the second result MUST be accepted.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="50ed-6538-ad37-bd04" profileTypeId="bf24-0efa-b186-13c4" name="Rho &apos;Barutamee" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="32de-5f20-0d39-5386" name="Zealots" value="0-4"/>
+            <characteristic characteristicId="9173-5a05-122b-8ab2" name="Per" value="Per Full 1000pts"/>
+            <characteristic characteristicId="66d5-dac9-0978-7f6d" name="KIA" value="1 VP"/>
+            <characteristic characteristicId="0192-ad10-20b8-665e" name="Costs" value="+30pts Per Zealot"/>
+            <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="5"/>
+            <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
+            <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="cd2a-82f7-36da-411d" name="Standard Battle Group" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -444,115 +534,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="9687-9bb6-9e1f-4890" name="Rho &apos;Barutamee" points="100.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1065">
-      <entries>
-        <entry id="b3d5-e9e2-8cf6-b161" name="Zealot" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1000.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a645-d3ce-71b0-c955" targetId="487b-758e-6cd1-f566" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="151a-11a1-66dc-4524" name="Unique Ability - Rho &apos;Barutamee" hidden="false" book="">
-          <description>ho &apos;Barutamee is a skilled military leader and an excellent tactician. He can therefore choose to re-roll the initiative Dice each turn, but the second result MUST be accepted.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="50ed-6538-ad37-bd04" profileTypeId="bf24-0efa-b186-13c4" name="Rho &apos;Barutamee" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="32de-5f20-0d39-5386" name="Zealots" value="0-4"/>
-            <characteristic characteristicId="9173-5a05-122b-8ab2" name="Per" value="Per Full 1000pts"/>
-            <characteristic characteristicId="66d5-dac9-0978-7f6d" name="KIA" value="1 VP"/>
-            <characteristic characteristicId="0192-ad10-20b8-665e" name="Costs" value="+30pts Per Zealot"/>
-            <characteristic characteristicId="8274-0d7a-138e-014c" name="Order Dice" value="5"/>
-            <characteristic characteristicId="bf85-a166-65ef-1c0b" name="No. Shared" value="1"/>
-            <characteristic characteristicId="31a7-68b6-8d13-c2b6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="19da-7a29-8af3-44e6" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 1" hidden="false" book="Reference Sheet" page="1065">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ae3b-5050-adba-f319" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 2" hidden="false" book="Reference Sheet" page="1065">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Power to the defences"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4c69-2c39-d946-b088" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 3" hidden="false" book="Reference Sheet" page="1065">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="39ae-d63c-4b7b-340a" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 4" hidden="false" book="Reference Sheet" page="1065">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Fix those defences!"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="3"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from a Capital Element in the Fleet."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="Issue this order during the Orders Step of the selected Element&apos;s Activation."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="c3f0-201d-61ec-5e50" profileTypeId="0a73-7ae5-e666-8ed9" name="&apos;Barutamee 5" hidden="false" book="Reference Sheet" page="1065">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Enhanced Targeting"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Firing Solution by +2."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued prior to rolling the Inital Attack Dice Pool, either when rolling for Firing Solutions OR when rolling as part of a Defensive Dice Pool Roll against enemy Boarders."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="646c-3ecd-7003-f4e0" name="Xytan &apos;Jar Wattinree" points="120.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1113">
       <entries>
         <entry id="deb0-9bd9-98db-d3ce" name="Zealot" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -573,7 +554,58 @@
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="9bb7-35dc-176b-08b9" name="Order" defaultEntryId="fd92-28cb-f0a0-aca2" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="fd92-28cb-f0a0-aca2" targetId="d6f3-f298-65b5-7526" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="5d6d-ca12-10a3-c0ee" name="Order" defaultEntryId="466d-f405-2055-9e35" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="466d-f405-2055-9e35" targetId="b588-1f0b-18f7-d194" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="ff48-cb00-29ca-9331" name="Order" defaultEntryId="1fa8-97f3-9723-031e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1fa8-97f3-9723-031e" targetId="6d06-24ee-ab07-38e0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7ca2-0fe2-7d46-ea57" name="Order" defaultEntryId="5abd-2f98-9c59-94ce" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5abd-2f98-9c59-94ce" targetId="d806-0981-d9f2-0901" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="cdd1-3eae-fec6-a3b0" name="Order" defaultEntryId="cb44-bde5-f75f-002f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="cb44-bde5-f75f-002f" targetId="054a-1f04-0662-4e7e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="a171-14fd-dcfc-92b3" name="Unique Ability - Xytan &apos;Jar Wattinree" hidden="false" book="">
@@ -594,71 +626,6 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="6292-4776-b1dc-1b79" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 1" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Focused Attack"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="1"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="71b4-7438-531a-416c" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 2" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Power to the defences"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="1"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="f591-43fb-e37a-7b17" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 3" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Standard"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Form Up"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="1"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase"/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="5d79-d8eb-b1ca-d949" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 4" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Perfect Time to Strike"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="-"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="3"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Covenant Fleet automatically gain the Initative this Turn."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order may be issued during the Execute Orders Step of the Order Dice Phase."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a1f9-31ec-6c14-f419" profileTypeId="0a73-7ae5-e666-8ed9" name="Wattinree 5" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="b789-0e16-f311-0dd0" name="Type" value="Special"/>
-            <characteristic characteristicId="1450-4564-b938-a440" name="Order" value="Superiority"/>
-            <characteristic characteristicId="d565-9474-f48b-03db" name="AI" value="3"/>
-            <characteristic characteristicId="dc88-72fa-f09d-366a" name="DI" value="-"/>
-            <characteristic characteristicId="212b-0547-9af2-2e82" name="CI" value="-"/>
-            <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security Detail rating of ALL zealots in a Fleet by +2 for the remainder of the Turn."/>
-            <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order must be issued during the Execute orders step of the Boarding Resolution Phase."/>
-            <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
       </profiles>
       <links/>
     </entry>
@@ -676,6 +643,18 @@
         <link id="a968-0a9c-e696-b001" targetId="ae2b-eb9d-8966-b6ae" linkType="profile">
           <modifiers/>
         </link>
+        <link id="58f6-9952-488a-fec7" targetId="8ba2-3a37-0ad9-a5f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aec8-5ae1-4028-6a63" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="27b5-a73e-fb06-1cb9" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ab6a-0986-da05-71de" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="1e4e-ff32-b9fd-02c7" name="ORS Heavy Cruiser" points="200.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -686,6 +665,18 @@
       <profiles/>
       <links>
         <link id="bfcb-b29c-c0f5-b56c" targetId="253c-055d-71f7-6b85" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e4e9-39c6-5ef7-abfc" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7600-b1c2-537a-32f8" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9ba4-2c5e-2575-2efa" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca19-2d32-9896-e78d" targetId="9c12-93e6-c692-8596" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -700,6 +691,18 @@
         <link id="86f2-4e9b-3cac-519c" targetId="754b-e0be-556a-9bed" linkType="profile">
           <modifiers/>
         </link>
+        <link id="f23f-68c9-f52e-03ba" targetId="8ba2-3a37-0ad9-a5f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0afc-6fe4-4ee8-9598" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4e60-c8d8-ff45-0247" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bf4e-96b0-b9f6-d816" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="46bf-e11e-fcd8-9c62" name="Reinforced CCS Battlecruiser" points="200.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -710,6 +713,18 @@
       <profiles/>
       <links>
         <link id="0a42-d7a8-45bc-6f47" targetId="6169-1d0d-f638-2c3f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5cd0-45be-c332-331d" targetId="8ba2-3a37-0ad9-a5f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2926-74fe-d4f8-94d7" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cab3-075c-737d-0523" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0523-06f7-50fb-fe0f" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -724,6 +739,21 @@
         <link id="8a37-823f-e95b-6ac4" targetId="8c0a-16d0-bb6d-aea8" linkType="profile">
           <modifiers/>
         </link>
+        <link id="b634-54bc-c7ee-76fd" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="838d-ee0a-de06-499b" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7504-a086-ea2f-b78c" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d0ad-2949-c0f4-dfe0" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f746-8637-36b8-ca3a" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="22be-214b-b811-e5f2" name="SDV Heavy Corvettes in Oblique Formation" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -734,6 +764,21 @@
       <profiles/>
       <links>
         <link id="bc8f-fa5d-a3ca-eb61" targetId="1068-e8c7-cd8a-d803" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5bd6-19b3-8d05-bfa7" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="00f4-96f0-056e-b664" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9c52-c40f-f5b0-860a" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="22ac-f4a9-68a8-8d6a" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9a84-99f5-343b-1902" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -748,6 +793,21 @@
         <link id="a0e7-8223-c70b-cc0b" targetId="2f38-6ebb-4fe1-b9ad" linkType="profile">
           <modifiers/>
         </link>
+        <link id="d17a-a5e1-0f6c-8a7a" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8553-23a9-6f11-c5a8" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd99-6d58-9caa-74c0" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c838-97d4-4666-e310" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4a83-6515-40c6-bc63" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="768b-2312-232c-897b" name="Supported CCS Battlecruiser" points="170.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -758,6 +818,18 @@
       <profiles/>
       <links>
         <link id="2985-ae3e-6d13-fd97" targetId="ae2b-eb9d-8966-b6ae" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d317-0da1-b16f-2cae" targetId="8ba2-3a37-0ad9-a5f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f225-8170-cff2-222d" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3181-e3c4-f0fb-4e9b" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4b66-a2b6-8596-ce49" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -772,149 +844,383 @@
         <link id="e21c-f13f-cd6b-d2dd" targetId="b372-fabe-8975-d080" linkType="profile">
           <modifiers/>
         </link>
+        <link id="18f8-d829-d214-d144" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a0fa-a5f5-2df6-fbd6" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="46d7-43f3-a4f1-0652" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2e06-8d76-0753-4aa8" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d6f3-f298-65b5-7526" name="Focused Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8f32-3e22-436d-e96b" targetId="f756-aa8f-d660-2295" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b588-1f0b-18f7-d194" name="Form Up!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9d70-b162-a12a-df91" targetId="75e0-cb0b-9676-53e9" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1af1-c2a9-1b5c-e171" name="Fix those Defences!" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5622-c0fa-fbb6-0721" targetId="1fd6-657d-5726-a9a4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="da2c-2ca7-a4ce-d4c8" name="Enhanced Targeting" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7734-2277-5e14-7cb8" targetId="29d7-cad2-7d44-ebc6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d806-0981-d9f2-0901" name="Perfect Time to Strike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a913-2940-007a-7ebc" targetId="9b2f-7002-cbce-7e5c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6d06-24ee-ab07-38e0" name="Power to the Defences" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="22ab-15c9-7037-394f" targetId="7ffe-8ddc-8fbd-42d1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c332-8ef4-5998-007d" name="Prepare my Transport" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="57c6-e3ab-ebb7-b0cb" targetId="00a1-c497-f67a-9b67" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b4e8-6325-e780-72d7" name="Protect the Minister" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3ea8-37d1-72f8-68e7" targetId="033c-200a-e211-b551" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="054a-1f04-0662-4e7e" name="Superiority" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2135-9e37-26c8-d2af" targetId="39e6-0da3-781c-dbd2" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
+    <rule id="8ba2-3a37-0ad9-a5f4" name="[CA] Carrier Action" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="9c12-93e6-c692-8596" name="[CS] Cloaking System" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="6e18-e6aa-aa5b-b1fa" name="[DA] Defence Array" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="6bb8-b2e0-af1f-96d0" name="[E] Elusive" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="bd1d-02c5-3aa3-3b1a" name="[G] Glide" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="248c-6776-b409-21ca" name="[HS] Heroic Save" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="7be2-48c0-aa34-1063" name="[PD] Point Defence" hidden="false">
+      <modifiers/>
+    </rule>
     <rule id="c301-6ba5-af0d-8c8b" name="Assigned" hidden="false" book="">
       <description>This Heroic Character must be assigned to a specific Formation Base within the Fleet at the start of the battle.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0cf5-9967-48af-50d2" name="Beam" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="b8a9-b785-ce16-eb94" name="Missiles" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="2cc2-115c-1f88-31a5" name="Orders" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="015b-430c-def9-611e" name="Plasma" hidden="false">
       <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ae2b-eb9d-8966-b6ae" profileTypeId="ada5-a7de-6104-01ff" name="CCS Battlecruiser" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="8&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="3"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="2"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Carrier Action (1), Defence Array (4), Glide (4&quot;), Point Defence (3)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), DA(4), G(4&quot;), PD(3)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="29d7-cad2-7d44-ebc6" profileTypeId="0a73-7ae5-e666-8ed9" name="Enhanced Targeting" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="3/-/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Firing Solution by +2."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued prior to rolling the Inital Attack Dice Pool, either when rolling for Firing Solutions OR when rolling as part of a Defensive Dice Pool Roll against enemy Boarders."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1fd6-657d-5726-a9a4" profileTypeId="0a73-7ae5-e666-8ed9" name="Fix those defences!" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/3/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Remove ALL Vunerable Markers from a Capital Element in the Fleet."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="Issue this order during the Orders Step of the selected Element&apos;s Activation."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f756-aa8f-d660-2295" profileTypeId="0a73-7ae5-e666-8ed9" name="Focused Attack" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="1/-/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may reroll up to TWO Attack Dice. These dice may only be rerolled once."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order is issued after any inital dice are rolled either the attack segment or the boarding resolution phase."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="75e0-cb0b-9676-53e9" profileTypeId="0a73-7ae5-e666-8ed9" name="Form Up" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/-/1"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="253c-055d-71f7-6b85" profileTypeId="ada5-a7de-6104-01ff" name="ORS Heavy Cruiser" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="5&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M5&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="11-10-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="5"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H5"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Cloaking System, Defence Array (4), Glide (3&quot;), Point Defence (5)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(4), G(3&quot;), PD(5)"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="754b-e0be-556a-9bed" profileTypeId="ada5-a7de-6104-01ff" name="Paired CCS Battlecruisers" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="7&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="11-11-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="8"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="4"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="4"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="8"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR8"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H4"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD8"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Carrier Action (2), Defence Array (7), Glide (4&quot;), Point Defence (6)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(2), DA(7), G(4&quot;), PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9b2f-7002-cbce-7e5c" profileTypeId="0a73-7ae5-e666-8ed9" name="Perfect Time to Strike" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/3/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Covenant Fleet automatically gain the Initative this Turn."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order may be issued during the Execute Orders Step of the Order Dice Phase."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7ffe-8ddc-8fbd-42d1" profileTypeId="0a73-7ae5-e666-8ed9" name="Power to the defences" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/1/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="An Element may re-roll a SINGLE inital Defence Array die rolled by an element. This dice may only be re-rolled once."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order may be issued after any inital Defence Dice Pool Roll."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="00a1-c497-f67a-9b67" profileTypeId="0a73-7ae5-e666-8ed9" name="Prepare my transport" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/2/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, the Minister may be placed on a nearby friendly vessel within 12&quot;. Should the Minister roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, the Minister is removed from the game and the enemy Fleet gains an additional +4 VPs."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="The Minister of Etiology is never without an escape plan. Should the Element containing the Minister be Destroyed."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="033c-200a-e211-b551" profileTypeId="0a73-7ae5-e666-8ed9" name="Protect the Minister" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/-/2"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="The Minister may force an enemy Firing Solutio targeting his own formation base to retarget a different member of his Battle Group - even if a loadout would require his formation base to be the nominated base (Missile Barrage, for example)."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued after the formation containing the Minister is declared the target of a firing solution."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="6169-1d0d-f638-2c3f" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced CCS Battlecruiser" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="7&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="5"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="5"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="4"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H5"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Carrier Action (1), Defence Array (6), Glide (4&quot;), Point Defence (6)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), DA(6), G(4&quot;), PD(6)"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="8c0a-16d0-bb6d-aea8" profileTypeId="ada5-a7de-6104-01ff" name="SDV Heavy Corvettes in Line Formation" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="9&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M9&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="4-4-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="1"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="1"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="0"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="2"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR1"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H1"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD2"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Cloaking System, Defence Array (2), Elusive, Glide (5&quot;), Point Defence (3)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(2), E, G(5&quot;), PD(3)"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="1068-e8c7-cd8a-d803" profileTypeId="ada5-a7de-6104-01ff" name="SDV Heavy Corvettes in Oblique Formation" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="9&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M9&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="4-3-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="1"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="1"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="0"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="2"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR1"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H1"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD2"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Cloaking System, Defence Array (2), Elusive, Glide (5&quot;), Point Defence (3)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(2), E, G(5&quot;), PD(3)"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="2f38-6ebb-4fe1-b9ad" profileTypeId="ada5-a7de-6104-01ff" name="SDV Heavy Corvettes in Tri-Formation" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="9&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M9&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="5-4-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="2"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="0"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR2"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD3"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Cloaking System, Defence Array (4), Elusive, Glide (5&quot;), Point Defence (4)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(4), E, G(5&quot;), PD(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="39e6-0da3-781c-dbd2" profileTypeId="0a73-7ae5-e666-8ed9" name="Superiority" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="3/-/-"/>
+        <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the security Detail rating of ALL zealots in a Fleet by +2 for the remainder of the Turn."/>
+        <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This order must be issued during the Execute orders step of the Boarding Resolution Phase."/>
+        <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="56d2-678c-70ce-b566" profileTypeId="ada5-a7de-6104-01ff" name="Supported CCS Battlecruiser" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="7&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="2"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Carrier Action (1), Defence Array (5), Glide (4&quot;), Point Defence (4)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), DA(5), G(4&quot;), PD(4)"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="b372-fabe-8975-d080" profileTypeId="ada5-a7de-6104-01ff" name="Supported ORS Heavy Cruiser" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="5&quot;"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M5&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="11-10-6"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="5"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="6"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H6"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="Cloaking System, Defence Array (5), Glide (3&quot;), Point Defence (6)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(5), G(3&quot;), PD(6)"/>
       </characteristics>
       <modifiers/>
     </profile>
     <profile id="487b-758e-6cd1-f566" profileTypeId="e2bb-69c6-0aee-1f0b" name="Zealots" hidden="false" book="Reference Sheet" page="1080">
       <characteristics>
-        <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="12&quot;"/>
-        <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="6"/>
-        <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="3"/>
-        <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="Assault Specialist (1), Heroic Save (Zealot)"/>
+        <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="M12&quot;"/>
+        <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="6-0-0"/>
+        <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="SD3"/>
+        <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="AS(1), HS(Zealot)"/>
       </characteristics>
       <modifiers/>
     </profile>
