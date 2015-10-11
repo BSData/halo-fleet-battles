@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" revision="4" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" revision="5" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="16fe-8cfc-ea81-28d8" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -638,7 +638,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="1511-736f-07c9-468c" profileTypeId="66b5-1f16-b76a-8212" name="CCS Battlecruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="6627-68a1-80ee-8631" profileTypeId="66b5-1f16-b76a-8212" name="CCS Battlecruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="a968-0a9c-e696-b001" targetId="ae2b-eb9d-8966-b6ae" linkType="profile">
           <modifiers/>
@@ -653,6 +676,9 @@
           <modifiers/>
         </link>
         <link id="ab6a-0986-da05-71de" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="32f0-c150-7f45-08c5" targetId="015b-430c-def9-611e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -710,7 +736,41 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="64fe-db7b-8487-88fc" profileTypeId="66b5-1f16-b76a-8212" name="ORS Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="64c1-0348-fcb9-d43c" profileTypeId="66b5-1f16-b76a-8212" name="ORS Heavy Cruiser P2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="OR Beam"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/-&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Beam/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="9/9/9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="6b5d-aac3-b787-c31d" profileTypeId="66b5-1f16-b76a-8212" name="ORS Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="bfcb-b29c-c0f5-b56c" targetId="253c-055d-71f7-6b85" linkType="profile">
           <modifiers/>
@@ -727,6 +787,12 @@
         <link id="ca19-2d32-9896-e78d" targetId="9c12-93e6-c692-8596" linkType="rule">
           <modifiers/>
         </link>
+        <link id="c946-ad3a-f14f-7eff" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd12-e4ba-665b-451e" targetId="962e-ce9f-93a6-8af8" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="11bb-03a3-16f4-d55a" name="Paired CCS Battlecruiser" points="260.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -734,7 +800,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="84f4-2254-cddc-0b7a" profileTypeId="66b5-1f16-b76a-8212" name="Paired CCS Battlecruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bf07-6c03-756b-feaf" profileTypeId="66b5-1f16-b76a-8212" name="Paired CCS Battlecruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="86f2-4e9b-3cac-519c" targetId="754b-e0be-556a-9bed" linkType="profile">
           <modifiers/>
@@ -749,6 +838,9 @@
           <modifiers/>
         </link>
         <link id="bf4e-96b0-b9f6-d816" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="48e3-2b4b-29fc-cf50" targetId="015b-430c-def9-611e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -806,7 +898,41 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="b2d4-aadc-95cf-ec43" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced CCS Battlecruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="04d6-24a7-5a93-521b" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced CCS Battlecruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ac79-d3a0-11ab-cd48" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced CCS Battlecruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="AND Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="0a42-d7a8-45bc-6f47" targetId="6169-1d0d-f638-2c3f" linkType="profile">
           <modifiers/>
@@ -823,6 +949,12 @@
         <link id="0523-06f7-50fb-fe0f" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="8c65-6057-e008-da57" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7759-2e30-d78e-4414" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c4d0-58b1-c4e6-0192" name="SDV Heavy Corvettes in Line Formation" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -830,7 +962,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="d357-a6fa-1baf-9784" profileTypeId="66b5-1f16-b76a-8212" name="SDV Heavy Corvettes in Line Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="585b-d6a4-73c2-8547" profileTypeId="66b5-1f16-b76a-8212" name="SDV Heavy Corvettes in Line Formation S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="8a37-823f-e95b-6ac4" targetId="8c0a-16d0-bb6d-aea8" linkType="profile">
           <modifiers/>
@@ -850,6 +1005,12 @@
         <link id="f746-8637-36b8-ca3a" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
           <modifiers/>
         </link>
+        <link id="1046-78ab-ca15-f0c9" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5309-31e2-0dc1-ad83" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="22be-214b-b811-e5f2" name="SDV Heavy Corvettes in Oblique Formation" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -857,7 +1018,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="bf81-a81e-d5ba-56bc" profileTypeId="66b5-1f16-b76a-8212" name="SDV Heavy Corvettes in Oblique Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="98c8-ed1c-1e6d-7427" profileTypeId="66b5-1f16-b76a-8212" name="SDV Heavy Corvettes in Oblique Formation S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="bc8f-fa5d-a3ca-eb61" targetId="1068-e8c7-cd8a-d803" linkType="profile">
           <modifiers/>
@@ -877,6 +1061,12 @@
         <link id="9a84-99f5-343b-1902" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
           <modifiers/>
         </link>
+        <link id="db26-f22b-a6bd-154b" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6a17-5cdb-596a-7695" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a21f-14a6-4ff1-9752" name="SDV Heavy Corvettes in Tri-Formation" points="60.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -884,7 +1074,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="25ce-8463-2c38-3c6f" profileTypeId="66b5-1f16-b76a-8212" name="SDV Heavy Corvettes in Tri-Formation S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a62e-6df9-f061-ddac" profileTypeId="66b5-1f16-b76a-8212" name="SDV Heavy Corvettes in Tri-Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="a0e7-8223-c70b-cc0b" targetId="2f38-6ebb-4fe1-b9ad" linkType="profile">
           <modifiers/>
@@ -902,6 +1115,12 @@
           <modifiers/>
         </link>
         <link id="4a83-6515-40c6-bc63" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fd7d-1fad-852c-cc7b" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="43fb-5a72-0bc6-8860" targetId="015b-430c-def9-611e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -923,7 +1142,41 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="1890-48a9-0198-b97c" profileTypeId="66b5-1f16-b76a-8212" name="Supported CCS Battlecruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="AND Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4789-45e5-131c-6fb4" profileTypeId="66b5-1f16-b76a-8212" name="Supported CCS Battlecruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a661-b317-fb61-2faf" profileTypeId="66b5-1f16-b76a-8212" name="Supported CCS Battlecruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="2985-ae3e-6d13-fd97" targetId="ae2b-eb9d-8966-b6ae" linkType="profile">
           <modifiers/>
@@ -940,6 +1193,12 @@
         <link id="4b66-a2b6-8596-ce49" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="8eaa-3cc7-1a17-ca35" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="366a-482e-a386-a492" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="98b2-87af-6bcd-bbed" name="Supported ORS Heavy Cruiser" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -947,7 +1206,52 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="b8c5-f526-0716-e07b" profileTypeId="66b5-1f16-b76a-8212" name="Supported ORS Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ec6d-190e-9693-8aeb" profileTypeId="66b5-1f16-b76a-8212" name="Supported ORS Heavy Cruiser P2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="OR Beam"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/-&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Beam/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="9/9/9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a0cb-eb4f-3065-aed5" profileTypeId="66b5-1f16-b76a-8212" name="Supported ORS Heavy Cruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="AND Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="172a-f1e2-d469-a5ba" profileTypeId="66b5-1f16-b76a-8212" name="Supported ORS Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="e21c-f13f-cd6b-d2dd" targetId="b372-fabe-8975-d080" linkType="profile">
           <modifiers/>
@@ -962,6 +1266,15 @@
           <modifiers/>
         </link>
         <link id="2e06-8d76-0753-4aa8" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f5f0-63ef-d2fa-4127" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="635b-17e0-8e48-e150" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cf8f-1ea5-eb4d-7621" targetId="962e-ce9f-93a6-8af8" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1015,10 +1328,30 @@ In addition, Point Defence systems can also be used to defend against attacks ma
       <description>This Heroic Character must be assigned to a specific Formation Base within the Fleet at the start of the battle.</description>
       <modifiers/>
     </rule>
-    <rule id="b8a9-b785-ce16-eb94" name="Missiles" hidden="false">
+    <rule id="b8a9-b785-ce16-eb94" name="Missiles" hidden="false" book="Core Rulebook" page="109">
+      <description>Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool.</description>
       <modifiers/>
     </rule>
-    <rule id="015b-430c-def9-611e" name="Plasma" hidden="false">
+    <rule id="015b-430c-def9-611e" name="Plasma" hidden="false" book="Core Rulebook" page="110">
+      <description>All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="962e-ce9f-93a6-8af8" name="Beam" hidden="false" book="Core Rulebook" page="110-111">
+      <description>Beam Weapons are Short Range cutting ordnance that can target multiple Elements at once. These weapons may NEVER take part in firing solutions with any other weapon - they are simply too powerful and unpredictable to use with other weapons in concenrated fire.
+
+Beam Weapons are fired in the following manner:
+
+&gt;Nominate a Primary Target as normal and allocate the first number in the Dice Profile for the weapon to it.
+
+&gt;Then nominate a different Element within 6&quot; of the first and allocate the second number in the Dice Profile to that Element.
+Note: Unlike normal Firing Solutions, this Target does NOT have to be part of the same Battle Group as any other target.
+
+&gt;Finally, nominate a different third target within 6&quot; of the second and allocate the third number in the Dice Profile to that target.
+Note: Unlike normal Firing Solutions, this Target does NOT have to be part of the same Battle Group as any other target.
+
+Each of these models targeted by the Beam Weapon is attacked and resolved separatley. This loadout DOE NOT permit the weapon to fire at a target that is beyond its stated range or Arc of Fire.
+
+Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a starting Firepower Rating 5 as default. The effects of terrain and Loadouts are still applicable.</description>
       <modifiers/>
     </rule>
   </sharedRules>
