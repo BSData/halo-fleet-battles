@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" revision="5" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" revision="6" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="16fe-8cfc-ea81-28d8" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -106,7 +106,12 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="5d66-2b80-14d0-b705" name="Focused Wrath" hidden="false">
+          <description>All Plasma Cannon Array Attacks made by this Element may re-roll a single Attack Dice for each friendly Zealot on-board.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -325,7 +330,12 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="4a9b-d64c-cd39-537e" name="Hunter Killers" hidden="false">
+          <description>All Elements in this Battle Group may re-roll any Initial Rolls of a &quot;SKULL&quot; when firing Plasma Torpedoes at Short Range.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -354,7 +364,12 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="4e24-e7ab-a350-47a6" name="Command Centre" hidden="false">
+          <description>A Fleet containing a Golden Path Battle Group may reroll a Single Order Dice at the begining of either the Attacks or Boarding Segments (but not both!)</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -1328,14 +1343,6 @@ In addition, Point Defence systems can also be used to defend against attacks ma
       <description>This Heroic Character must be assigned to a specific Formation Base within the Fleet at the start of the battle.</description>
       <modifiers/>
     </rule>
-    <rule id="b8a9-b785-ce16-eb94" name="Missiles" hidden="false" book="Core Rulebook" page="109">
-      <description>Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool.</description>
-      <modifiers/>
-    </rule>
-    <rule id="015b-430c-def9-611e" name="Plasma" hidden="false" book="Core Rulebook" page="110">
-      <description>All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range.</description>
-      <modifiers/>
-    </rule>
     <rule id="962e-ce9f-93a6-8af8" name="Beam" hidden="false" book="Core Rulebook" page="110-111">
       <description>Beam Weapons are Short Range cutting ordnance that can target multiple Elements at once. These weapons may NEVER take part in firing solutions with any other weapon - they are simply too powerful and unpredictable to use with other weapons in concenrated fire.
 
@@ -1352,6 +1359,14 @@ Note: Unlike normal Firing Solutions, this Target does NOT have to be part of th
 Each of these models targeted by the Beam Weapon is attacked and resolved separatley. This loadout DOE NOT permit the weapon to fire at a target that is beyond its stated range or Arc of Fire.
 
 Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a starting Firepower Rating 5 as default. The effects of terrain and Loadouts are still applicable.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b8a9-b785-ce16-eb94" name="Missiles" hidden="false" book="Core Rulebook" page="109">
+      <description>Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool.</description>
+      <modifiers/>
+    </rule>
+    <rule id="015b-430c-def9-611e" name="Plasma" hidden="false" book="Core Rulebook" page="110">
+      <description>All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range.</description>
       <modifiers/>
     </rule>
   </sharedRules>
