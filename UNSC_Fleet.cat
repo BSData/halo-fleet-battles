@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="4" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="5" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -26,7 +26,12 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="6a5d-a458-f42e-b602" name="Advanced Targeting Solutions" hidden="false">
+          <description>All Attacks made by this Battle Group at Short Range may re-roll any attempt to cause a Critical Hit.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -45,7 +50,12 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="a302-2457-a9c1-3574" name="Wall of Fire" hidden="false">
+          <description>The Cerberus Battle Group may roll 2x Halo Dice rather than just 1 when attempting to overload an enemy&apos;s defences with MACs, prior to a Defensive Dice Pool being rolled.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -558,7 +568,12 @@
         </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="b6d0-4176-0c1d-ce2c" name="Pack Hunters" hidden="false">
+          <description>All Elements in this Battle Group may re-roll any Initial Rolls of a &quot;SKULL&quot; when firing MACs - these re-rolled dice may NOT generate any further re-rolls.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -700,7 +715,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="eba7-c185-726a-0bc2" profileTypeId="66b5-1f16-b76a-8212" name="Epoch Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="80b5-9d64-b7e3-128f" profileTypeId="66b5-1f16-b76a-8212" name="Epoch Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="4603-9a33-77f4-c43b" targetId="cb88-f3b2-b72b-35d9" linkType="profile">
           <modifiers/>
@@ -718,6 +756,12 @@
           <modifiers/>
         </link>
         <link id="2060-499d-9c9e-0be4" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="68f2-18cb-aa86-94da" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="adb5-f191-9dbd-2b76" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -775,7 +819,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="404f-5ace-bcab-cdec" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1d47-5600-7f8b-e7b5" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="d979-cff5-364a-3045" targetId="041e-ed14-a3c5-6c05" linkType="profile">
           <modifiers/>
@@ -790,6 +857,12 @@
           <modifiers/>
         </link>
         <link id="896d-2ec0-37d9-f656" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fb30-041c-fee8-0898" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e490-0249-c249-83dd" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -811,7 +884,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="c773-7fcc-1ac6-e977" profileTypeId="66b5-1f16-b76a-8212" name="Paired Marathon Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f0e8-20df-2e30-f315" profileTypeId="66b5-1f16-b76a-8212" name="Paired Marathon Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R15/30&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(4)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="af57-2738-0b41-e86e" targetId="9644-193f-5b1b-cbc0" linkType="profile">
           <modifiers/>
@@ -828,6 +924,12 @@
         <link id="5a9c-5c1b-d54b-968b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
+        <link id="a3d5-0be4-2b22-b646" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35bc-d470-71d9-11ff" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="bfc5-5642-ba69-9a7a" name="Paris Frigates in Arrowhead Formation" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -835,7 +937,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="0106-940e-7794-f135" profileTypeId="66b5-1f16-b76a-8212" name="Paris Frigates in Arrowhead Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="57a3-467b-1ad3-14b4" profileTypeId="66b5-1f16-b76a-8212" name="Paris Frigates in Arrowhead Formation S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="cb71-6800-a9a8-baf0" targetId="2a55-a6dc-98ba-4c81" linkType="profile">
           <modifiers/>
@@ -855,6 +980,12 @@
         <link id="c490-3e34-c56e-a073" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
+        <link id="47a0-3762-8065-fb0e" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="93ad-7388-7bed-bae2" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9d8c-7eef-b8cb-2cc5" name="Paris Frigates in Shield Formation" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -862,7 +993,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="4f1d-ef10-37fa-d6d2" profileTypeId="66b5-1f16-b76a-8212" name="Paris Frigates in Shield Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="de12-7899-b34c-a95f" profileTypeId="66b5-1f16-b76a-8212" name="Paris Frigates in Shield Formation S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="be3b-2a9c-0783-0226" targetId="2f54-2db8-7aee-98a7" linkType="profile">
           <modifiers/>
@@ -879,6 +1033,12 @@
         <link id="e168-b79e-eb46-e50c" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
+        <link id="5b4c-4754-44d0-311a" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d8fe-06d4-8bfe-5fa6" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="abdf-b5c3-c8ce-2e7c" name="Paris Frigates in Trident Formation" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -886,7 +1046,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="ea38-9687-20be-34d1" profileTypeId="66b5-1f16-b76a-8212" name="Paris Frigates in Trident Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0cd4-1715-8bab-621e" profileTypeId="66b5-1f16-b76a-8212" name="Paris Frigates in Trident Formation S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="cc58-0ea2-4666-05d3" targetId="85a7-73c0-ca0e-468f" linkType="profile">
           <modifiers/>
@@ -904,6 +1087,12 @@
           <modifiers/>
         </link>
         <link id="1bd0-0550-9207-b85b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d8ee-27b0-558b-c624" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cc26-98e3-2ecd-05b3" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -925,7 +1114,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="ff11-ba96-8029-41fc" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e063-a6d2-5408-eb17" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R15/30&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="ba72-a61b-fa9e-f5d7" targetId="0dfb-cf23-35b9-c37a" linkType="profile">
           <modifiers/>
@@ -942,6 +1154,12 @@
         <link id="5f17-1c87-a513-dbd9" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
+        <link id="975f-a4ed-58e7-6898" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eeae-4200-5a45-dd7d" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c1ba-bf41-1a5a-7e4a" name="Supported Epoch Heavy Cruiser" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -949,7 +1167,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="03c7-78bd-be84-a45a" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9810-9989-8bd5-ccd5" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="e70c-d02b-a6a8-5e9c" targetId="7fda-c2e6-4409-cde6" linkType="profile">
           <modifiers/>
@@ -969,6 +1210,12 @@
         <link id="2ad2-26ad-5575-2edb" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
+        <link id="ce70-7adb-f82e-3fb2" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6524-9bc1-2805-9d6f" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="31e9-c7a3-2aeb-e871" name="Supported Marathon Heavy Cruiser" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -976,7 +1223,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="f285-e906-a5e5-a4b8" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1fed-55ba-09c2-9e72" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="71b3-547a-3c6f-95c6" targetId="beed-9e24-57e1-ac61" linkType="profile">
           <modifiers/>
@@ -993,6 +1263,12 @@
         <link id="649a-d2be-87ff-63e2" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
+        <link id="bf24-b181-c2d0-8ba6" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5080-68f9-66ec-dfec" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e1fc-994b-088f-20a8" name="Supported Marathon Heavy Cruiser (Cyclops)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1000,7 +1276,30 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="ef3a-3ffa-c4ce-5c55" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b739-3866-7609-361f" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="0d79-c10e-b046-a522" targetId="ca87-af4b-653b-30d2" linkType="profile">
           <modifiers/>
@@ -1018,6 +1317,12 @@
           <modifiers/>
         </link>
         <link id="8467-2109-5980-bf50" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fc8b-00ce-d7c1-be78" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3ead-4662-4a0f-1a0f" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1095,10 +1400,20 @@ In addition, Point Defence systems can also be used to defend against attacks ma
       <description>This Heroic Character must be assigned to a specific Formation Base within the Fleet at the start of the battle.</description>
       <modifiers/>
     </rule>
-    <rule id="da14-8c34-2ad1-187d" name="MAC" hidden="false">
+    <rule id="da14-8c34-2ad1-187d" name="MAC" hidden="false" book="Core Rulebook" page="108">
+      <description>Roll the Attack Dice Pool as normal. Assuming the target Element is required to make a Defensive Pool Roll, BEFORE rolling the Defence Dice Pool, check the combined values of all of the MACs taking part in the Firing Solution by add the value in parenthesis of the MAC loadouts.
+
+&gt;If the combined Values of the MACs is 2-3, roll ONE Halo Dice and on a result of a &quot;SKULL&quot; the Target Element gains a Vunerable Token.
+
+&gt;If the combined Values of the MACs is 4-5, roll ONE Halo Dice and on a result of a &quot;SKULL&quot; or a &quot;2&quot;  the Target Element gains a Vunerable Token.
+
+&gt;If the combined Values of the MACs is 6 or above, the Target Element automatically gains a Vunerable Token and no roll is nescessary.
+
+Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CANNOT be affected by Loadouts.</description>
       <modifiers/>
     </rule>
-    <rule id="0877-287d-9080-e907" name="Missiles" hidden="false">
+    <rule id="0877-287d-9080-e907" name="Missiles" hidden="false" book="Core Rulebook" page="109">
+      <description>Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool.</description>
       <modifiers/>
     </rule>
   </sharedRules>
