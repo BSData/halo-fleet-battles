@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="5" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="6" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -879,7 +879,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7c0c-02f6-5c28-bf09" name="Paired Marathon Heavy Cruiser" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7c0c-02f6-5c28-bf09" name="Paired Marathon Heavy Cruiser" points="200.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -900,7 +900,7 @@
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R15/30&quot;"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(4)"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
             <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D18"/>
@@ -1039,6 +1039,9 @@
         <link id="d8fe-06d4-8bfe-5fa6" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
+        <link id="103f-7214-49a0-84ad" targetId="f4ee-f9b7-2863-78f5" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="abdf-b5c3-c8ce-2e7c" name="Paris Frigates in Trident Formation" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1130,7 +1133,7 @@
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R15/30&quot;"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
             <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
@@ -1556,7 +1559,7 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD2"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(3&quot;),  MB*,  PD(3), TA(2)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="E, HB(3&quot;),  MB*,  PD(3), TA(2)"/>
       </characteristics>
       <modifiers/>
     </profile>
