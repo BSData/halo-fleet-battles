@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="6" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="7" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1364,7 +1364,8 @@
     <rule id="8264-58a6-992f-782c" name="[CA] Carrier Action" hidden="false" book="Core Rulebook" page="114">
       <description>Elements with the Carrier Action (Value) Loadout may re-launch a number of Wings equal to the Value listed in their Loadout&apos;s parenthesis during the End Phase. The Wing or Wings are immediately deployed within 8&quot; of their Formation Base.
 
-Wings deployed in this manner must be formed into a legal Wing and they may only be taken from the casualties in the Faction&apos;s Scrapyard.</description>
+Wings deployed in this manner must be formed into a legal Wing and they may only be taken from the casualties in the Faction&apos;s Scrapyard.
+FAQ Example: If a player has a mix of 9 Flight Tokens in their scrapyard and an Element has a Carrier Action (2) Loadout, ALL the Flight Tokens can return to battle but MUST be formed into 1 or 2 legal Wings.</description>
       <modifiers/>
     </rule>
     <rule id="f4ee-f9b7-2863-78f5" name="[E] Elusive" hidden="false" book="Core Rulebook" page="108">

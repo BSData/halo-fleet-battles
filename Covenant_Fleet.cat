@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" revision="6" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" revision="7" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="16fe-8cfc-ea81-28d8" name="Heroic Character" points="0.0" categoryId="98b2-d9b4-0e2a-42dc" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1304,7 +1304,8 @@
     <rule id="8ba2-3a37-0ad9-a5f4" name="[CA] Carrier Action" hidden="false" book="Core Rulebook" page="114">
       <description>Elements with the Carrier Action (Value) Loadout may re-launch a number of Wings equal to the Value listed in their Loadout&apos;s parenthesis during the End Phase. The Wing or Wings are immediately deployed within 8&quot; of their Formation Base.
 
-Wings deployed in this manner must be formed into a legal Wing and they may only be taken from the casualties in the Faction&apos;s Scrapyard.</description>
+Wings deployed in this manner must be formed into a legal Wing and they may only be taken from the casualties in the Faction&apos;s Scrapyard.
+FAQ Example: If a player has a mix of 9 Flight Tokens in their scrapyard and an Element has a Carrier Action (2) Loadout, ALL the Flight Tokens can return to battle but MUST be formed into 1 or 2 legal Wings.</description>
       <modifiers/>
     </rule>
     <rule id="9c12-93e6-c692-8596" name="[CS] Cloaking System" hidden="false" book="Core Rulebook" page="108">
@@ -1320,7 +1321,8 @@ Wings deployed in this manner must be formed into a legal Wing and they may only
       <modifiers/>
     </rule>
     <rule id="bd1d-02c5-3aa3-3b1a" name="[G] Glide" hidden="false" book="Core Rulebook" page="107">
-      <description>Elements with the Glide (Distance&quot;) Loadout may forgo their standard Movement to move laterally (sideways) instead. The distance they may travel is denote in parenthesis. An Element using its Glide Loadout may not make any Turning Action during its Movement.</description>
+      <description>Elements with the Glide (Distance&quot;) Loadout may forgo their standard Movement to move laterally (sideways) instead. The distance they may travel is denote in parenthesis. An Element using its Glide Loadout may not make any Turning Action during its Movement.
+FAQ: A Formation Base using Glide MUST move the full Distance listed on the Loadout Entry and may NOT elect to execute a Glide while occupying Terrain that might cause the Formation Damage.</description>
       <modifiers/>
     </rule>
     <rule id="248c-6776-b409-21ca" name="[HS] Heroic Save" hidden="false" book="Core Rulebook" page="114">
