@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="8" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="9" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -901,6 +901,103 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="acef-71c4-659d-661b" name="Massive Element" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="4f9f-7450-279e-1b33" name="Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="140f-6528-ac53-26af" name="Punic Class" points="875.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="2bff-05d0-5d8d-bc14" name="1. Fore Section" defaultEntryId="4cf8-c29a-88d4-03e5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="4cf8-c29a-88d4-03e5" targetId="1471-c85e-7a99-d295" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+                <entryGroup id="ebb3-3d8d-a0f8-8365" name="2. Mid Section" defaultEntryId="a4e2-ab67-0971-b805" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="a4e2-ab67-0971-b805" targetId="42fe-be93-3268-e7fd" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+                <entryGroup id="dd36-20c1-fd5e-fde0" name="3. Aft Section" defaultEntryId="46d3-e6d3-c99a-37ec" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="46d3-e6d3-c99a-37ec" targetId="4d35-86ce-eaae-41df" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups>
+            <entryGroup id="2938-a58c-1bae-2e4f" name="Wings - Flight Tokens" minSelections="0" maxSelections="14" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="1a25-de7c-ca5d-d457" name="Interceptors - Broadsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="4590-27bc-cdd3-00de" name="Interceptors - Sabres" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="c275-bcbe-da6b-299f" name="Bombers - Longsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="70b4-7aaa-65ce-cd34" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1250.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -1585,6 +1682,165 @@
         </link>
       </links>
     </entry>
+    <entry id="1471-c85e-7a99-d295" name="Punic-Class Supercarrier 1-Fore Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cdaf-5e28-2e7e-273f" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 1-Fore P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Super MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R20/40&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1370-d1fa-3c7f-8e95" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 1-Fore P2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="AND Super MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R20/40&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f3a1-c1ed-a73b-b637" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 1-Fore S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d184-10bb-024a-7c7b" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8f22-7efc-1a9d-060e" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6195-b41a-7dbf-12b3" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="261d-8f6e-d209-f705" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2adb-7c5d-2f35-63fa" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6262-0bce-55de-1f46" targetId="ffd6-b787-c5ee-42d9" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c092-1ef5-f08d-c213" targetId="c60d-6717-f565-32ab" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="42fe-be93-3268-e7fd" name="Punic-Class Supercarrier 2-Mid Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ec74-9a11-437e-5ded" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 2-Mid P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="MinMAC Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ed5f-ad18-8220-f6de" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 2-Mid S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a952-2bdc-5395-b8ec" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="75cc-be3f-02d3-b0fd" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="43a6-9b84-8fc6-6329" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f2fd-370b-4ee6-d3cb" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c3c3-f3db-6484-0c36" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ab0b-019f-90c8-3000" targetId="b9ee-abe2-122c-c038" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a018-275b-0ca6-bdeb" targetId="c60d-6717-f565-32ab" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="921b-9969-ccc5-e8c6" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4d35-86ce-eaae-41df" name="Punic-Class Supercarrier 3-Aft Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f331-4b67-d269-a8b6" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 3-Aft S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="A/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="af0e-3386-ee63-5685" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3677-fbba-51f8-0c46" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ff13-68bd-c3f5-05cc" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="12c2-5bfa-c245-45a9" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="45bc-adaa-17a6-9101" targetId="02d4-8c7c-95ca-226f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="2a88-d097-2865-a174" targetId="c60d-6717-f565-32ab" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
@@ -1612,7 +1868,7 @@ FAQ Example: If a player has a mix of 9 Flight Tokens in their scrapyard and an 
 
 Spartans: on a roll of anything other than a &quot;SKULL&quot;, the Spartan Token remains in play and is NOT removed as a casualty.
 
-Zzealots: on a roll of a &quot;1&quot; or &quot;2&quot;, the ZZealot Token remains in play and is NOT removed as a casualty.
+Zealots: on a roll of a &quot;1&quot; or &quot;2&quot;, the Zealot Token remains in play and is NOT removed as a casualty.
 
 Troopers: on a roll of a &quot;2&quot;, the Trooper Token is NOT removed as a casualty.</description>
       <modifiers/>
@@ -1649,6 +1905,10 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
     </rule>
     <rule id="0877-287d-9080-e907" name="Missiles" hidden="false" book="Core Rulebook" page="109">
       <description>Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c60d-6717-f565-32ab" name="[L] Labyrinthine" hidden="false" book="Core Rulebook" page="114">
+      <description>Elements with the Labyrinthine Loadout ALWAYS reduce the result rolled on the Boarding Result Table by 2. This is applied after all other loadouts have taken effect.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -1898,6 +2158,48 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Defensive Roll made by a Capital Ship by +1 this turn."/>
         <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued after a Capital Element has been targeted by an enemy attack."/>
         <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ffd6-b787-c5ee-42d9" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 1-Fore Section" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(1&quot;), L, PD(7), TA(8)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b9ee-abe2-122c-c038" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 2-Mid Section" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="11-9-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR6"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H10"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD8"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), L, PD(8), TA(7)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="02d4-8c7c-95ca-226f" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 3-Aft Section" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(1&quot;), L, PD(7), TA(8)"/>
       </characteristics>
       <modifiers/>
     </profile>
