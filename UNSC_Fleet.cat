@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="9" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="10" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -550,6 +550,99 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="acef-71c4-659d-661b" name="Punic-class Supercarrier" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="72f8-746d-af3e-b5ba" name="Wings - Flight Tokens" minSelections="0" maxSelections="14" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="dfe6-05bf-3aa1-f649" name="Interceptors - Broadsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6711-e5d9-52e6-8c44" name="Interceptors - Sabres" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="64f6-1b35-2952-c3fb" name="Bombers - Longsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="70b4-7aaa-65ce-cd34" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+        <entryGroup id="4abf-1a42-b135-35ba" name="1. Fore Section" defaultEntryId="016d-339a-daf1-efa6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="016d-339a-daf1-efa6" targetId="1471-c85e-7a99-d295" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="50fa-0057-2b73-7337" name="2. Mid Section" defaultEntryId="a73f-94b7-cd67-2788" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a73f-94b7-cd67-2788" targetId="42fe-be93-3268-e7fd" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c9a6-7557-f1fb-3102" name="3. Aft Section" defaultEntryId="b195-5348-35e5-c37a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b195-5348-35e5-c37a" targetId="4d35-86ce-eaae-41df" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1250.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="8f3f-2d08-5e5a-5a42" name="Automated Repair Systems" hidden="false">
+          <description>Each time a Vulnerable Marker is applied to a Section of this Massive Element, roll a Halo Dice: On the result of a &quot;1&quot; or a &quot;2&quot;, the Vulnerable Marker is instantly removed.</description>
+          <modifiers/>
+        </rule>
+        <rule id="147b-a0bd-93fb-f5b3" name="Frigate Resupply" hidden="false">
+          <description>During the Repairs Setp of any End Phase, a Punic-class Supercarrier may allow a SINGLE Paris Formation Base within 10&quot; to remove a SINGLE Damage Marker from its base. Where applicable, this action CAN be used to restore Titanium Armour to the Formation Base.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7bb9-e3a6-cbb9-9387" name="Limited Resources" hidden="false">
+          <description>All Punic-class Supercarriers exist as individual Battle Groups and are not required to follow the standard rules for Battle Group creation. Whilst they are not Specialist Battle Groups, they are restricted by the sie of the Fleet they are attached to. A single Punic-class Supercarrier can be included in a Fleet for every FULL 1250 Points being played.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="33fc-6402-b82f-98c9" name="Michael Stanforth" points="100.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="016f-0861-fcda-4a93" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -901,103 +994,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="acef-71c4-659d-661b" name="Massive Element" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="4f9f-7450-279e-1b33" name="Class" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="140f-6528-ac53-26af" name="Punic Class" points="875.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="2bff-05d0-5d8d-bc14" name="1. Fore Section" defaultEntryId="4cf8-c29a-88d4-03e5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="4cf8-c29a-88d4-03e5" targetId="1471-c85e-7a99-d295" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-                <entryGroup id="ebb3-3d8d-a0f8-8365" name="2. Mid Section" defaultEntryId="a4e2-ab67-0971-b805" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="a4e2-ab67-0971-b805" targetId="42fe-be93-3268-e7fd" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-                <entryGroup id="dd36-20c1-fd5e-fde0" name="3. Aft Section" defaultEntryId="46d3-e6d3-c99a-37ec" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links>
-                    <link id="46d3-e6d3-c99a-37ec" targetId="4d35-86ce-eaae-41df" linkType="entry">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups>
-            <entryGroup id="2938-a58c-1bae-2e4f" name="Wings - Flight Tokens" minSelections="0" maxSelections="14" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="1a25-de7c-ca5d-d457" name="Interceptors - Broadsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="4590-27bc-cdd3-00de" name="Interceptors - Sabres" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="c275-bcbe-da6b-299f" name="Bombers - Longsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="70b4-7aaa-65ce-cd34" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1250.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
   </entries>
   <rules/>
   <links/>
@@ -1090,6 +1086,9 @@
           <modifiers/>
         </link>
         <link id="adb5-f191-9dbd-2b76" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5aca-e847-2d69-2fa0" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1193,6 +1192,9 @@
         <link id="e490-0249-c249-83dd" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
+        <link id="1713-6b05-d289-2ad9" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="6026-7fff-fbca-d650" name="Missile Command" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1256,6 +1258,9 @@
           <modifiers/>
         </link>
         <link id="35bc-d470-71d9-11ff" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="21b3-af0c-5db1-ade6" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1440,249 +1445,7 @@
         </link>
       </links>
     </entry>
-    <entry id="f9c6-8c39-b73e-fc7c" name="Reinforced Marathon Heavy Cruiser" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ff11-ba96-8029-41fc" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="e063-a6d2-5408-eb17" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ba72-a61b-fa9e-f5d7" targetId="0dfb-cf23-35b9-c37a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="568c-bb96-9f06-507b" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="957b-8f6b-e0ec-9ca5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="acb8-f3ac-b45a-038c" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5f17-1c87-a513-dbd9" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="975f-a4ed-58e7-6898" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="eeae-4200-5a45-dd7d" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c1ba-bf41-1a5a-7e4a" name="Supported Epoch Heavy Cruiser" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="03c7-78bd-be84-a45a" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="9810-9989-8bd5-ccd5" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e70c-d02b-a6a8-5e9c" targetId="7fda-c2e6-4409-cde6" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="5019-16a4-6519-1a4d" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fa64-1af3-0e7f-28e8" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="648d-d9e2-d951-20c5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="46be-a62f-c8a1-c2da" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2ad2-26ad-5575-2edb" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ce70-7adb-f82e-3fb2" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6524-9bc1-2805-9d6f" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="31e9-c7a3-2aeb-e871" name="Supported Marathon Heavy Cruiser" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f285-e906-a5e5-a4b8" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1fed-55ba-09c2-9e72" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="71b3-547a-3c6f-95c6" targetId="beed-9e24-57e1-ac61" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a18b-307b-fb9d-cdb4" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ed91-215f-6573-b601" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9ffa-0828-706b-7caa" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="649a-d2be-87ff-63e2" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bf24-b181-c2d0-8ba6" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5080-68f9-66ec-dfec" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e1fc-994b-088f-20a8" name="Supported Marathon Heavy Cruiser (Cyclops)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ef3a-3ffa-c4ce-5c55" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="b739-3866-7609-361f" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="0d79-c10e-b046-a522" targetId="ca87-af4b-653b-30d2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="0d8a-57c5-7f3d-4339" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b099-155b-406d-d745" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ea7a-d3f3-82f7-c4c9" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="16c1-bf7c-707b-ccc1" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8467-2109-5980-bf50" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fc8b-00ce-d7c1-be78" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3ead-4662-4a0f-1a0f" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="239c-6152-f5f9-b089" name="Take it to them" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6ea5-1cca-b741-7add" targetId="586b-788e-ca89-d19a" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4593-cd94-a4b4-2cac" name="The Defensive Option" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9850-7022-4631-862e" targetId="c4ac-dfaa-614e-a295" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1471-c85e-7a99-d295" name="Punic-Class Supercarrier 1-Fore Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1471-c85e-7a99-d295" name="Punic-class Supercarrier 1-Fore Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1744,9 +1507,12 @@
         <link id="c092-1ef5-f08d-c213" targetId="c60d-6717-f565-32ab" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4738-edfa-c7aa-3fe2" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="42fe-be93-3268-e7fd" name="Punic-Class Supercarrier 2-Mid Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="42fe-be93-3268-e7fd" name="Punic-class Supercarrier 2-Mid Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1755,7 +1521,7 @@
         <profile id="ec74-9a11-437e-5ded" profileTypeId="66b5-1f16-b76a-8212" name="Punic-Class Supercarrier 2-Mid P1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="MinMAC Batteries"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="MiniMAC Batteries"/>
             <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
@@ -1800,9 +1566,12 @@
         <link id="921b-9969-ccc5-e8c6" targetId="8264-58a6-992f-782c" linkType="rule">
           <modifiers/>
         </link>
+        <link id="854e-b38a-ca7a-c863" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="4d35-86ce-eaae-41df" name="Punic-Class Supercarrier 3-Aft Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4d35-86ce-eaae-41df" name="Punic-class Supercarrier 3-Aft Section" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1839,6 +1608,263 @@
         <link id="2a88-d097-2865-a174" targetId="c60d-6717-f565-32ab" linkType="rule">
           <modifiers/>
         </link>
+        <link id="61d2-ee5a-d641-cd8e" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f9c6-8c39-b73e-fc7c" name="Reinforced Marathon Heavy Cruiser" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ff11-ba96-8029-41fc" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e063-a6d2-5408-eb17" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ba72-a61b-fa9e-f5d7" targetId="0dfb-cf23-35b9-c37a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="568c-bb96-9f06-507b" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="957b-8f6b-e0ec-9ca5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="acb8-f3ac-b45a-038c" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5f17-1c87-a513-dbd9" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="975f-a4ed-58e7-6898" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eeae-4200-5a45-dd7d" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1988-acf1-e102-d63d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c1ba-bf41-1a5a-7e4a" name="Supported Epoch Heavy Cruiser" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="03c7-78bd-be84-a45a" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9810-9989-8bd5-ccd5" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e70c-d02b-a6a8-5e9c" targetId="7fda-c2e6-4409-cde6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5019-16a4-6519-1a4d" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fa64-1af3-0e7f-28e8" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="648d-d9e2-d951-20c5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="46be-a62f-c8a1-c2da" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2ad2-26ad-5575-2edb" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ce70-7adb-f82e-3fb2" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6524-9bc1-2805-9d6f" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="992f-0c38-2aa9-6b87" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="31e9-c7a3-2aeb-e871" name="Supported Marathon Heavy Cruiser" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f285-e906-a5e5-a4b8" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1fed-55ba-09c2-9e72" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="71b3-547a-3c6f-95c6" targetId="beed-9e24-57e1-ac61" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a18b-307b-fb9d-cdb4" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ed91-215f-6573-b601" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9ffa-0828-706b-7caa" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="649a-d2be-87ff-63e2" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bf24-b181-c2d0-8ba6" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5080-68f9-66ec-dfec" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6026-4809-2116-6f1d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e1fc-994b-088f-20a8" name="Supported Marathon Heavy Cruiser (Cyclops)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ef3a-3ffa-c4ce-5c55" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b739-3866-7609-361f" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0d79-c10e-b046-a522" targetId="ca87-af4b-653b-30d2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0d8a-57c5-7f3d-4339" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b099-155b-406d-d745" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ea7a-d3f3-82f7-c4c9" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="16c1-bf7c-707b-ccc1" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8467-2109-5980-bf50" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fc8b-00ce-d7c1-be78" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3ead-4662-4a0f-1a0f" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3047-6d23-966c-ddde" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="239c-6152-f5f9-b089" name="Take it to them" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6ea5-1cca-b741-7add" targetId="586b-788e-ca89-d19a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4593-cd94-a4b4-2cac" name="The Defensive Option" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9850-7022-4631-862e" targetId="c4ac-dfaa-614e-a295" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
   </sharedEntries>
@@ -1866,11 +1892,15 @@ FAQ Example: If a player has a mix of 9 Flight Tokens in their scrapyard and an 
     <rule id="8afc-927c-eb75-5ce9" name="[HS] Heroic Save" hidden="false" book="Core Rulebook" page="114">
       <description>If at any time a Token with the Heroic Save (Type) Loadout should be called upon to be removed as a casualty, roll a single Halo Dice and refer to the Type listed in parenthesis.
 
-Spartans: on a roll of anything other than a &quot;SKULL&quot;, the Spartan Token remains in play and is NOT removed as a casualty.
+&gt;Spartans: on a roll of anything other than a &quot;SKULL&quot;, the Spartan Token remains in play and is NOT removed as a casualty.
 
-Zealots: on a roll of a &quot;1&quot; or &quot;2&quot;, the Zealot Token remains in play and is NOT removed as a casualty.
+&gt;Zealots: on a roll of a &quot;1&quot; or &quot;2&quot;, the Zealot Token remains in play and is NOT removed as a casualty.
 
-Troopers: on a roll of a &quot;2&quot;, the Trooper Token is NOT removed as a casualty.</description>
+&gt;Troopers: on a roll of a &quot;2&quot;, the Trooper Token is NOT removed as a casualty.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c60d-6717-f565-32ab" name="[L] Labyrinthine" hidden="false" book="Core Rulebook" page="114">
+      <description>Elements with the Labyrinthine Loadout ALWAYS reduce the result rolled on the Boarding Result Table by 2. This is applied after all other loadouts have taken effect.</description>
       <modifiers/>
     </rule>
     <rule id="a6bc-2cb7-5f63-b77e" name="[MB] Missile Barrage*" hidden="false" book="Core Rulebook" page="109">
@@ -1905,10 +1935,6 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
     </rule>
     <rule id="0877-287d-9080-e907" name="Missiles" hidden="false" book="Core Rulebook" page="109">
       <description>Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool.</description>
-      <modifiers/>
-    </rule>
-    <rule id="c60d-6717-f565-32ab" name="[L] Labyrinthine" hidden="false" book="Core Rulebook" page="114">
-      <description>Elements with the Labyrinthine Loadout ALWAYS reduce the result rolled on the Boarding Result Table by 2. This is applied after all other loadouts have taken effect.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -2078,6 +2104,48 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="ffd6-b787-c5ee-42d9" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 1-Fore Section" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(1&quot;), L, PD(7), TA(8)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b9ee-abe2-122c-c038" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 2-Mid Section" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="11-9-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR6"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H10"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD8"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), L, PD(8), TA(7)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="02d4-8c7c-95ca-226f" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 3-Aft Section" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(1&quot;), L, PD(7), TA(8)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="0dfb-cf23-35b9-c37a" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1109">
       <characteristics>
         <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
@@ -2161,45 +2229,12 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ffd6-b787-c5ee-42d9" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 1-Fore Section" hidden="false">
+    <profile id="74eb-e3c2-9ea6-a519" profileTypeId="e2bb-69c6-0aee-1f0b" name="Pelican Boarding Craft" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(1&quot;), L, PD(7), TA(8)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b9ee-abe2-122c-c038" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 2-Mid Section" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="11-9-6"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR6"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H10"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD8"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), L, PD(8), TA(7)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="02d4-8c7c-95ca-226f" profileTypeId="ada5-a7de-6104-01ff" name="Punic-Class Supercarrier 3-Aft Section" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Massive"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(1&quot;), L, PD(7), TA(8)"/>
+        <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="M12&quot;"/>
+        <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="4-0-0"/>
+        <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="SD2"/>
+        <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="HS(Trooper)"/>
       </characteristics>
       <modifiers/>
     </profile>
