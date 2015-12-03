@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="10" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="11" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -550,99 +550,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="acef-71c4-659d-661b" name="Punic-class Supercarrier" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="72f8-746d-af3e-b5ba" name="Wings - Flight Tokens" minSelections="0" maxSelections="14" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="dfe6-05bf-3aa1-f649" name="Interceptors - Broadsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="6711-e5d9-52e6-8c44" name="Interceptors - Sabres" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="64f6-1b35-2952-c3fb" name="Bombers - Longsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="70b4-7aaa-65ce-cd34" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links/>
-        </entryGroup>
-        <entryGroup id="4abf-1a42-b135-35ba" name="1. Fore Section" defaultEntryId="016d-339a-daf1-efa6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="016d-339a-daf1-efa6" targetId="1471-c85e-7a99-d295" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="50fa-0057-2b73-7337" name="2. Mid Section" defaultEntryId="a73f-94b7-cd67-2788" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="a73f-94b7-cd67-2788" targetId="42fe-be93-3268-e7fd" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="c9a6-7557-f1fb-3102" name="3. Aft Section" defaultEntryId="b195-5348-35e5-c37a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="b195-5348-35e5-c37a" targetId="4d35-86ce-eaae-41df" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1250.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules>
-        <rule id="8f3f-2d08-5e5a-5a42" name="Automated Repair Systems" hidden="false">
-          <description>Each time a Vulnerable Marker is applied to a Section of this Massive Element, roll a Halo Dice: On the result of a &quot;1&quot; or a &quot;2&quot;, the Vulnerable Marker is instantly removed.</description>
-          <modifiers/>
-        </rule>
-        <rule id="147b-a0bd-93fb-f5b3" name="Frigate Resupply" hidden="false">
-          <description>During the Repairs Setp of any End Phase, a Punic-class Supercarrier may allow a SINGLE Paris Formation Base within 10&quot; to remove a SINGLE Damage Marker from its base. Where applicable, this action CAN be used to restore Titanium Armour to the Formation Base.</description>
-          <modifiers/>
-        </rule>
-        <rule id="7bb9-e3a6-cbb9-9387" name="Limited Resources" hidden="false">
-          <description>All Punic-class Supercarriers exist as individual Battle Groups and are not required to follow the standard rules for Battle Group creation. Whilst they are not Specialist Battle Groups, they are restricted by the sie of the Fleet they are attached to. A single Punic-class Supercarrier can be included in a Fleet for every FULL 1250 Points being played.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="33fc-6402-b82f-98c9" name="Michael Stanforth" points="100.0" categoryId="80e8-a9dc-5b5c-9d2f" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="016f-0861-fcda-4a93" name="Spartan" points="100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -798,6 +705,99 @@
       </entryGroups>
       <modifiers/>
       <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="acef-71c4-659d-661b" name="Punic-class Supercarrier" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="72f8-746d-af3e-b5ba" name="Wings - Flight Tokens" minSelections="0" maxSelections="14" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="dfe6-05bf-3aa1-f649" name="Interceptors - Broadsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6711-e5d9-52e6-8c44" name="Interceptors - Sabres" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="64f6-1b35-2952-c3fb" name="Bombers - Longsword" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="70b4-7aaa-65ce-cd34" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
+        <entryGroup id="4abf-1a42-b135-35ba" name="1. Fore Section" defaultEntryId="016d-339a-daf1-efa6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="016d-339a-daf1-efa6" targetId="1471-c85e-7a99-d295" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="50fa-0057-2b73-7337" name="2. Mid Section" defaultEntryId="a73f-94b7-cd67-2788" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a73f-94b7-cd67-2788" targetId="42fe-be93-3268-e7fd" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c9a6-7557-f1fb-3102" name="3. Aft Section" defaultEntryId="b195-5348-35e5-c37a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b195-5348-35e5-c37a" targetId="4d35-86ce-eaae-41df" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="points limit" incrementValue="1250.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="8f3f-2d08-5e5a-5a42" name="Automated Repair Systems" hidden="false">
+          <description>Each time a Vulnerable Marker is applied to a Section of this Massive Element, roll a Halo Dice: On the result of a &quot;1&quot; or a &quot;2&quot;, the Vulnerable Marker is instantly removed.</description>
+          <modifiers/>
+        </rule>
+        <rule id="147b-a0bd-93fb-f5b3" name="Frigate Resupply" hidden="false">
+          <description>During the Repairs Setp of any End Phase, a Punic-class Supercarrier may allow a SINGLE Paris Formation Base within 10&quot; to remove a SINGLE Damage Marker from its base. Where applicable, this action CAN be used to restore Titanium Armour to the Formation Base.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7bb9-e3a6-cbb9-9387" name="Limited Resources" hidden="false">
+          <description>All Punic-class Supercarriers exist as individual Battle Groups and are not required to follow the standard rules for Battle Group creation. Whilst they are not Specialist Battle Groups, they are restricted by the sie of the Fleet they are attached to. A single Punic-class Supercarrier can be included in a Fleet for every FULL 1250 Points being played.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -2095,6 +2095,15 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="74eb-e3c2-9ea6-a519" profileTypeId="e2bb-69c6-0aee-1f0b" name="Pelican Boarding Craft" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="M12&quot;"/>
+        <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="4-0-0"/>
+        <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="SD2"/>
+        <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="HS(Trooper)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="08fa-641c-65f1-1c88" profileTypeId="0a73-7ae5-e666-8ed9" name="Prepare for Boarders" hidden="false">
       <characteristics>
         <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="-/2/1"/>
@@ -2226,15 +2235,6 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Defensive Roll made by a Capital Ship by +1 this turn."/>
         <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued after a Capital Element has been targeted by an enemy attack."/>
         <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="74eb-e3c2-9ea6-a519" profileTypeId="e2bb-69c6-0aee-1f0b" name="Pelican Boarding Craft" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="M12&quot;"/>
-        <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="4-0-0"/>
-        <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="SD2"/>
-        <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="HS(Trooper)"/>
       </characteristics>
       <modifiers/>
     </profile>
