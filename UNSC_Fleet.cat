@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="12" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="13" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -848,24 +848,10 @@
     <entry id="c331-efba-01a9-8945" name="Standard Battle Group" points="0.0" categoryId="1efa-3cc7-f6ec-0bb8" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="08fe-aab0-ae10-b1dc" name="Capital Element" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="08fe-aab0-ae10-b1dc" name="Capital Element 1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="08fe-aab0-ae10-b1dc" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="direct parent" childId="f9c6-8c39-b73e-fc7c" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="11f3-ac3f-c0d5-5e96" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <links>
             <link id="99a7-c70a-6d68-941c" targetId="2431-0c8b-4dc2-1701" linkType="entry">
               <modifiers/>
@@ -880,6 +866,18 @@
               <modifiers/>
             </link>
             <link id="1929-2894-5546-3b93" targetId="c1ba-bf41-1a5a-7e4a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="aa69-2263-e906-1c21" targetId="92be-c786-9f07-207a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="221c-c771-a8a0-b776" targetId="a611-5686-2679-2491" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e61b-db29-0b36-ef74" targetId="f2fe-55f6-924b-6e5e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ec16-6932-ad61-bfb8" targetId="214d-3432-bc78-c349" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -900,7 +898,7 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="9399-f72c-732c-317d" incrementField="selections" incrementValue="1.0">
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="9d8c-7eef-b8cb-2cc5" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -909,6 +907,22 @@
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="maxSelections" value="5.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="c1ba-bf41-1a5a-7e4a" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="92be-c786-9f07-207a" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="a611-5686-2679-2491" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="f2fe-55f6-924b-6e5e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="5.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="214d-3432-bc78-c349" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -923,10 +937,31 @@
             <link id="9399-f72c-732c-317d" targetId="9d8c-7eef-b8cb-2cc5" linkType="entry">
               <modifiers>
                 <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="9399-f72c-732c-317d" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="at least" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="direct parent" childId="214d-3432-bc78-c349" field="selections" type="at least" value="1.0"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition parentId="direct parent" childId="2431-0c8b-4dc2-1701" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition parentId="direct parent" childId="92be-c786-9f07-207a" field="selections" type="at least" value="1.0"/>
+                                <condition parentId="direct parent" childId="31e9-c7a3-2aeb-e871" field="selections" type="at least" value="1.0"/>
+                              </conditions>
+                              <conditionGroups/>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </link>
@@ -985,8 +1020,68 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="92be-c786-9f07-207a" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="a611-5686-2679-2491" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="f2fe-55f6-924b-6e5e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="214d-3432-bc78-c349" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <links/>
+        </entryGroup>
+        <entryGroup id="df68-c85c-a30f-8bda" name="Capital Element 2" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="a611-5686-2679-2491" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f2fe-55f6-924b-6e5e" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="214d-3432-bc78-c349" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="f9c6-8c39-b73e-fc7c" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="11f3-ac3f-c0d5-5e96" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="08fe-aab0-ae10-b1dc" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="direct parent" childId="a611-5686-2679-2491" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="f2fe-55f6-924b-6e5e" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="214d-3432-bc78-c349" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="c1ba-bf41-1a5a-7e4a" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="f9c6-8c39-b73e-fc7c" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="11f3-ac3f-c0d5-5e96" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="683b-f2a2-f098-897f" targetId="2431-0c8b-4dc2-1701" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -1867,6 +1962,242 @@
         </link>
       </links>
     </entry>
+    <entry id="92be-c786-9f07-207a" name="Orion Assault Carrier" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="92cb-ebc0-41ae-0e8f" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="fbc6-ef7e-a5fc-b341" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b97a-8fb2-c0b1-2d6e" targetId="47aa-bdf0-28d2-be1b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="da71-f535-4cba-247d" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b082-0416-4369-14e2" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="05a8-105b-e900-ce5a" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="688f-027a-d09d-68fe" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fa6f-04d7-8a1b-6ebe" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="63ef-9a39-eb56-d071" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8549-c2b8-eb3e-3115" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="76b8-1470-ca31-2ccc" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a611-5686-2679-2491" name="Supported Orion Assault Carrier" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7500-e310-9fd2-38ca" profileTypeId="66b5-1f16-b76a-8212" name="Supported Orion Assault Carrier S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1d80-6e2c-b7f8-0566" profileTypeId="66b5-1f16-b76a-8212" name="Supported Orion Assault Carrier P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bf75-99ee-ba28-3eb3" targetId="f24c-28d3-a469-d640" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="07d6-3615-0f26-f07b" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96d9-23fd-905e-1dfc" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="244d-7940-21cf-327b" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df4d-c21a-3197-c4af" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ed4e-be50-3375-e45b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8462-e419-e8e3-9642" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="71a2-92ee-4966-70ac" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ff5c-97f7-5502-f6ef" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f2fe-55f6-924b-6e5e" name="Reinforced Orion Assault Carrier" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="991d-1e60-a4e0-57b1" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Orion Assault Carrier S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="aaad-9851-5e34-76bc" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Orion Assault Carrier P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1a6-2eef-23e3-ac6f" targetId="34d0-1788-3487-2fe5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b949-9b67-2267-bdce" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7f31-99d3-c379-2b06" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="32a3-8b90-6a71-3d70" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e72e-3fca-d980-8f30" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6b66-d3ff-863b-34b4" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cbcd-cc8c-dd67-e484" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2a12-50f2-3b28-967b" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="08ce-3b22-8837-04ff" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="214d-3432-bc78-c349" name="Combat Orion Assault Carrier" points="165.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a2bd-eec7-5dd3-8fe2" profileTypeId="66b5-1f16-b76a-8212" name="Combat Orion Assault Carrier S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="25b8-2731-b575-93bd" profileTypeId="66b5-1f16-b76a-8212" name="Combat Orion Assault Carrier P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fbd8-1643-5025-19cd" targetId="3cb7-1530-00c9-bb75" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e5b4-954d-3e34-4a42" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ba4c-22e3-df0d-bc57" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="85dc-0ffc-29db-7bd4" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fb78-5784-d235-f8a5" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6908-6df9-3bbd-60ee" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="586c-d74f-6c30-15ae" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="972b-9dab-76c8-4905" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="efda-2713-c08b-c02c" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
@@ -2235,6 +2566,62 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Defensive Roll made by a Capital Ship by +1 this turn."/>
         <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued after a Capital Element has been targeted by an enemy attack."/>
         <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="47aa-bdf0-28d2-be1b" profileTypeId="ada5-a7de-6104-01ff" name="Orion Assault Carrier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD3"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(4), TA(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f24c-28d3-a469-d640" profileTypeId="ada5-a7de-6104-01ff" name="Supported Orion Assault Carrier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(5), TA(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="34d0-1788-3487-2fe5" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced Orion Assault Carrier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(5), TA(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3cb7-1530-00c9-bb75" profileTypeId="ada5-a7de-6104-01ff" name="Combat Orion Assault Carrier" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(6), TA(6)"/>
       </characteristics>
       <modifiers/>
     </profile>
