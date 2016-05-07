@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" revision="13" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" revision="14" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" battleScribeVersion="1.15" name="Covenant Fleet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="c8e4-9689-3d37-61c3" name="CCS Penitent Battle group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1109">
+    <entry id="c8e4-9689-3d37-61c3" name="Penitent Battle group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reference Sheet" page="1109">
       <entries/>
       <entryGroups>
         <entryGroup id="04d1-6faa-18e1-c259" name="Capital Element" defaultEntryId="003d-f7ab-8a4c-6681" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10,6 +10,9 @@
           <modifiers/>
           <links>
             <link id="003d-f7ab-8a4c-6681" targetId="11bb-03a3-16f4-d55a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1091-f69e-5171-a84f" targetId="3d95-086f-fcb7-58a8" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -360,6 +363,30 @@
             <link id="be8f-ac5b-aba7-0f7b" targetId="47a1-3aca-17ba-0275" linkType="entry">
               <modifiers/>
             </link>
+            <link id="c9fa-6ffe-8387-d581" targetId="3e77-5b6c-814d-7c5b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1929-0de4-a097-a53f" targetId="76fd-7e64-9057-a2a3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="46bd-dd02-3a94-089e" targetId="af58-7c12-2da6-c1a8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0a3a-b8e3-6380-51a9" targetId="82a5-6c66-b7e8-9377" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0982-5aaa-62f1-2189" targetId="6b62-761f-ef38-4433" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="342e-c5a2-3e8c-17c2" targetId="24ae-8bc5-c65c-2d18" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4a8e-106e-cf5e-da0c" targetId="459e-1bb9-6708-dca0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7127-1a98-fb5a-6299" targetId="5934-00a3-02f1-1f4e" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
         <entryGroup id="fb67-81d7-077d-af14" name="Non-Capital Element" minSelections="1" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -422,6 +449,38 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="3e77-5b6c-814d-7c5b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="76fd-7e64-9057-a2a3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="af58-7c12-2da6-c1a8" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="82a5-6c66-b7e8-9377" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="5934-00a3-02f1-1f4e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="24ae-8bc5-c65c-2d18" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="459e-1bb9-6708-dca0" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6b62-761f-ef38-4433" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <links>
             <link id="a38a-d622-8553-8308" targetId="c4d0-58b1-c4e6-0192" linkType="entry">
@@ -446,6 +505,11 @@
                                 <condition parentId="direct parent" childId="9263-b0cf-9173-a268" field="selections" type="at least" value="1.0"/>
                                 <condition parentId="direct parent" childId="503c-289e-edfe-ff1c" field="selections" type="at least" value="1.0"/>
                                 <condition parentId="direct parent" childId="486d-8423-b85c-580a" field="selections" type="at least" value="1.0"/>
+                                <condition parentId="direct parent" childId="3e77-5b6c-814d-7c5b" field="selections" type="at least" value="1.0"/>
+                                <condition parentId="direct parent" childId="76fd-7e64-9057-a2a3" field="selections" type="at least" value="1.0"/>
+                                <condition parentId="direct parent" childId="af58-7c12-2da6-c1a8" field="selections" type="at least" value="1.0"/>
+                                <condition parentId="direct parent" childId="5934-00a3-02f1-1f4e" field="selections" type="at least" value="1.0"/>
+                                <condition parentId="direct parent" childId="5934-00a3-02f1-1f4e" field="selections" type="at least" value="1.0"/>
                               </conditions>
                               <conditionGroups/>
                             </conditionGroup>
@@ -557,6 +621,38 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="3e77-5b6c-814d-7c5b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="3.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="76fd-7e64-9057-a2a3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="4.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="af58-7c12-2da6-c1a8" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="5.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="82a5-6c66-b7e8-9377" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="5934-00a3-02f1-1f4e" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="24ae-8bc5-c65c-2d18" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6b62-761f-ef38-4433" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="459e-1bb9-6708-dca0" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <links/>
         </entryGroup>
@@ -578,6 +674,9 @@
                     <condition parentId="direct parent" childId="523d-1ea5-d8d7-4157" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="c2fd-e009-87af-72b8" field="selections" type="at least" value="1.0"/>
                     <condition parentId="direct parent" childId="47a1-3aca-17ba-0275" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="82a5-6c66-b7e8-9377" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="459e-1bb9-6708-dca0" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="6b62-761f-ef38-4433" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -596,6 +695,9 @@
                     <condition parentId="direct parent" childId="523d-1ea5-d8d7-4157" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="direct parent" childId="47a1-3aca-17ba-0275" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="direct parent" childId="c2fd-e009-87af-72b8" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="82a5-6c66-b7e8-9377" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="459e-1bb9-6708-dca0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="direct parent" childId="6b62-761f-ef38-4433" field="selections" type="equal to" value="0.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -1108,6 +1210,54 @@
   <rules/>
   <links/>
   <sharedEntries>
+    <entry id="6d84-c8d1-c65e-223f" name="ADP Escort Tri-Formation" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ac01-c385-dfdf-bcd8" profileTypeId="66b5-1f16-b76a-8212" name="ADP Escorts in Tri-Formation P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3b0a-1c40-20aa-67dd" targetId="c8f8-5eba-5697-6f3f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4f72-22f0-4268-3dfe" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2fac-510a-e548-d5d5" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1e39-8b60-e1e5-a812" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4c45-4b6c-9c70-b8f7" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8d7b-da82-50d7-20a5" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1973-8005-e5d5-3a78" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6e33-5e2a-b0d6-0e5e" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a79d-4f83-15f9-977b" targetId="2c38-5c96-0fb1-1df9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="503c-289e-edfe-ff1c" name="CCS Battlecruiser" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1417,6 +1567,261 @@
         </link>
       </links>
     </entry>
+    <entry id="6b62-761f-ef38-4433" name="Defended CCS Battlecruiser" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="841c-a715-2497-55b5" profileTypeId="66b5-1f16-b76a-8212" name="Defended CCS Battlecruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="AND Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3cb7-6610-9bdb-5046" profileTypeId="66b5-1f16-b76a-8212" name="Defended CCS Battlecruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="88df-348f-8faa-b81f" profileTypeId="66b5-1f16-b76a-8212" name="Defended CCS Battlecruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8fbb-98f9-9cc2-4164" targetId="04d7-8b99-d7a2-a25a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6713-4fc4-92d4-db02" targetId="8ba2-3a37-0ad9-a5f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f9fa-4397-64d0-d078" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="54db-51d3-d6f0-d67d" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3d99-10f2-317c-e88c" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e391-3b26-15af-b885" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b91a-1a4b-01f1-3fc2" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac89-2eb9-fabd-50a9" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0a8d-20be-c183-0afb" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="47a1-3aca-17ba-0275" name="Defended CPV Heavy Destroyer" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5533-209d-ec2d-f99b" profileTypeId="66b5-1f16-b76a-8212" name="Defended CPV Heavy Destroyer P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Beam"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/-&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Beam/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9/9/9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7a2d-0cb4-108a-6e96" profileTypeId="66b5-1f16-b76a-8212" name="Defended CPV Heavy Destroyer S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b66a-75b0-1340-d200" targetId="fdf9-d6d6-c971-d67f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3a00-b1a5-6694-6349" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dacd-252a-6573-642e" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="84a0-1626-8e23-74c5" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e64-f331-2298-e4d6" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6fa5-a2c2-9a07-732f" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d2be-a011-0b9e-ed60" targetId="962e-ce9f-93a6-8af8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5e11-534e-45c7-a8bb" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aba9-373f-a3c0-c246" targetId="01a7-55d0-ac0c-1e9f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5725-4c5c-db9f-3d48" targetId="84e6-1eec-fd39-293c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="97a9-e0b6-1c44-60f2" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="24ae-8bc5-c65c-2d18" name="Defended RCS Armored Cruiser" points="160.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="44f3-9797-849c-86a5" profileTypeId="66b5-1f16-b76a-8212" name="Defended RCS Armored Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="27b1-c9e6-2f2a-22b1" profileTypeId="66b5-1f16-b76a-8212" name="Defended RCS Armored Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="04d9-875a-5752-403c" profileTypeId="66b5-1f16-b76a-8212" name="Defended RCS Armored Cruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ec27-151e-397e-fb02" targetId="fcdf-e185-524d-a5c6" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="58ac-e9d4-c624-e6b5" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3b80-d2c4-cd64-8095" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd5b-5308-ed7e-9104" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd23-4791-2c14-c342" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a462-5c63-e5f2-800e" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b66c-01d1-10a2-7713" targetId="9c12-93e6-c692-8596" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="df0f-a63c-3e16-17c2" name="DSC Support Ship" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fdcc-f540-9331-0a8b" profileTypeId="66b5-1f16-b76a-8212" name="DSC Support Ship S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c9a7-8fb0-2201-3eea" profileTypeId="66b5-1f16-b76a-8212" name="DSC Support Ship P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5687-b409-e7ff-9026" targetId="0694-f683-70b9-42aa" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c6bc-32cf-f026-dcd9" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c815-1c5a-98a4-aee1" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="427a-b32b-9015-4d10" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6888-c44b-9b97-e034" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e078-d7f8-fa5a-4cea" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b4ce-36e7-6437-2826" targetId="b039-031c-30c4-a52f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e251-277a-30e3-23b0" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="da2c-2ca7-a4ce-d4c8" name="Enhanced Targeting" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1425,6 +1830,196 @@
       <profiles/>
       <links>
         <link id="7734-2277-5e14-7cb8" targetId="29d7-cad2-7d44-ebc6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="459e-1bb9-6708-dca0" name="Escorted CCS Battlecruiser" points="170.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d08a-a575-be4b-bbd6" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CCS Battlecruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="AND Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="984c-8b57-5597-8321" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CCS Battlecruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c725-5a5a-d8f8-3001" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CCS Battlecruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4bce-78a1-18c8-e9ce" targetId="f16f-c410-94d5-26ba" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8820-f998-2bc8-07f4" targetId="8ba2-3a37-0ad9-a5f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="521d-ef1f-0c3c-28b4" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="59d6-3ab4-709b-40e3" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2ef1-3e03-08f7-2cc2" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="12a6-8dec-c2f1-ecdb" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c7ff-a67a-c9f5-299a" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="49b3-0514-a7a9-03ad" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c2fd-e009-87af-72b8" name="Escorted CPV Heavy Destroyer" points="130.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a3c2-c38e-6fc6-dded" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CPV Heavy Destroyer P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Beam"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/-&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Beam/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9/9/9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a56a-c29b-1c37-e752" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CPV Heavy Destroyer S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a768-91d9-af77-7aca" targetId="4536-6197-ab5a-eb4d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8611-c1f8-e7e3-9930" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fbe0-5b69-429f-0bf0" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d51d-e545-464e-6e5f" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="30d6-1238-870b-85b1" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="094b-e797-ef9e-0e31" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a752-a529-d4cb-7d58" targetId="962e-ce9f-93a6-8af8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8db5-0bba-06c0-41b8" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c0b-6db7-64d5-6ea1" targetId="01a7-55d0-ac0c-1e9f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6138-8c00-c88d-8f56" targetId="84e6-1eec-fd39-293c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5934-00a3-02f1-1f4e" name="Escorted RCS Armored Cruiser" points="140.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="df5d-b4f6-c56a-c8b7" profileTypeId="66b5-1f16-b76a-8212" name="Escorted RCS Armored Cruiser P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Lance"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R18/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ec54-72df-86da-5290" profileTypeId="66b5-1f16-b76a-8212" name="Escorted RCS Armored Cruiser S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="dea0-0895-ee8e-020a" profileTypeId="66b5-1f16-b76a-8212" name="Escorted RCS Armored Cruiser S2" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2d90-9922-93ee-244d" targetId="9195-ad0f-7b07-3831" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="749a-6d0c-3a9c-f7a3" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4590-8505-078e-d6ae" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e38b-187c-bfe5-df16" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="29da-8dc1-ba6f-515a" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="97c7-202e-fffa-0a1d" targetId="b5d5-db28-72c3-d20f" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2332,188 +2927,128 @@
         </link>
       </links>
     </entry>
-    <entry id="c2fd-e009-87af-72b8" name="Escorted CPV Heavy Destroyer" points="130.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3e77-5b6c-814d-7c5b" name="Escorted DSC Support Ship" points="115.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a3c2-c38e-6fc6-dded" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CPV Heavy Destroyer P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Beam"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/-&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Beam/Plasma"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9/9/9"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a56a-c29b-1c37-e752" profileTypeId="66b5-1f16-b76a-8212" name="Escorted CPV Heavy Destroyer S1" hidden="false">
+        <profile id="3286-96e6-b0d0-8137" profileTypeId="66b5-1f16-b76a-8212" name="Escorted DSC Support Ship S1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
             <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3f0a-2418-8790-7b98" profileTypeId="66b5-1f16-b76a-8212" name="Escorted DSC Support Ship P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3937-c83c-3127-3ae2" targetId="24fb-75a5-1fdb-0be1" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3fa5-cd98-48f7-73c9" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="20c1-74d2-dc05-b02e" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f6fa-b590-224e-3e0f" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d3f0-7fe3-3779-d2b0" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="927d-b88e-db1d-9162" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7a21-f99a-85ac-5a1c" targetId="b039-031c-30c4-a52f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a7e2-0be5-b5a3-2ad7" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="76fd-7e64-9057-a2a3" name="Defended DSC Support Ship" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d138-7287-df84-75d3" profileTypeId="66b5-1f16-b76a-8212" name="Defended DSC Support Ship S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
             <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
           </characteristics>
           <modifiers/>
         </profile>
-      </profiles>
-      <links>
-        <link id="a768-91d9-af77-7aca" targetId="4536-6197-ab5a-eb4d" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="8611-c1f8-e7e3-9930" targetId="7be2-48c0-aa34-1063" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fbe0-5b69-429f-0bf0" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d51d-e545-464e-6e5f" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="30d6-1238-870b-85b1" targetId="015b-430c-def9-611e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="094b-e797-ef9e-0e31" targetId="b5d5-db28-72c3-d20f" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a752-a529-d4cb-7d58" targetId="962e-ce9f-93a6-8af8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8db5-0bba-06c0-41b8" targetId="b8a9-b785-ce16-eb94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7c0b-6db7-64d5-6ea1" targetId="01a7-55d0-ac0c-1e9f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6138-8c00-c88d-8f56" targetId="84e6-1eec-fd39-293c" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="47a1-3aca-17ba-0275" name="Defended CPV Heavy Destroyer" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5533-209d-ec2d-f99b" profileTypeId="66b5-1f16-b76a-8212" name="Defended CPV Heavy Destroyer P1" hidden="false">
+        <profile id="3192-fb40-3039-b2c6" profileTypeId="66b5-1f16-b76a-8212" name="Defended DSC Support Ship P1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Beam"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/-&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Beam/Plasma"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9/9/9"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="7a2d-0cb4-108a-6e96" profileTypeId="66b5-1f16-b76a-8212" name="Defended CPV Heavy Destroyer S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D16"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="b66a-75b0-1340-d200" targetId="fdf9-d6d6-c971-d67f" linkType="profile">
+        <link id="ae90-6b1a-bde2-ddea" targetId="4b32-2dbf-e6c7-0d29" linkType="profile">
           <modifiers/>
         </link>
-        <link id="3a00-b1a5-6694-6349" targetId="7be2-48c0-aa34-1063" linkType="rule">
+        <link id="e9b0-dee3-c46b-24e3" targetId="7be2-48c0-aa34-1063" linkType="rule">
           <modifiers/>
         </link>
-        <link id="dacd-252a-6573-642e" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+        <link id="c24b-c2cd-73d1-a371" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
           <modifiers/>
         </link>
-        <link id="84a0-1626-8e23-74c5" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+        <link id="00da-20c5-b59e-1444" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e64-f331-2298-e4d6" targetId="015b-430c-def9-611e" linkType="rule">
+        <link id="5f6c-2d9c-2e4f-631e" targetId="b8a9-b785-ce16-eb94" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6fa5-a2c2-9a07-732f" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+        <link id="c24a-d075-d197-b88a" targetId="015b-430c-def9-611e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d2be-a011-0b9e-ed60" targetId="962e-ce9f-93a6-8af8" linkType="rule">
+        <link id="ab9d-21fc-354a-8028" targetId="b039-031c-30c4-a52f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5e11-534e-45c7-a8bb" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+        <link id="e3c7-10d7-c377-0da1" targetId="b5d5-db28-72c3-d20f" linkType="profile">
           <modifiers/>
         </link>
-        <link id="aba9-373f-a3c0-c246" targetId="01a7-55d0-ac0c-1e9f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5725-4c5c-db9f-3d48" targetId="84e6-1eec-fd39-293c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="97a9-e0b6-1c44-60f2" targetId="9c12-93e6-c692-8596" linkType="rule">
+        <link id="88bd-3b34-7d42-47cb" targetId="9c12-93e6-c692-8596" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="6d84-c8d1-c65e-223f" name="ADP Escort Tri-Formation" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="af58-7c12-2da6-c1a8" name="Supported DSC Support Ship" points="115.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ac01-c385-dfdf-bcd8" profileTypeId="66b5-1f16-b76a-8212" name="ADP Escorts in Tri-Formation P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3b0a-1c40-20aa-67dd" targetId="c8f8-5eba-5697-6f3f" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4f72-22f0-4268-3dfe" targetId="7be2-48c0-aa34-1063" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2fac-510a-e548-d5d5" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1e39-8b60-e1e5-a812" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4c45-4b6c-9c70-b8f7" targetId="9c12-93e6-c692-8596" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8d7b-da82-50d7-20a5" targetId="6bb8-b2e0-af1f-96d0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1973-8005-e5d5-3a78" targetId="b8a9-b785-ce16-eb94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6e33-5e2a-b0d6-0e5e" targetId="015b-430c-def9-611e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a79d-4f83-15f9-977b" targetId="2c38-5c96-0fb1-1df9" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="df0f-a63c-3e16-17c2" name="DSC Support Ship" points="95.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="fdcc-f540-9331-0a8b" profileTypeId="66b5-1f16-b76a-8212" name="DSC Support Ship S1" hidden="false">
+        <profile id="141c-d2d5-799d-f420" profileTypeId="66b5-1f16-b76a-8212" name="Supported DSC Support Ship S1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
@@ -2524,41 +3059,100 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="c9a7-8fb0-2201-3eea" profileTypeId="66b5-1f16-b76a-8212" name="DSC Support Ship P1" hidden="false">
+        <profile id="0408-ee5b-f273-a579" profileTypeId="66b5-1f16-b76a-8212" name="Supported DSC Support Ship P1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
             <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D6"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="5687-b409-e7ff-9026" targetId="0694-f683-70b9-42aa" linkType="profile">
+        <link id="4bce-5708-3bc8-abaa" targetId="a63b-f017-6bdd-4a2b" linkType="profile">
           <modifiers/>
         </link>
-        <link id="c6bc-32cf-f026-dcd9" targetId="7be2-48c0-aa34-1063" linkType="rule">
+        <link id="2245-9eec-08b6-07b6" targetId="7be2-48c0-aa34-1063" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c815-1c5a-98a4-aee1" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+        <link id="54b0-20b4-7fa1-3a15" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
           <modifiers/>
         </link>
-        <link id="427a-b32b-9015-4d10" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+        <link id="86a5-3fc3-d208-b586" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6888-c44b-9b97-e034" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+        <link id="cdfd-31b2-21d5-85ec" targetId="b8a9-b785-ce16-eb94" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e078-d7f8-fa5a-4cea" targetId="015b-430c-def9-611e" linkType="rule">
+        <link id="ebfe-960c-486c-d778" targetId="015b-430c-def9-611e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="b4ce-36e7-6437-2826" targetId="b039-031c-30c4-a52f" linkType="rule">
+        <link id="99a2-5087-a129-b665" targetId="b039-031c-30c4-a52f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e251-277a-30e3-23b0" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+        <link id="ec22-9e3c-8166-841e" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="82a5-6c66-b7e8-9377" name="Reinforced DSC Support Ship" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9cc4-d84d-f4eb-ad60" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced DSC Support Ship S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Torpedoes"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles/Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3552-1165-cecf-e9cf" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced DSC Support Ship P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Cannons"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Plasma"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F/P/S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f439-c9ab-aeac-00aa" targetId="a63b-f017-6bdd-4a2b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0ef5-fa33-0745-a36a" targetId="7be2-48c0-aa34-1063" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b823-1ba5-108f-6d57" targetId="6e18-e6aa-aa5b-b1fa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6565-79b6-dec6-d4e6" targetId="bd1d-02c5-3aa3-3b1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3647-fe89-156e-4811" targetId="b8a9-b785-ce16-eb94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="08a5-8c57-f9a5-36c6" targetId="015b-430c-def9-611e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0e08-a2c1-136a-6d04" targetId="b039-031c-30c4-a52f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eb4b-ddf0-77b6-613d" targetId="b5d5-db28-72c3-d20f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="df53-aa84-d569-5614" targetId="9c12-93e6-c692-8596" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2612,6 +3206,10 @@ FAQ: A Formation Base using Glide MUST move the full Distance listed on the Load
       <description>Security Details on this Element are considered to have the Assault Specialist (1) Loadout.</description>
       <modifiers/>
     </rule>
+    <rule id="2c38-5c96-0fb1-1df9" name="[PD*] All Point Defence" hidden="false" book="">
+      <description>All ADP Escort Formations in a Battle Group can add their Point Defence to that of ANY Capital Element in the same Battle Group, but ONLY when the Capital Element is attacked by weapons with the Missiles Loadout.</description>
+      <modifiers/>
+    </rule>
     <rule id="7be2-48c0-aa34-1063" name="[PD] Point Defence" hidden="false" book="Core Rulebook" page="112">
       <description>This Loadout represents weapons most commonly used to defend against Bombers and Boarding Craft that are performing Attack Runs or Boarding Assaults against a target Element.
 
@@ -2648,12 +3246,22 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
       <description>All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range.</description>
       <modifiers/>
     </rule>
-    <rule id="2c38-5c96-0fb1-1df9" name="[PD*] All Point Defence" hidden="false" book="">
-      <description>All ADP Escort Formations in a Battle Group can add their Point Defence to that of ANY Capital Element in the same Battle Group, but ONLY when the Capital Element is attacked by weapons with the Missiles Loadout.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="c8f8-5eba-5697-6f3f" profileTypeId="ada5-a7de-6104-01ff" name="ADP escort Tri-Formation" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M10&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="3-3-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR1"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H0"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC0"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD2"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="E, CS, DA(2), G(5&quot;), PD(2), PD*"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="ae2b-eb9d-8966-b6ae" profileTypeId="ada5-a7de-6104-01ff" name="CCS Battlecruiser" hidden="false">
       <characteristics>
         <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
@@ -2724,12 +3332,138 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="04d7-8b99-d7a2-a25a" profileTypeId="ada5-a7de-6104-01ff" name="Defended CCS Battlecruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, CA(1), DA(5), G(4&quot;), PD(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fdf9-d6d6-c971-d67f" profileTypeId="ada5-a7de-6104-01ff" name="Defended CPV Heavy Destroyer" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5*"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(4), G(4&quot;), P*, PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4b32-2dbf-e6c7-0d29" profileTypeId="ada5-a7de-6104-01ff" name="Defended DSC Support Ship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(4), G(4&quot;), L, PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fcdf-e185-524d-a5c6" profileTypeId="ada5-a7de-6104-01ff" name="Defended RCS Armored Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="9-8-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(3), G(3&quot;), PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0694-f683-70b9-42aa" profileTypeId="ada5-a7de-6104-01ff" name="DSC Support Ship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR2"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(3), G(4&quot;), L, PD(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="29d7-cad2-7d44-ebc6" profileTypeId="0a73-7ae5-e666-8ed9" name="Enhanced Targeting" hidden="false">
       <characteristics>
         <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="3/-/-"/>
         <characteristic characteristicId="3789-e78d-e265-a24f" name="Effect" value="Increase the Firepower Rating of a Firing Solution by +2."/>
         <characteristic characteristicId="9a4a-802a-b52b-2e10" name="Use" value="This Order must be issued prior to rolling the Inital Attack Dice Pool, either when rolling for Firing Solutions OR when rolling as part of a Defensive Dice Pool Roll against enemy Boarders."/>
         <characteristic characteristicId="2387-0454-d0a5-49c6" name="Notes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f16f-c410-94d5-26ba" profileTypeId="ada5-a7de-6104-01ff" name="Escorted CCS Battlecruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), DA(5), G(4&quot;), PD(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4536-6197-ab5a-eb4d" profileTypeId="ada5-a7de-6104-01ff" name="Escorted CPV Heavy Destroyer" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5*"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(4), G(4&quot;), P*, PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="24fb-75a5-1fdb-0be1" profileTypeId="ada5-a7de-6104-01ff" name="Escorted DSC Support Ship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(4), G(4&quot;), L, PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9195-ad0f-7b07-3831" profileTypeId="ada5-a7de-6104-01ff" name="Escorted RCS Armored Cruiser" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="9-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(3), G(3&quot;), PD(6)"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -2866,6 +3600,20 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="9359-e32e-26c1-bb90" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced DSC Support Ship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H5"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(5), G(4&quot;), L, PD(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="9331-3f82-8600-3638" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced RCS Armored Cruiser" hidden="false">
       <characteristics>
         <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
@@ -2959,6 +3707,20 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="a63b-f017-6bdd-4a2b" profileTypeId="ada5-a7de-6104-01ff" name="Supported DSC Support Ship" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H4"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(4), G(4&quot;), L, PD(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="b372-fabe-8975-d080" profileTypeId="ada5-a7de-6104-01ff" name="Supported ORS Heavy Cruiser" hidden="false">
       <characteristics>
         <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M5&quot;"/>
@@ -3002,62 +3764,6 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="6-0-0"/>
         <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="SD3"/>
         <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="AS(1), HS(Zealot)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c8f8-5eba-5697-6f3f" profileTypeId="ada5-a7de-6104-01ff" name="ADP escort Tri-Formation" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M10&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="3-3-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR1"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H0"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC0"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD2"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Non-Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Small"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="E, CS, DA(2), G(5&quot;), PD(2), PD*"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="0694-f683-70b9-42aa" profileTypeId="ada5-a7de-6104-01ff" name="DSC Support Ship" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR2"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(3), G(4&quot;), L, PD(4)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4536-6197-ab5a-eb4d" profileTypeId="ada5-a7de-6104-01ff" name="Escorted CPV Heavy Destroyer" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5*"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="DA(4), G(4&quot;), P*, PD(6)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="fdf9-d6d6-c971-d67f" profileTypeId="ada5-a7de-6104-01ff" name="Defended CPV Heavy Destroyer" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-6"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5*"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CS, DA(4), G(4&quot;), P*, PD(6)"/>
       </characteristics>
       <modifiers/>
     </profile>
