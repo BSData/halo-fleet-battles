@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" revision="16" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" revision="18" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" battleScribeVersion="1.15" name="UNSC Fleet" authorName="Lewis K" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="50ad-f12a-704a-093b" name="Barrage Battle Group" points="0.0" categoryId="66fd-78fe-4e96-ac37" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -1323,13 +1323,13 @@
         </link>
       </links>
     </entry>
-    <entry id="214d-3432-bc78-c349" name="Combat Orion Assault Carrier" points="165.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="214d-3432-bc78-c349" name="Orion Assault Carrier (Combat)" points="165.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a2bd-eec7-5dd3-8fe2" profileTypeId="66b5-1f16-b76a-8212" name="Combat Orion Assault Carrier S1" hidden="false">
+        <profile id="a2bd-eec7-5dd3-8fe2" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Combat) S1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
@@ -1340,7 +1340,7 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="25b8-2731-b575-93bd" profileTypeId="66b5-1f16-b76a-8212" name="Combat Orion Assault Carrier P1" hidden="false">
+        <profile id="25b8-2731-b575-93bd" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Combat)  P1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
@@ -1378,180 +1378,6 @@
           <modifiers/>
         </link>
         <link id="efda-2713-c08b-c02c" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="95ac-3856-2538-85a8" name="Defended Epoch Heavy Cruiser" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="925e-b565-6802-bce2" profileTypeId="66b5-1f16-b76a-8212" name="Defended Epoch Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="b23c-36d3-1afe-33d8" profileTypeId="66b5-1f16-b76a-8212" name="Defended Epoch Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="65f3-8b31-3fa8-64af" targetId="4ff8-d02e-a1a5-1a10" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4a85-da9a-5db3-3c75" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bf2c-a0cc-dd83-c5e3" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="44ca-1946-9b81-4858" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d0e1-a7a8-2b85-65c9" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="eb94-5fc1-a38e-f6a8" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="68c3-5995-b87a-fc17" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ed52-ea0d-fd38-ad75" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ec1a-2194-6063-b8bf" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="fe8f-a6a3-49f7-6f09" name="Defended Orion Assault Carrier" points="160.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d70e-c7ba-6e08-258e" profileTypeId="66b5-1f16-b76a-8212" name="Defended Orion Assault Carrier S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="03f0-11b2-4e8f-e1e6" profileTypeId="66b5-1f16-b76a-8212" name="Defended Orion Assault Carrier P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2502-9b14-3cb3-8f87" targetId="f7f2-3daa-94fa-bb94" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="c95a-87b6-1e72-fea5" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1f60-372c-27d0-8007" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c20d-23e8-f46b-c329" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6d72-b750-aa46-6365" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="44f7-d983-ccce-3d65" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cf28-abc9-f624-ddce" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="dad8-fe7b-2c96-2b4c" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b89b-0721-0d7c-8ad1" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7bc7-a2df-cb12-0150" name="Defended Valiant Super-Heavy Cruiser" points="160.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="6ffe-d57c-2169-0c32" profileTypeId="66b5-1f16-b76a-8212" name="Defended Valiant Super-Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="f823-f57c-6fd3-8830" profileTypeId="66b5-1f16-b76a-8212" name="Defended Valiant Super-Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a7dd-3fc9-509a-bd1c" targetId="5524-dbf5-e74c-855a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="5561-f476-f023-1134" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f0cc-6dfc-c3e5-cb84" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c3a8-2adc-8cc3-adf6" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="de12-563a-f832-6cc0" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1aac-80de-c6f5-c1af" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5325-6a79-98a3-a1d3" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5a53-8715-f81e-416d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1639,117 +1465,120 @@
         </link>
       </links>
     </entry>
-    <entry id="df57-52bc-bccb-7b91" name="Escorted Orion Assault Carrier" points="145.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="95ac-3856-2538-85a8" name="Epoch Heavy Cruiser (Defended)" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d4f5-9c41-d1f3-9ecc" profileTypeId="66b5-1f16-b76a-8212" name="Escorted Orion Assault Carrier S1" hidden="false">
+        <profile id="925e-b565-6802-bce2" profileTypeId="66b5-1f16-b76a-8212" name="Epoch Heavy Cruiser (Defended) S1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
             <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="da99-07eb-11d0-d7fd" profileTypeId="66b5-1f16-b76a-8212" name="Escorted Orion Assault Carrier P1" hidden="false">
+        <profile id="b23c-36d3-1afe-33d8" profileTypeId="66b5-1f16-b76a-8212" name="Epoch Heavy Cruiser (Defended) P1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="f3da-4ad7-e3d9-02cf" targetId="0c29-d2a0-8461-9bd9" linkType="profile">
+        <link id="65f3-8b31-3fa8-64af" targetId="4ff8-d02e-a1a5-1a10" linkType="profile">
           <modifiers/>
         </link>
-        <link id="5e0a-600d-c230-9156" targetId="8264-58a6-992f-782c" linkType="rule">
+        <link id="4a85-da9a-5db3-3c75" targetId="8264-58a6-992f-782c" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6357-6436-97c8-e567" targetId="832b-60db-8cd7-8c91" linkType="rule">
+        <link id="bf2c-a0cc-dd83-c5e3" targetId="832b-60db-8cd7-8c91" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9f6e-5ce1-24c1-4e12" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+        <link id="44ca-1946-9b81-4858" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="ac0f-0763-bc59-94d5" targetId="98c7-6410-cddf-f675" linkType="rule">
+        <link id="d0e1-a7a8-2b85-65c9" targetId="98c7-6410-cddf-f675" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d8eb-c75e-3500-948f" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+        <link id="eb94-5fc1-a38e-f6a8" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1114-3368-5a3d-bab2" targetId="da14-8c34-2ad1-187d" linkType="rule">
+        <link id="68c3-5995-b87a-fc17" targetId="da14-8c34-2ad1-187d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="eedc-3369-0905-7030" targetId="0877-287d-9080-e907" linkType="rule">
+        <link id="ed52-ea0d-fd38-ad75" targetId="0877-287d-9080-e907" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5db4-d0a0-7c65-bd31" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+        <link id="ec1a-2194-6063-b8bf" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="70fe-c313-7a13-2ca0" name="Escorted Valiant Super-Heavy Cruiser" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c1ba-bf41-1a5a-7e4a" name="Epoch Heavy Cruiser (Supported)" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e0e8-1c22-bc62-cd2b" profileTypeId="66b5-1f16-b76a-8212" name="Escorted Valiant Super-Heavy Cruiser S1" hidden="false">
+        <profile id="03c7-78bd-be84-a45a" profileTypeId="66b5-1f16-b76a-8212" name="Epoch Heavy Cruiser (Supported) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9810-9989-8bd5-ccd5" profileTypeId="66b5-1f16-b76a-8212" name="Epoch Heavy Cruiser (Supported) S1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
             <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="c0fb-4b76-28d5-5bcc" profileTypeId="66b5-1f16-b76a-8212" name="Escorted Valiant Super-Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D13"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="98b0-75fe-5eaa-08fe" targetId="810e-0914-5b05-7ab5" linkType="profile">
+        <link id="e70c-d02b-a6a8-5e9c" targetId="7fda-c2e6-4409-cde6" linkType="profile">
           <modifiers/>
         </link>
-        <link id="3d36-c598-82c3-8db5" targetId="832b-60db-8cd7-8c91" linkType="rule">
+        <link id="5019-16a4-6519-1a4d" targetId="8264-58a6-992f-782c" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0bc1-711b-398c-0c61" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+        <link id="fa64-1af3-0e7f-28e8" targetId="832b-60db-8cd7-8c91" linkType="rule">
           <modifiers/>
         </link>
-        <link id="072d-4de2-f3a6-7440" targetId="98c7-6410-cddf-f675" linkType="rule">
+        <link id="648d-d9e2-d951-20c5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7c0b-9a7a-4e99-7b6a" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+        <link id="46be-a62f-c8a1-c2da" targetId="98c7-6410-cddf-f675" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1467-6ed4-fb6c-8a82" targetId="da14-8c34-2ad1-187d" linkType="rule">
+        <link id="2ad2-26ad-5575-2edb" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1e35-2dc5-0306-b65e" targetId="0877-287d-9080-e907" linkType="rule">
+        <link id="ce70-7adb-f82e-3fb2" targetId="da14-8c34-2ad1-187d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9589-5e08-bed8-e1ab" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+        <link id="6524-9bc1-2805-9d6f" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="992f-0c38-2aa9-6b87" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1967,6 +1796,233 @@
         </link>
       </links>
     </entry>
+    <entry id="e1fc-994b-088f-20a8" name="Marathon Heavy Cruiser (Cyclops)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ef3a-3ffa-c4ce-5c55" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Cyclops) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b739-3866-7609-361f" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Cyclops) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0d79-c10e-b046-a522" targetId="ca87-af4b-653b-30d2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0d8a-57c5-7f3d-4339" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b099-155b-406d-d745" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ea7a-d3f3-82f7-c4c9" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="16c1-bf7c-707b-ccc1" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8467-2109-5980-bf50" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fc8b-00ce-d7c1-be78" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3ead-4662-4a0f-1a0f" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3047-6d23-966c-ddde" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7c0c-02f6-5c28-bf09" name="Marathon Heavy Cruiser (Paired)" points="200.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c773-7fcc-1ac6-e977" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Paired) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f0e8-20df-2e30-f315" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Paired) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(4)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="af57-2738-0b41-e86e" targetId="9644-193f-5b1b-cbc0" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="23e1-7aed-433b-4955" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d3c1-ad7f-3388-0389" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="919e-3b5b-4afa-c36b" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5a9c-5c1b-d54b-968b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a3d5-0be4-2b22-b646" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35bc-d470-71d9-11ff" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="21b3-af0c-5db1-ade6" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f9c6-8c39-b73e-fc7c" name="Marathon Heavy Cruiser (Reinforced)" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ff11-ba96-8029-41fc" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Reinforced) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e063-a6d2-5408-eb17" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Reinforced) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ba72-a61b-fa9e-f5d7" targetId="0dfb-cf23-35b9-c37a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="568c-bb96-9f06-507b" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="957b-8f6b-e0ec-9ca5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="acb8-f3ac-b45a-038c" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5f17-1c87-a513-dbd9" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="975f-a4ed-58e7-6898" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eeae-4200-5a45-dd7d" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1988-acf1-e102-d63d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="31e9-c7a3-2aeb-e871" name="Marathon Heavy Cruiser (Supported)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f285-e906-a5e5-a4b8" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Supported) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1fed-55ba-09c2-9e72" profileTypeId="66b5-1f16-b76a-8212" name="Marathon Heavy Cruiser (Supported) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="71b3-547a-3c6f-95c6" targetId="beed-9e24-57e1-ac61" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a18b-307b-fb9d-cdb4" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ed91-215f-6573-b601" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9ffa-0828-706b-7caa" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="649a-d2be-87ff-63e2" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bf24-b181-c2d0-8ba6" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5080-68f9-66ec-dfec" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6026-4809-2116-6f1d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="6026-7fff-fbca-d650" name="Missile Command" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2038,58 +2094,238 @@
         </link>
       </links>
     </entry>
-    <entry id="7c0c-02f6-5c28-bf09" name="Paired Marathon Heavy Cruiser" points="200.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="fe8f-a6a3-49f7-6f09" name="Orion Assault Carrier (Defended)" points="160.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="c773-7fcc-1ac6-e977" profileTypeId="66b5-1f16-b76a-8212" name="Paired Marathon Heavy Cruiser S1" hidden="false">
+        <profile id="d70e-c7ba-6e08-258e" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Defended) S1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
             <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
             <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D14"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="f0e8-20df-2e30-f315" profileTypeId="66b5-1f16-b76a-8212" name="Paired Marathon Heavy Cruiser P1" hidden="false">
+        <profile id="03f0-11b2-4e8f-e1e6" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Defended) P1" hidden="false">
           <characteristics>
             <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
             <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(4)"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
             <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D18"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="af57-2738-0b41-e86e" targetId="9644-193f-5b1b-cbc0" linkType="profile">
+        <link id="2502-9b14-3cb3-8f87" targetId="f7f2-3daa-94fa-bb94" linkType="profile">
           <modifiers/>
         </link>
-        <link id="23e1-7aed-433b-4955" targetId="832b-60db-8cd7-8c91" linkType="rule">
+        <link id="c95a-87b6-1e72-fea5" targetId="8264-58a6-992f-782c" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d3c1-ad7f-3388-0389" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+        <link id="1f60-372c-27d0-8007" targetId="832b-60db-8cd7-8c91" linkType="rule">
           <modifiers/>
         </link>
-        <link id="919e-3b5b-4afa-c36b" targetId="98c7-6410-cddf-f675" linkType="rule">
+        <link id="c20d-23e8-f46b-c329" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5a9c-5c1b-d54b-968b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+        <link id="6d72-b750-aa46-6365" targetId="98c7-6410-cddf-f675" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a3d5-0be4-2b22-b646" targetId="da14-8c34-2ad1-187d" linkType="rule">
+        <link id="44f7-d983-ccce-3d65" targetId="8a23-fff0-82ec-7f61" linkType="rule">
           <modifiers/>
         </link>
-        <link id="35bc-d470-71d9-11ff" targetId="0877-287d-9080-e907" linkType="rule">
+        <link id="cf28-abc9-f624-ddce" targetId="da14-8c34-2ad1-187d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="21b3-af0c-5db1-ade6" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+        <link id="dad8-fe7b-2c96-2b4c" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b89b-0721-0d7c-8ad1" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="df57-52bc-bccb-7b91" name="Orion Assault Carrier (Escorted)" points="145.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d4f5-9c41-d1f3-9ecc" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Escorted) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="da99-07eb-11d0-d7fd" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Escorted) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f3da-4ad7-e3d9-02cf" targetId="0c29-d2a0-8461-9bd9" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5e0a-600d-c230-9156" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6357-6436-97c8-e567" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9f6e-5ce1-24c1-4e12" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac0f-0763-bc59-94d5" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d8eb-c75e-3500-948f" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1114-3368-5a3d-bab2" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eedc-3369-0905-7030" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5db4-d0a0-7c65-bd31" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f2fe-55f6-924b-6e5e" name="Orion Assault Carrier (Reinforced)" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="991d-1e60-a4e0-57b1" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Reinforced) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="aaad-9851-5e34-76bc" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Reinforced) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1a6-2eef-23e3-ac6f" targetId="34d0-1788-3487-2fe5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b949-9b67-2267-bdce" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7f31-99d3-c379-2b06" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="32a3-8b90-6a71-3d70" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e72e-3fca-d980-8f30" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6b66-d3ff-863b-34b4" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cbcd-cc8c-dd67-e484" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2a12-50f2-3b28-967b" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="08ce-3b22-8837-04ff" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a611-5686-2679-2491" name="Orion Assault Carrier (Supported)" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7500-e310-9fd2-38ca" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Supported) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1d80-6e2c-b7f8-0566" profileTypeId="66b5-1f16-b76a-8212" name="Orion Assault Carrier (Supported) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bf75-99ee-ba28-3eb3" targetId="f24c-28d3-a469-d640" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="07d6-3615-0f26-f07b" targetId="8264-58a6-992f-782c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96d9-23fd-905e-1dfc" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="244d-7940-21cf-327b" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df4d-c21a-3197-c4af" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ed4e-be50-3375-e45b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8462-e419-e8e3-9642" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="71a2-92ee-4966-70ac" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ff5c-97f7-5502-f6ef" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2442,410 +2678,6 @@
         </link>
       </links>
     </entry>
-    <entry id="f9c6-8c39-b73e-fc7c" name="Reinforced Marathon Heavy Cruiser" points="120.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ff11-ba96-8029-41fc" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="e063-a6d2-5408-eb17" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Marathon Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ba72-a61b-fa9e-f5d7" targetId="0dfb-cf23-35b9-c37a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="568c-bb96-9f06-507b" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="957b-8f6b-e0ec-9ca5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="acb8-f3ac-b45a-038c" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5f17-1c87-a513-dbd9" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="975f-a4ed-58e7-6898" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="eeae-4200-5a45-dd7d" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1988-acf1-e102-d63d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f2fe-55f6-924b-6e5e" name="Reinforced Orion Assault Carrier" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="991d-1e60-a4e0-57b1" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Orion Assault Carrier S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="aaad-9851-5e34-76bc" profileTypeId="66b5-1f16-b76a-8212" name="Reinforced Orion Assault Carrier P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e1a6-2eef-23e3-ac6f" targetId="34d0-1788-3487-2fe5" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="b949-9b67-2267-bdce" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7f31-99d3-c379-2b06" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="32a3-8b90-6a71-3d70" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e72e-3fca-d980-8f30" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6b66-d3ff-863b-34b4" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cbcd-cc8c-dd67-e484" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2a12-50f2-3b28-967b" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="08ce-3b22-8837-04ff" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c1ba-bf41-1a5a-7e4a" name="Supported Epoch Heavy Cruiser" points="190.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="03c7-78bd-be84-a45a" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Light MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R10/20&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(1)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="9810-9989-8bd5-ccd5" profileTypeId="66b5-1f16-b76a-8212" name="Supported Epoch Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e70c-d02b-a6a8-5e9c" targetId="7fda-c2e6-4409-cde6" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="5019-16a4-6519-1a4d" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fa64-1af3-0e7f-28e8" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="648d-d9e2-d951-20c5" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="46be-a62f-c8a1-c2da" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2ad2-26ad-5575-2edb" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ce70-7adb-f82e-3fb2" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6524-9bc1-2805-9d6f" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="992f-0c38-2aa9-6b87" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="31e9-c7a3-2aeb-e871" name="Supported Marathon Heavy Cruiser" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="f285-e906-a5e5-a4b8" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1fed-55ba-09c2-9e72" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="71b3-547a-3c6f-95c6" targetId="beed-9e24-57e1-ac61" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a18b-307b-fb9d-cdb4" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ed91-215f-6573-b601" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9ffa-0828-706b-7caa" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="649a-d2be-87ff-63e2" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bf24-b181-c2d0-8ba6" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5080-68f9-66ec-dfec" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6026-4809-2116-6f1d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e1fc-994b-088f-20a8" name="Supported Marathon Heavy Cruiser (Cyclops)" points="110.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ef3a-3ffa-c4ce-5c55" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="b739-3866-7609-361f" profileTypeId="66b5-1f16-b76a-8212" name="Supported Marathon Heavy Cruiser (Cyclops) P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="0d79-c10e-b046-a522" targetId="ca87-af4b-653b-30d2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="0d8a-57c5-7f3d-4339" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b099-155b-406d-d745" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ea7a-d3f3-82f7-c4c9" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="16c1-bf7c-707b-ccc1" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8467-2109-5980-bf50" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fc8b-00ce-d7c1-be78" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3ead-4662-4a0f-1a0f" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3047-6d23-966c-ddde" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a611-5686-2679-2491" name="Supported Orion Assault Carrier" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="7500-e310-9fd2-38ca" profileTypeId="66b5-1f16-b76a-8212" name="Supported Orion Assault Carrier S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1d80-6e2c-b7f8-0566" profileTypeId="66b5-1f16-b76a-8212" name="Supported Orion Assault Carrier P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R 16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D7"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="bf75-99ee-ba28-3eb3" targetId="f24c-28d3-a469-d640" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="07d6-3615-0f26-f07b" targetId="8264-58a6-992f-782c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="96d9-23fd-905e-1dfc" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="244d-7940-21cf-327b" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="df4d-c21a-3197-c4af" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ed4e-be50-3375-e45b" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8462-e419-e8e3-9642" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="71a2-92ee-4966-70ac" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ff5c-97f7-5502-f6ef" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ccc2-f70a-36e4-52e1" name="Supported Valiant Super-Heavy Cruiser" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2c0f-7403-761e-1a3a" profileTypeId="66b5-1f16-b76a-8212" name="Supported Valiant Super-Heavy Cruiser S1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="3ae6-3474-73c6-54aa" profileTypeId="66b5-1f16-b76a-8212" name="Supported Valiant Super-Heavy Cruiser P1" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
-            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
-            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
-            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
-            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
-            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="524d-49d8-c183-fbb6" targetId="3b7e-65a0-ddfe-695c" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="77bd-57d1-9677-b40b" targetId="832b-60db-8cd7-8c91" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9630-e772-6eea-dc1a" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5d1f-3613-c527-0c81" targetId="98c7-6410-cddf-f675" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b16c-bdb5-4a7a-a958" targetId="8a23-fff0-82ec-7f61" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c144-96a3-114e-2098" targetId="da14-8c34-2ad1-187d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2555-d7e8-47e6-90d9" targetId="0877-287d-9080-e907" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b3f8-8b2f-0512-535f" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="239c-6152-f5f9-b089" name="Take it to them" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2922,6 +2754,174 @@
           <modifiers/>
         </link>
         <link id="83f7-cf58-fc65-b4ac" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7bc7-a2df-cb12-0150" name="Valiant Super-Heavy Cruiser (Defended)" points="160.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6ffe-d57c-2169-0c32" profileTypeId="66b5-1f16-b76a-8212" name="Valiant Super-Heavy Cruiser (Defended) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f823-f57c-6fd3-8830" profileTypeId="66b5-1f16-b76a-8212" name="Valiant Super-Heavy Cruiser (Defended) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a7dd-3fc9-509a-bd1c" targetId="5524-dbf5-e74c-855a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5561-f476-f023-1134" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f0cc-6dfc-c3e5-cb84" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c3a8-2adc-8cc3-adf6" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="de12-563a-f832-6cc0" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1aac-80de-c6f5-c1af" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5325-6a79-98a3-a1d3" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5a53-8715-f81e-416d" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="70fe-c313-7a13-2ca0" name="Valiant Super-Heavy Cruiser (Escorted)" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e0e8-1c22-bc62-cd2b" profileTypeId="66b5-1f16-b76a-8212" name="Valiant Super-Heavy Cruiser (Escorted) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c0fb-4b76-28d5-5bcc" profileTypeId="66b5-1f16-b76a-8212" name="Valiant Super-Heavy Cruiser (Escorted) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(3)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D13"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="98b0-75fe-5eaa-08fe" targetId="810e-0914-5b05-7ab5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3d36-c598-82c3-8db5" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0bc1-711b-398c-0c61" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="072d-4de2-f3a6-7440" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c0b-9a7a-4e99-7b6a" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1467-6ed4-fb6c-8a82" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1e35-2dc5-0306-b65e" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9589-5e08-bed8-e1ab" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ccc2-f70a-36e4-52e1" name="Valiant Super-Heavy Cruiser (Supported)" points="135.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2c0f-7403-761e-1a3a" profileTypeId="66b5-1f16-b76a-8212" name="Valiant Super-Heavy Cruiser (Supported) S1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Secondary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Missile Batteries"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R12/24&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="Missiles"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F* or P+S"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3ae6-3474-73c6-54aa" profileTypeId="66b5-1f16-b76a-8212" name="Valiant Super-Heavy Cruiser (Supported) P1" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="e8f0-9979-bf35-75b4" name="Type" value="Primary"/>
+            <characteristic characteristicId="9141-7c49-8222-fa82" name="Weapon" value="Heavy MAC"/>
+            <characteristic characteristicId="f943-e25e-7fa8-c96d" name="Range" value="R16/32&quot;"/>
+            <characteristic characteristicId="d182-5097-35b9-78f7" name="Loadouts" value="MAC(2)"/>
+            <characteristic characteristicId="e213-0d74-774c-ebc7" name="Arc" value="F"/>
+            <characteristic characteristicId="fc05-8509-413d-ed2c" name="Dice" value="D12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="524d-49d8-c183-fbb6" targetId="3b7e-65a0-ddfe-695c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="77bd-57d1-9677-b40b" targetId="832b-60db-8cd7-8c91" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9630-e772-6eea-dc1a" targetId="a6bc-2cb7-5f63-b77e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5d1f-3613-c527-0c81" targetId="98c7-6410-cddf-f675" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b16c-bdb5-4a7a-a958" targetId="8a23-fff0-82ec-7f61" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c144-96a3-114e-2098" targetId="da14-8c34-2ad1-187d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2555-d7e8-47e6-90d9" targetId="0877-287d-9080-e907" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b3f8-8b2f-0512-535f" targetId="74eb-e3c2-9ea6-a519" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -3011,7 +3011,7 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="3cb7-1530-00c9-bb75" profileTypeId="ada5-a7de-6104-01ff" name="Combat Orion Assault Carrier" hidden="false">
+    <profile id="3cb7-1530-00c9-bb75" profileTypeId="ada5-a7de-6104-01ff" name="Orion Assault Carrier (Combat)" hidden="false">
       <characteristics>
         <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
         <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-5"/>
@@ -3022,48 +3022,6 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
         <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(6), TA(6)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4ff8-d02e-a1a5-1a10" profileTypeId="ada5-a7de-6104-01ff" name="Defended Epoch Heavy Cruiser" hidden="false" book="Reference Sheet">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-6"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H6"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), MB*, PD(5), TA(6)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="f7f2-3daa-94fa-bb94" profileTypeId="ada5-a7de-6104-01ff" name="Defended Orion Assault Carrier" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(4), TA(6)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="5524-dbf5-e74c-855a" profileTypeId="ada5-a7de-6104-01ff" name="Defended Valiant Super-Heavy Cruiser" hidden="false" book="Reference Sheet">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(6)"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3099,31 +3057,31 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0c29-d2a0-8461-9bd9" profileTypeId="ada5-a7de-6104-01ff" name="Escorted Orion Assault Carrier" hidden="false">
+    <profile id="4ff8-d02e-a1a5-1a10" profileTypeId="ada5-a7de-6104-01ff" name="Epoch Heavy Cruiser (Defended)" hidden="false" book="Reference Sheet">
       <characteristics>
         <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(4), TA(5)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="810e-0914-5b05-7ab5" profileTypeId="ada5-a7de-6104-01ff" name="Escorted Valiant Super-Heavy Cruiser" hidden="false" book="Reference Sheet">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-6"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H6"/>
         <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
         <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(5)"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), MB*, PD(5), TA(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7fda-c2e6-4409-cde6" profileTypeId="ada5-a7de-6104-01ff" name="Epoch Heavy Cruiser (Supported)" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H6"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), MB*, PD(6), TA(5)"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3205,6 +3163,62 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="ca87-af4b-653b-30d2" profileTypeId="ada5-a7de-6104-01ff" name="Marathon Heavy Cruiser (Cyclops)" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H5"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), PD(4), TA(4), CA(1)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9644-193f-5b1b-cbc0" profileTypeId="ada5-a7de-6104-01ff" name="Marathon Heavy Cruiser (Paired)" hidden="false" book="Reference Sheet" page="1109">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-10-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR6"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H4"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(8), TA(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0dfb-cf23-35b9-c37a" profileTypeId="ada5-a7de-6104-01ff" name="Marathon Heavy Cruiser (Reinforced)" hidden="false" book="Reference Sheet" page="1109">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(5), TA(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="beed-9e24-57e1-ac61" profileTypeId="ada5-a7de-6104-01ff" name="Marathon Heavy Cruiser (Supported)" hidden="false" book="Reference Sheet" page="1078">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="f9f2-ce23-4068-37c3" profileTypeId="0a73-7ae5-e666-8ed9" name="Missile Command" hidden="false">
       <characteristics>
         <characteristic characteristicId="d565-9474-f48b-03db" name="Icons A/D/C" value="1/-/-"/>
@@ -3228,17 +3242,59 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9644-193f-5b1b-cbc0" profileTypeId="ada5-a7de-6104-01ff" name="Paired Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1109">
+    <profile id="f7f2-3daa-94fa-bb94" profileTypeId="ada5-a7de-6104-01ff" name="Orion Assault Carrier (Defended)" hidden="false">
       <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-10-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR6"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H4"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(8), TA(6)"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(4), TA(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0c29-d2a0-8461-9bd9" profileTypeId="ada5-a7de-6104-01ff" name="Orion Assault Carrier (Escorted)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC5"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(4), TA(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="34d0-1788-3487-2fe5" profileTypeId="ada5-a7de-6104-01ff" name="Orion Assault Carrier (Reinforced)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(5), TA(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f24c-28d3-a469-d640" profileTypeId="ada5-a7de-6104-01ff" name="Orion Assault Carrier (Supported)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(5), TA(4)"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3344,110 +3400,12 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0dfb-cf23-35b9-c37a" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1109">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-7-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(5), TA(5)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="34d0-1788-3487-2fe5" profileTypeId="ada5-a7de-6104-01ff" name="Reinforced Orion Assault Carrier" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(5), TA(5)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="79c7-0e4b-a389-c516" profileTypeId="e2bb-69c6-0aee-1f0b" name="Spartan" hidden="false">
       <characteristics>
         <characteristic characteristicId="8905-a627-3dd8-d2fd" name="Movement" value="M12&quot;"/>
         <characteristic characteristicId="d15d-ee16-e2df-4ab8" name="Damage Track" value="6-0-0"/>
         <characteristic characteristicId="d1c7-e3d7-8f93-699c" name="Security Detail" value="SD5"/>
         <characteristic characteristicId="3abb-5e1a-6975-c891" name="Systems Loadouts" value="AS(2), HS(Spartan)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="7fda-c2e6-4409-cde6" profileTypeId="ada5-a7de-6104-01ff" name="Supported Epoch Heavy Cruiser" hidden="false" book="Reference Sheet" page="1078">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="10-8-5"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR5"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H6"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Large"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(3), HB(1&quot;), MB*, PD(6), TA(5)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="beed-9e24-57e1-ac61" profileTypeId="ada5-a7de-6104-01ff" name="Supported Marathon Heavy Cruiser" hidden="false" book="Reference Sheet" page="1078">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(4)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="ca87-af4b-653b-30d2" profileTypeId="ada5-a7de-6104-01ff" name="Supported Marathon Heavy Cruiser (Cyclops)" hidden="false" book="Reference Sheet" page="1078">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M8&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="7-6-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR3"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H5"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC2"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), PD(4), TA(4), CA(1)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="f24c-28d3-a469-d640" profileTypeId="ada5-a7de-6104-01ff" name="Supported Orion Assault Carrier" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M6&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC4"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD4"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="CA(1), HB(3&quot;), MB*, PD(5), TA(4)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="3b7e-65a0-ddfe-695c" profileTypeId="ada5-a7de-6104-01ff" name="Supported Valiant Super-Heavy Cruiser" hidden="false" book="Reference Sheet">
-      <characteristics>
-        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
-        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-3"/>
-        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
-        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
-        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
-        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
-        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
-        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
-        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(5), TA(4)"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3480,6 +3438,48 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
         <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
         <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(4)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5524-dbf5-e74c-855a" profileTypeId="ada5-a7de-6104-01ff" name="Valiant Super-Heavy Cruiser (Defended)" hidden="false" book="Reference Sheet">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-4"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD6"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="810e-0914-5b05-7ab5" profileTypeId="ada5-a7de-6104-01ff" name="Valiant Super-Heavy Cruiser (Escorted)" hidden="false" book="Reference Sheet">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H2"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(4), TA(5)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3b7e-65a0-ddfe-695c" profileTypeId="ada5-a7de-6104-01ff" name="Valiant Super-Heavy Cruiser (Supported)" hidden="false" book="Reference Sheet">
+      <characteristics>
+        <characteristic characteristicId="8fa1-7e88-e559-0500" name="Movement" value="M7&quot;"/>
+        <characteristic characteristicId="8c00-74c5-9f70-8cf6" name="Damage Track" value="8-6-3"/>
+        <characteristic characteristicId="c6b2-9e68-686c-57ca" name="Build Rating" value="BR4"/>
+        <characteristic characteristicId="3d5e-f3b6-6b5d-4362" name="Hangers" value="H3"/>
+        <characteristic characteristicId="4e94-7718-ec73-70c5" name="Boarding Craft" value="BC3"/>
+        <characteristic characteristicId="41c5-6d69-ba5e-bb54" name="Security Detail" value="SD5"/>
+        <characteristic characteristicId="66dc-5a43-86f3-5a9f" name="Class" value="Capital"/>
+        <characteristic characteristicId="be70-6774-adfd-7240" name="Size" value="Medium"/>
+        <characteristic characteristicId="f70e-2e07-5545-faf7" name="Systems Loadouts" value="HB(2&quot;), MB*, PD(5), TA(4)"/>
       </characteristics>
       <modifiers/>
     </profile>
