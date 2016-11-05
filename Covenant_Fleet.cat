@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="16" battleScribeVersion="2.00" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="17" battleScribeVersion="2.00" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -33,8 +33,18 @@
         </rule>
       </rules>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="increment" field="5a1f-3250-546c-40a6" value="1">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="5a1f-3250-546c-40a6" type="max"/>
+      </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="2d56-a471-df3d-194d" name="1. Fore Section" hidden="false" collective="false" defaultSelectionEntryId="1440-ac27-fcd8-7c28">
@@ -149,8 +159,18 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="increment" field="c6c5-381d-329d-16d2" value="1">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6c5-381d-329d-16d2" type="max"/>
+      </constraints>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="12a8-cf37-8806-6560" name="Heroic Character" hidden="false" collective="false">
