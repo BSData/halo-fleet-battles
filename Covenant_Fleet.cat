@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="19" battleScribeVersion="2.00" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="21" battleScribeVersion="2.00" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -130,6 +130,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ae1-addc-3030-0c9b" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -143,6 +145,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -152,7 +156,9 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="825.0"/>
+        <cost name="pts" costTypeId="points" value="750.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16fe-8cfc-ea81-28d8" name="Heroic Character" hidden="false" collective="false" categoryEntryId="98b2-d9b4-0e2a-42dc" type="unit">
@@ -251,6 +257,8 @@
                   <entryLinks/>
                   <costs>
                     <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="H" costTypeId="Hangers" value="0.0"/>
+                    <cost name="BR" costTypeId="Build Rating" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -301,6 +309,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="80.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -311,6 +321,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8e4-9689-3d37-61c3" name="Penitent Battle group" book="Reference Sheet" page="1109" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -379,6 +391,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3af-e8b0-bd84-4430" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -392,6 +406,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -402,6 +418,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9687-9bb6-9e1f-4890" name="Rho &apos;Barutamee" book="Reference Sheet" page="1065" hidden="false" collective="false" categoryEntryId="80e8-a9dc-5b5c-9d2f" type="unit">
@@ -465,6 +483,8 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="30.0"/>
+            <cost name="H" costTypeId="Hangers" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -578,6 +598,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd2a-82f7-36da-411d" name="Standard Battle Group" hidden="false" collective="false" categoryEntryId="1efa-3cc7-f6ec-0bb8" type="unit">
@@ -588,404 +610,6 @@
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="aacb-a623-2fc7-f0ed" name="Capital Element 1" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="2554-8739-c7b6-f59d" hidden="false" targetId="768b-2312-232c-897b" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="f588-674e-8757-c9c4" hidden="false" targetId="46bf-e11e-fcd8-9c62" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="003e-b03b-2a4c-c9af" hidden="false" targetId="1e4e-ff32-b9fd-02c7" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="e439-2c12-41f1-41dd" hidden="false" targetId="503c-289e-edfe-ff1c" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="7db0-1a0c-2e52-8c76" hidden="false" targetId="98b2-87af-6bcd-bbed" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="c5ca-fce8-4d48-7d25" hidden="false" targetId="378b-d0b8-4886-7150" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="17cd-3c90-622b-baa8" hidden="false" targetId="9263-b0cf-9173-a268" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="ff72-f85f-a0da-737d" hidden="false" targetId="a89d-cdad-09e0-7566" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="ea41-f330-7e0a-b808" hidden="false" targetId="486d-8423-b85c-580a" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="b1d5-3ac0-577f-5176" hidden="false" targetId="523d-1ea5-d8d7-4157" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="a402-3f57-9b63-b492" hidden="false" targetId="df0f-a63c-3e16-17c2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="8fdf-a44b-b719-2b52" hidden="false" targetId="c2fd-e009-87af-72b8" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="be8f-ac5b-aba7-0f7b" hidden="false" targetId="47a1-3aca-17ba-0275" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="c9fa-6ffe-8387-d581" hidden="false" targetId="3e77-5b6c-814d-7c5b" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="1929-0de4-a097-a53f" hidden="false" targetId="76fd-7e64-9057-a2a3" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="46bd-dd02-3a94-089e" hidden="false" targetId="af58-7c12-2da6-c1a8" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="0a3a-b8e3-6380-51a9" hidden="false" targetId="82a5-6c66-b7e8-9377" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="0982-5aaa-62f1-2189" hidden="false" targetId="6b62-761f-ef38-4433" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="342e-c5a2-3e8c-17c2" hidden="false" targetId="24ae-8bc5-c65c-2d18" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="4a8e-106e-cf5e-da0c" hidden="false" targetId="459e-1bb9-6708-dca0" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="7127-1a98-fb5a-6299" hidden="false" targetId="5934-00a3-02f1-1f4e" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="fb67-81d7-077d-af14" name="Non-Capital Element" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="503c-289e-edfe-ff1c" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e4e-ff32-b9fd-02c7" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="5.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98b2-87af-6bcd-bbed" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="5.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bf-e11e-fcd8-9c62" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a21f-14a6-4ff1-9752" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="768b-2312-232c-897b" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="2.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="378b-d0b8-4886-7150" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9263-b0cf-9173-a268" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89d-cdad-09e0-7566" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="486d-8423-b85c-580a" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="523d-1ea5-d8d7-4157" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="2.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df0f-a63c-3e16-17c2" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47a1-3aca-17ba-0275" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2fd-e009-87af-72b8" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e77-5b6c-814d-7c5b" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="76fd-7e64-9057-a2a3" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af58-7c12-2da6-c1a8" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82a5-6c66-b7e8-9377" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5934-00a3-02f1-1f4e" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="3.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24ae-8bc5-c65c-2d18" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="459e-1bb9-6708-dca0" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="4.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b62-761f-ef38-4433" repeats="1"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="a38a-d622-8553-8308" hidden="false" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="0583-3b14-3e85-c0c2" hidden="false" targetId="a21f-14a6-4ff1-9752" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98b2-87af-6bcd-bbed" type="atLeast"/>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bf-e11e-fcd8-9c62" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions/>
-                          <conditionGroups>
-                            <conditionGroup type="or">
-                              <conditions>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9263-b0cf-9173-a268" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="503c-289e-edfe-ff1c" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="486d-8423-b85c-580a" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e77-5b6c-814d-7c5b" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="76fd-7e64-9057-a2a3" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af58-7c12-2da6-c1a8" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5934-00a3-02f1-1f4e" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5934-00a3-02f1-1f4e" type="atLeast"/>
-                              </conditions>
-                              <conditionGroups/>
-                            </conditionGroup>
-                            <conditionGroup type="or">
-                              <conditions>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="378b-d0b8-4886-7150" type="atLeast"/>
-                                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df0f-a63c-3e16-17c2" type="atLeast"/>
-                              </conditions>
-                              <conditionGroups/>
-                            </conditionGroup>
-                          </conditionGroups>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-            </entryLink>
-            <entryLink id="6a3d-01cb-38c9-db83" hidden="false" targetId="22be-214b-b811-e5f2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="e7bd-a121-30ce-96b1" hidden="false" targetId="6d84-c8d1-c65e-223f" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="9e69-fccf-9cc8-20b8" name="Wings - Flight Tokens" hidden="false" collective="false">
           <profiles/>
           <rules/>
@@ -1175,6 +799,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0926-b316-7830-0008" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1188,90 +814,220 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fbb6-2841-1d7f-a656" name="Capital Element 2" hidden="false" collective="false">
+        <selectionEntryGroup id="6d22-86d0-b84a-cd95" name="Components" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89d-cdad-09e0-7566" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e4e-ff32-b9fd-02c7" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98b2-87af-6bcd-bbed" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bf-e11e-fcd8-9c62" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="768b-2312-232c-897b" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aacb-a623-2fc7-f0ed" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="523d-1ea5-d8d7-4157" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2fd-e009-87af-72b8" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47a1-3aca-17ba-0275" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82a5-6c66-b7e8-9377" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="459e-1bb9-6708-dca0" type="atLeast"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b62-761f-ef38-4433" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="increment" field="maxSelections" value="1.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46bf-e11e-fcd8-9c62" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="768b-2312-232c-897b" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e4e-ff32-b9fd-02c7" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="98b2-87af-6bcd-bbed" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89d-cdad-09e0-7566" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="523d-1ea5-d8d7-4157" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47a1-3aca-17ba-0275" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2fd-e009-87af-72b8" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82a5-6c66-b7e8-9377" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="459e-1bb9-6708-dca0" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b62-761f-ef38-4433" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="Build Rating" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb73-8c3d-15c3-2042" type="max"/>
           </constraints>
           <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="b83e-ddbd-0a5b-f5b2" hidden="false" targetId="378b-d0b8-4886-7150" type="selectionEntry">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c4ff-6ce1-3042-5e7b" name="Non-Capital Element" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="886b-c1b4-94b5-d436" hidden="false" targetId="df0f-a63c-3e16-17c2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94b5-1c50-82db-3020" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="64e6-3944-1f09-e675" hidden="false" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="f17a-d187-e5c5-22e9" hidden="false" targetId="22be-214b-b811-e5f2" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="fa57-1bcd-b610-d9c6" hidden="false" targetId="6d84-c8d1-c65e-223f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e054-8a01-2bed-45bc" name="Capital Elements" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b69d-985d-ba69-a554" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c994-349e-bc72-6543" hidden="false" targetId="768b-2312-232c-897b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="28e5-9d60-8896-2beb" hidden="false" targetId="1e4e-ff32-b9fd-02c7" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="1f94-99b9-60f7-dd5f" hidden="false" targetId="503c-289e-edfe-ff1c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="d31f-1973-bea8-0f2e" hidden="false" targetId="98b2-87af-6bcd-bbed" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="341c-72ae-091c-c72c" hidden="false" targetId="378b-d0b8-4886-7150" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="055b-8a31-554f-9ac0" hidden="false" targetId="9263-b0cf-9173-a268" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="fb9b-9e4f-f0ca-f618" hidden="false" targetId="a89d-cdad-09e0-7566" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="e1ec-ac03-edd2-041e" hidden="false" targetId="486d-8423-b85c-580a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="1028-3cb8-4403-3af0" hidden="false" targetId="523d-1ea5-d8d7-4157" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="e9fd-d8e1-bfc0-9a1f" hidden="false" targetId="df0f-a63c-3e16-17c2" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="2e4f-8857-8ed0-3209" hidden="false" targetId="c2fd-e009-87af-72b8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="0e1b-2163-5080-7c93" hidden="false" targetId="47a1-3aca-17ba-0275" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="d83d-9ac6-f6a9-71a8" hidden="false" targetId="3e77-5b6c-814d-7c5b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="624e-d87a-ba83-835a" hidden="false" targetId="76fd-7e64-9057-a2a3" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="a6f0-361b-df90-e0a5" hidden="false" targetId="af58-7c12-2da6-c1a8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="9cfc-6169-def5-78ec" hidden="false" targetId="82a5-6c66-b7e8-9377" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="6a46-6b7d-fa36-574f" hidden="false" targetId="6b62-761f-ef38-4433" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="7502-940e-abec-8aa3" hidden="false" targetId="24ae-8bc5-c65c-2d18" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="b9ff-8000-3be5-0f0e" hidden="false" targetId="459e-1bb9-6708-dca0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="48d6-d794-1861-1734" hidden="false" targetId="5934-00a3-02f1-1f4e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15ec-a6f0-e767-14fb" name="Supplicant Battle group" book="Reference Sheet" page="1109" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -1375,6 +1131,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8d65-9883-a376-da00" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1388,6 +1146,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1398,6 +1158,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d29d-b923-c7c9-5ffb" name="The Golden Path Battle group" book="Reference Sheet" page="1109" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -1480,6 +1242,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3d7d-0dcb-d888-d7c5" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1493,6 +1257,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1503,6 +1269,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa2f-5e11-4dd2-81ae" name="The Harbinger Battle Group" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -1619,6 +1387,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7957-e14c-57d1-1b61" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1632,6 +1402,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1642,6 +1414,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2d1-89db-0ae1-4a78" name="The Oathsworn Battle Group" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -1758,6 +1532,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bbb7-6b3e-9dca-4385" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1771,6 +1547,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1781,6 +1559,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bd7-f678-9f45-5d04" name="The Sacred Pledge Battle Group" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -1897,6 +1677,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c12f-1934-2b79-f599" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -1910,6 +1692,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1920,6 +1704,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c98-4616-01b0-2472" name="The Solemn Vow Battle Group" hidden="false" collective="false" categoryEntryId="66fd-78fe-4e96-ac37" type="unit">
@@ -1994,6 +1780,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8730-a3da-c626-712c" name="Bombers - Tarasque" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2007,6 +1795,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="H" costTypeId="Hangers" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2017,6 +1807,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="646c-3ecd-7003-f4e0" name="Xytan &apos;Jar Wattinree" book="Reference Sheet" page="1113" hidden="false" collective="false" categoryEntryId="80e8-a9dc-5b5c-9d2f" type="unit">
@@ -2080,6 +1872,8 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="25.0"/>
+            <cost name="H" costTypeId="Hangers" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2193,6 +1987,144 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="657d-1f37-f214-6f03" name="Covenant Generic Fleet Commander" hidden="false" collective="false" categoryEntryId="80e8-a9dc-5b5c-9d2f" type="unit">
+      <profiles>
+        <profile id="4b5e-80ea-6459-3abf" name="Rho &apos;Barutamee" hidden="false" profileTypeId="bf24-0efa-b186-13c4">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Zealots" characteristicTypeId="32de-5f20-0d39-5386" value="0-4"/>
+            <characteristic name="Per" characteristicTypeId="9173-5a05-122b-8ab2" value="Per Full 1000pts"/>
+            <characteristic name="KIA" characteristicTypeId="66d5-dac9-0978-7f6d" value="1 VP"/>
+            <characteristic name="Costs" characteristicTypeId="0192-ad10-20b8-665e" value="+30pts Per Zealot"/>
+            <characteristic name="Order Dice" characteristicTypeId="8274-0d7a-138e-014c" value="3"/>
+            <characteristic name="No. Shared" characteristicTypeId="bf85-a166-65ef-1c0b" value="1"/>
+            <characteristic name="Notes" characteristicTypeId="31a7-68b6-8d13-c2b6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="99dc-3ea7-a5ba-9f4f" name="Unique Ability - Covenant Generic Fleet Commander" book="Reference Sheet" page="1115" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per Game Turn, the Covenant Commander may re-roll their bording D6 when Attacking an enemy Formation during a Boarding Action. The second result must be accepted.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="a694-951d-85cf-57d1" name="Zealot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d100-a0c8-c64d-e993" hidden="false" targetId="487b-758e-6cd1-f566" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" field="d185-4d5c-81b3-3968" value="4">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="657d-1f37-f214-6f03" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d185-4d5c-81b3-3968" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="30.0"/>
+            <cost name="H" costTypeId="Hangers" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="88d3-596c-3380-8375" name="Order" hidden="false" collective="false" defaultSelectionEntryId="a5b0-31ee-4ed3-d84b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09a3-edf7-155f-680d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dafa-a10d-c1a4-3cad" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a5b0-31ee-4ed3-d84b" hidden="false" targetId="03dd-b989-c5e7-6f25" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="05ab-b9fb-2061-42fc" name="Order" hidden="false" collective="false" defaultSelectionEntryId="3e2d-ffac-e9f8-a2f6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="814d-d595-1c68-3571" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a75-3764-a039-0b9c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3e2d-ffac-e9f8-a2f6" hidden="false" targetId="065d-f157-fe71-f459" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="077d-7db1-793f-2fa4" name="Order" hidden="false" collective="false" defaultSelectionEntryId="71e6-01cc-75b5-b04f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b36b-4037-8e6c-46ca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b508-afb7-5f89-8dcb" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="71e6-01cc-75b5-b04f" hidden="false" targetId="b588-1f0b-18f7-d194" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="50.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2214,15 +2146,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D6"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3b0a-1c40-20aa-67dd" hidden="false" targetId="c8f8-5eba-5697-6f3f" type="profile">
+        <profile id="8c82-3a37-0fe3-01cf" name="ADP Escort in Tri-Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M10&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="3-3-3"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR1"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H0"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD2"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="E, CS, DA(2), G(5&quot;), PD(2), PD*"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="4f72-22f0-4268-3dfe" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -2279,6 +2222,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="503c-289e-edfe-ff1c" name="CCS Battlecruiser" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2311,15 +2256,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D9"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="a968-0a9c-e696-b001" hidden="false" targetId="ae2b-eb9d-8966-b6ae" type="profile">
+        <profile id="487c-3796-6a59-cda9" name="CCS Battlecruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-3"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(4), G(4&quot;), PD(3)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="58f6-9952-488a-fec7" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -2364,6 +2320,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e0f-83ee-a524-c52c" name="Covenant Assault Carrier 1-Fore Section" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2408,6 +2366,23 @@
             <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Beam/Plasma"/>
             <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F/P/S"/>
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="15/15/15"/>
+          </characteristics>
+        </profile>
+        <profile id="3d96-778d-219f-9c70" name="Covenant Assault Carrier 1-Fore Section" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="10-8-7"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Massive"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DF(8), G(3&quot;), L, PD(7)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2467,12 +2442,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c061-2e77-1228-1899" hidden="false" targetId="4e52-9b93-4b44-5e4d" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -2481,6 +2450,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="283d-8239-8600-f4cf" name="Covenant Assault Carrier 2-Mid Section" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2511,6 +2482,23 @@
             <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Plasma"/>
             <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="P+S"/>
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D15"/>
+          </characteristics>
+        </profile>
+        <profile id="f839-7ea1-cf19-f34d" name="Covenant Assault Carrier 2-Mid Section" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR6"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H10"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC5"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD8"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Massive"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(3), DF(9), G(3&quot;), L, PD(8)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2564,12 +2552,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="22d2-a961-6550-9d36" hidden="false" targetId="8674-77c8-72f5-b019" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="dd8f-2999-f183-860b" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -2584,6 +2566,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="10.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca0a-a3b6-1dbe-c531" name="Covenant Assault Carrier 3-Aft Section" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2614,6 +2598,23 @@
             <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Plasma"/>
             <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="A"/>
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D15"/>
+          </characteristics>
+        </profile>
+        <profile id="7084-a7df-52ac-636e" name="Covenant Assault Carrier 3-Aft Section" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="10-8-7"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Massive"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DF(8), G(3&quot;), L, PD(7)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2667,12 +2668,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="097a-f318-c1eb-0984" hidden="false" targetId="f156-56c1-8769-d17d" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -2681,6 +2676,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="486d-8423-b85c-580a" name="CPV Heavy Destroyer" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2713,15 +2710,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D10"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9380-6e7d-ade6-9ec7" hidden="false" targetId="a174-4812-f527-1c89" type="profile">
+        <profile id="3275-213f-fff6-d0b0" name="CPV Heavy Destroyer" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-6-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3**"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4*"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), H**, G(4&quot;), P*, PD(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="d357-00c8-bfcd-1661" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -2776,6 +2784,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="c842-8731-3779-1223" name="New InfoLink" hidden="false" targetId="6094-df13-ac7c-fc90" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -2784,6 +2798,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="110.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b62-761f-ef38-4433" name="CCS Battlecruiser (Defended)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2830,15 +2846,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D12"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="8fbb-98f9-9cc2-4164" hidden="false" targetId="04d7-8b99-d7a2-a25a" type="profile">
+        <profile id="1162-7e28-5ed0-6304" name="CCS Battlecruiser (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, CA(1), DA(5), G(4&quot;), PD(5)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="6713-4fc4-92d4-db02" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -2895,6 +2922,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="190.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47a1-3aca-17ba-0275" name="CPV Heavy Destroyer (Defended)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -2927,15 +2956,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D16"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="b66a-75b0-1340-d200" hidden="false" targetId="fdf9-d6d6-c971-d67f" type="profile">
+        <profile id="4bd4-a2c2-8538-ec91" name="CPV Heavy Destroyer (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-6-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4**"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5*"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), H**, G(4&quot;), P*, PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="3a00-b1a5-6694-6349" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -2996,6 +3036,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="e910-dbe7-9a89-8b91" name="New InfoLink" hidden="false" targetId="6094-df13-ac7c-fc90" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3004,6 +3050,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76fd-7e64-9057-a2a3" name="DSC Support Ship (Defended)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3036,15 +3084,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D7"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="ae90-6b1a-bde2-ddea" hidden="false" targetId="4b32-2dbf-e6c7-0d29" type="profile">
+        <profile id="f849-c3e8-c2d8-a04c" name="DSC Support Ship (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), G(4&quot;), L, PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="e9b0-dee3-c46b-24e3" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3101,6 +3160,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24ae-8bc5-c65c-2d18" name="RCS Armored Cruiser (Defended)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3147,15 +3208,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D7"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="ec27-151e-397e-fb02" hidden="false" targetId="fcdf-e185-524d-a5c6" type="profile">
+        <profile id="0ac1-57ca-2815-4e1b" name="RCS Armored Cruiser (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(3), G(3&quot;), PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="58ac-e9d4-c624-e6b5" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3200,6 +3272,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df0f-a63c-3e16-17c2" name="DSC Support Ship" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3229,18 +3303,29 @@
             <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R10/20&quot;"/>
             <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Plasma"/>
             <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F/P/S"/>
-            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D6"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D7"/>
+          </characteristics>
+        </profile>
+        <profile id="bb3f-7df2-a53c-f1d9" name="DSC Support Ship" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(4&quot;), L, PD(4)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="5687-b409-e7ff-9026" hidden="false" targetId="0694-f683-70b9-42aa" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="c6bc-32cf-f026-dcd9" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3291,6 +3376,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="95.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da2c-2ca7-a4ce-d4c8" name="Enhanced Targeting" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3311,6 +3398,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="459e-1bb9-6708-dca0" name="CCS Battlecruiser (Escorted)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3357,15 +3446,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D12"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4bce-78a1-18c8-e9ce" hidden="false" targetId="f16f-c410-94d5-26ba" type="profile">
+        <profile id="67a3-faf9-3969-87c4" name="CCS Battlecruiser (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(5), G(4&quot;), PD(5)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="8820-f998-2bc8-07f4" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -3416,6 +3516,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="170.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2fd-e009-87af-72b8" name="CPV Heavy Destroyer (Escorted)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3448,15 +3550,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D14"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="a768-91d9-af77-7aca" hidden="false" targetId="4536-6197-ab5a-eb4d" type="profile">
+        <profile id="a69c-ac96-5db7-4274" name="CPV Heavy Destroyer (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-6-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4**"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5*"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), H**, G(4&quot;), P*, PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="8611-c1f8-e7e3-9930" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3511,6 +3624,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="3d21-e0c6-1dde-3cb4" name="New InfoLink" hidden="false" targetId="6094-df13-ac7c-fc90" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3519,6 +3638,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="130.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e77-5b6c-814d-7c5b" name="DSC Support Ship (Escorted)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3551,15 +3672,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D7"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3937-c83c-3127-3ae2" hidden="false" targetId="24fb-75a5-1fdb-0be1" type="profile">
+        <profile id="818e-13dd-1bde-f667" name="DSC Support Ship (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(4&quot;), L, PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="3fa5-cd98-48f7-73c9" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3610,6 +3742,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5934-00a3-02f1-1f4e" name="RCS Armored Cruiser (Escorted)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3656,15 +3790,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D5"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2d90-9922-93ee-244d" hidden="false" targetId="9195-ad0f-7b07-3831" type="profile">
+        <profile id="0acc-a50d-7fc0-8b25" name="RCS Armored Cruiser (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(3&quot;), PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="749a-6d0c-3a9c-f7a3" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3703,6 +3848,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="140.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1af1-c2a9-1b5c-e171" name="Fix those Defences!" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3723,6 +3870,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6f3-f298-65b5-7526" name="Focused Attack" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3743,6 +3892,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b588-1f0b-18f7-d194" name="Form Up!" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3763,6 +3914,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e4e-ff32-b9fd-02c7" name="ORS Heavy Cruiser" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3809,15 +3962,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D10"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="bfcb-b29c-c0f5-b56c" hidden="false" targetId="253c-055d-71f7-6b85" type="profile">
+        <profile id="67a9-eb80-9f84-033b" name="ORS Heavy Cruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H5"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Large"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), G(3&quot;), PD(5)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="e4e9-39c6-5ef7-abfc" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -3868,6 +4032,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="H" costTypeId="Hangers" value="5.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11bb-03a3-16f4-d55a" name="CCS Battlecruiser (Paired)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3900,15 +4066,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D18"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="86f2-4e9b-3cac-519c" hidden="false" targetId="754b-e0be-556a-9bed" type="profile">
+        <profile id="a743-a687-fe85-00a2" name="CCS Battlecruiser (Paired)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-11-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR8"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD8"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(2), DA(7), G(4&quot;), PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="f23f-68c9-f52e-03ba" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -3953,6 +4130,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="260.0"/>
+        <cost name="H" costTypeId="Hangers" value="4.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d95-086f-fcb7-58a8" name="RCS Armored Cruisers (Penitent)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -3985,15 +4164,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D15"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="11fc-796d-9f74-e3e0" hidden="false" targetId="bcc1-1b10-ef06-3716" type="profile">
+        <profile id="8e11-3443-f461-0128" name="RCS Armored Cruisers (Penitent)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="12-9-7"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR6"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC5"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD8"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(5), G(3&quot;), PD(7)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="b300-3801-5d76-1337" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4032,6 +4222,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="220.0"/>
+        <cost name="H" costTypeId="Hangers" value="4.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d806-0981-d9f2-0901" name="Perfect Time to Strike" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4052,6 +4244,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d06-24ee-ab07-38e0" name="Power to the Defences" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4072,6 +4266,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c332-8ef4-5998-007d" name="Prepare my Transport" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4092,6 +4288,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4e8-6325-e780-72d7" name="Protect the Minister" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4112,6 +4310,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="378b-d0b8-4886-7150" name="RCS Armored Cruiser" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4144,15 +4344,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D8"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="ea85-4e3e-4388-03b5" hidden="false" targetId="a532-9201-7859-a879" type="profile">
+        <profile id="8475-1300-bdb9-60c6" name="RCS Armored Cruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(2), G(3&quot;), PD(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="ca86-22f4-9423-d200" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4191,6 +4402,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46bf-e11e-fcd8-9c62" name="CCS Battlecruiser (Reinforced)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4237,15 +4450,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D6"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="0a42-d7a8-45bc-6f47" hidden="false" targetId="6169-1d0d-f638-2c3f" type="profile">
+        <profile id="97be-98fb-8917-3fec" name="CCS Battlecruiser (Reinforced)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H5"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(6), G(4&quot;), PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="5cd0-45be-c332-331d" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -4296,6 +4520,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="H" costTypeId="Hangers" value="5.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82a5-6c66-b7e8-9377" name="DSC Support Ship (Reinforced)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4328,15 +4554,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D9"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="f439-c9ab-aeac-00aa" hidden="false" targetId="a63b-f017-6bdd-4a2b" type="profile">
+        <profile id="f7ea-664a-cd79-86bc" name="DSC Support Ship (Reinforced)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H5"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(5), G(4&quot;), L, PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="0ef5-fa33-0745-a36a" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4393,6 +4630,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="H" costTypeId="Hangers" value="5.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a89d-cdad-09e0-7566" name="RCS Armored Cruiser (Reinforced)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4439,15 +4678,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D10"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="f056-c37a-6e71-90d6" hidden="false" targetId="9331-3f82-8600-3638" type="profile">
+        <profile id="58f3-9296-9aaa-022b" name="RCS Armored Cruiser (Reinforced)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(3&quot;), PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="c24b-a2a2-120c-aaaa" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4492,6 +4742,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="H" costTypeId="Hangers" value="4.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4d0-58b1-c4e6-0192" name="SDV Heavy Corvettes in Line Formation" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4524,15 +4776,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D4"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="8a37-823f-e95b-6ac4" hidden="false" targetId="8c0a-16d0-bb6d-aea8" type="profile">
+        <profile id="2e49-20dc-00fb-4ef0" name="SDV Heavy Corvettes in Line Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M9&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="4-4-3"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR1"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H1"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD2"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(2), E, G(5&quot;), PD(3)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="b634-54bc-c7ee-76fd" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4583,6 +4846,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="H" costTypeId="Hangers" value="1.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22be-214b-b811-e5f2" name="SDV Heavy Corvettes in Oblique Formation" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4615,15 +4880,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D3"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="bc8f-fa5d-a3ca-eb61" hidden="false" targetId="1068-e8c7-cd8a-d803" type="profile">
+        <profile id="dab3-15f7-9270-e77d" name="SDV Heavy Corvettes in Oblique Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M9&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="4-3-3"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR1"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H1"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD2"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(2), E, G(5&quot;), PD(3)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="5bd6-19b3-8d05-bfa7" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4674,6 +4950,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="H" costTypeId="Hangers" value="1.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a21f-14a6-4ff1-9752" name="SDV Heavy Corvettes in Tri-Formation" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4706,15 +4984,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D6"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="a0e7-8223-c70b-cc0b" hidden="false" targetId="2f38-6ebb-4fe1-b9ad" type="profile">
+        <profile id="1968-b823-fc0d-3051" name="SDV Heavy Corvettes in Tri-Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M9&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="5-4-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD3"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), E, G(5&quot;), PD(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="d17a-a5e1-0f6c-8a7a" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -4765,6 +5054,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="054a-1f04-0662-4e7e" name="Superiority" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4785,6 +5076,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="768b-2312-232c-897b" name="CCS Battlecruiser (Supported)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4831,15 +5124,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D12"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="2985-ae3e-6d13-fd97" hidden="false" targetId="56d2-678c-70ce-b566" type="profile">
+        <profile id="6587-f77b-7c4f-5ae3" name="CCS Battlecruiser (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(5), G(4&quot;), PD(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="d317-0da1-b16f-2cae" hidden="false" targetId="8ba2-3a37-0ad9-a5f4" type="rule">
           <profiles/>
           <rules/>
@@ -4890,6 +5194,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="170.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="523d-1ea5-d8d7-4157" name="CPV Heavy Destroyer (Supported)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -4936,15 +5242,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D12"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="54aa-7d47-3994-6853" hidden="false" targetId="3aeb-89a5-b8a4-e36b" type="profile">
+        <profile id="bb48-fbd5-390d-318d" name="CPV Heavy Destroyer (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-4"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4**"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4*"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), H**, G(4&quot;), P*, PD(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="fd23-cbf2-ed2d-74fe" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -5005,6 +5322,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="0707-6e13-0162-9cc5" name="New InfoLink" hidden="false" targetId="6094-df13-ac7c-fc90" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -5013,6 +5336,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="130.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af58-7c12-2da6-c1a8" name="DSC Support Ship (Supported)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -5045,15 +5370,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D8"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4bce-5708-3bc8-abaa" hidden="false" targetId="a63b-f017-6bdd-4a2b" type="profile">
+        <profile id="7c13-4d95-cab3-9137" name="DSC Support Ship (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(4&quot;), L, PD(5)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="2245-9eec-08b6-07b6" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -5104,6 +5440,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="H" costTypeId="Hangers" value="4.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98b2-87af-6bcd-bbed" name="ORS Heavy Cruiser (Supported)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -5164,15 +5502,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D12"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="e21c-f13f-cd6b-d2dd" hidden="false" targetId="b372-fabe-8975-d080" type="profile">
+        <profile id="c388-ffef-dee3-b0f5" name="ORS Heavy Cruiser (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H6"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Large"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(5), G(3&quot;), PD(6)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="18f8-d829-d214-d144" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -5229,6 +5578,8 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="220.0"/>
+        <cost name="H" costTypeId="Hangers" value="6.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9263-b0cf-9173-a268" name="RCS Armored Cruiser (Supported)" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -5275,15 +5626,26 @@
             <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D10"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3eec-6c00-e4aa-c0fd" hidden="false" targetId="3480-1f04-5046-3a4e" type="profile">
+        <profile id="2fc0-5981-5cbb-f4be" name="RCS Armored Cruiser (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-5"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(3&quot;), PD(5)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
         <infoLink id="357a-6749-5ca3-e7fb" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
           <profiles/>
           <rules/>
@@ -5328,6 +5690,52 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="140.0"/>
+        <cost name="H" costTypeId="Hangers" value="3.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03dd-b989-c5e7-6f25" name="Increased Firepower" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="de78-c84a-f74d-0017" name="New InfoLink" hidden="false" targetId="efa3-a513-7f69-f3ae" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="065d-f157-fe71-f459" name="Repair those Bulkheads" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c972-3900-ebf9-f99b" name="New InfoLink" hidden="false" targetId="ee06-763e-036a-4268" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5464,195 +5872,15 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
       <modifiers/>
       <description>All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range.</description>
     </rule>
+    <rule id="6094-df13-ac7c-fc90" name="[H] High Value Target**" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Element is considered to have a build rating of one less than listed for the purpose of fleet building.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="c8f8-5eba-5697-6f3f" name="ADP Escort in Tri-Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M10&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="3-3-3"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR1"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H0"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD2"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="E, CS, DA(2), G(5&quot;), PD(2), PD*"/>
-      </characteristics>
-    </profile>
-    <profile id="ae2b-eb9d-8966-b6ae" name="CCS Battlecruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-3"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(4), G(4&quot;), PD(3)"/>
-      </characteristics>
-    </profile>
-    <profile id="4e52-9b93-4b44-5e4d" name="Covenant Assault Carrier 1-Fore Section" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="10-8-7"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Massive"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DF(8), G(3&quot;), L, PD(7)"/>
-      </characteristics>
-    </profile>
-    <profile id="8674-77c8-72f5-b019" name="Covenant Assault Carrier 2-Mid Section" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR6"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H10"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC5"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD8"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Massive"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(3), DF(9), G(3&quot;), L, PD(8)"/>
-      </characteristics>
-    </profile>
-    <profile id="f156-56c1-8769-d17d" name="Covenant Assault Carrier 3-Aft Section" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="10-8-7"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Massive"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DF(8), G(3&quot;), L, PD(7)"/>
-      </characteristics>
-    </profile>
-    <profile id="a174-4812-f527-1c89" name="CPV Heavy Destroyer" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-6-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4*"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(4&quot;), P*, PD(4)"/>
-      </characteristics>
-    </profile>
-    <profile id="04d7-8b99-d7a2-a25a" name="CCS Battlecruiser (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, CA(1), DA(5), G(4&quot;), PD(5)"/>
-      </characteristics>
-    </profile>
-    <profile id="fdf9-d6d6-c971-d67f" name="CPV Heavy Destroyer (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-6-6"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5*"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), G(4&quot;), P*, PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="4b32-2dbf-e6c7-0d29" name="DSC Support Ship (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-6"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), G(4&quot;), L, PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="fcdf-e185-524d-a5c6" name="RCS Armored Cruiser (Defended)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-6"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(3), G(3&quot;), PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="0694-f683-70b9-42aa" name="DSC Support Ship" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(4&quot;), L, PD(4)"/>
-      </characteristics>
-    </profile>
     <profile id="29d7-cad2-7d44-ebc6" name="Enhanced Targeting" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9">
       <profiles/>
       <rules/>
@@ -5663,74 +5891,6 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="Increase the Firepower Rating of a Firing Solution by +2."/>
         <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order must be issued prior to rolling the Inital Attack Dice Pool, either when rolling for Firing Solutions OR when rolling as part of a Defensive Dice Pool Roll against enemy Boarders."/>
         <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
-      </characteristics>
-    </profile>
-    <profile id="f16f-c410-94d5-26ba" name="CCS Battlecruiser (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(5), G(4&quot;), PD(5)"/>
-      </characteristics>
-    </profile>
-    <profile id="4536-6197-ab5a-eb4d" name="CPV Heavy Destroyer (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-6-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5*"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(4&quot;), P*, PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="24fb-75a5-1fdb-0be1" name="DSC Support Ship (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(4&quot;), L, PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="9195-ad0f-7b07-3831" name="RCS Armored Cruiser (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(3&quot;), PD(6)"/>
       </characteristics>
     </profile>
     <profile id="1fd6-657d-5726-a9a4" name="Fix those defences!" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9">
@@ -5767,57 +5927,6 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6. See the Adhoc Battle Groups rules in the rulebook."/>
         <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order may be issued during the Execute Orders Step of the Order Dice Phase."/>
         <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
-      </characteristics>
-    </profile>
-    <profile id="253c-055d-71f7-6b85" name="ORS Heavy Cruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H5"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Large"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), G(3&quot;), PD(5)"/>
-      </characteristics>
-    </profile>
-    <profile id="754b-e0be-556a-9bed" name="CCS Battlecruisers (Paired)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-11-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR8"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD8"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(2), DA(7), G(4&quot;), PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="bcc1-1b10-ef06-3716" name="RCS Armored Cruisers (Penitent)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="12-9-7"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR6"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC5"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD8"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(5), G(3&quot;), PD(7)"/>
       </characteristics>
     </profile>
     <profile id="9b2f-7002-cbce-7e5c" name="Perfect Time to Strike" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9">
@@ -5868,125 +5977,6 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
       </characteristics>
     </profile>
-    <profile id="a532-9201-7859-a879" name="RCS Armored Cruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(2), G(3&quot;), PD(4)"/>
-      </characteristics>
-    </profile>
-    <profile id="6169-1d0d-f638-2c3f" name="CCS Battlecruiser (Reinforced)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H5"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(6), G(4&quot;), PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="9359-e32e-26c1-bb90" name="DSC Support Ship (Reinforced)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-6"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H5"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(5), G(4&quot;), L, PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="9331-3f82-8600-3638" name="RCS Armored Cruiser (Reinforced)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-6"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(3&quot;), PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="8c0a-16d0-bb6d-aea8" name="SDV Heavy Corvettes in Line Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M9&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="4-4-3"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR1"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H1"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD2"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(2), E, G(5&quot;), PD(3)"/>
-      </characteristics>
-    </profile>
-    <profile id="1068-e8c7-cd8a-d803" name="SDV Heavy Corvettes in Oblique Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M9&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="4-3-3"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR1"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H1"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD2"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(2), E, G(5&quot;), PD(3)"/>
-      </characteristics>
-    </profile>
-    <profile id="2f38-6ebb-4fe1-b9ad" name="SDV Heavy Corvettes in Tri-Formation" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M9&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="5-4-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC0"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD3"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Non-Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Small"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(4), E, G(5&quot;), PD(4)"/>
-      </characteristics>
-    </profile>
     <profile id="39e6-0da3-781c-dbd2" name="Superiority" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9">
       <profiles/>
       <rules/>
@@ -5997,91 +5987,6 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="Increase the security Detail rating of ALL zealots in a Fleet by +2 for the remainder of the Turn."/>
         <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This order must be issued during the Execute orders step of the Boarding Resolution Phase."/>
         <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
-      </characteristics>
-    </profile>
-    <profile id="56d2-678c-70ce-b566" name="CCS Battlecruiser (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CA(1), DA(5), G(4&quot;), PD(4)"/>
-      </characteristics>
-    </profile>
-    <profile id="3aeb-89a5-b8a4-e36b" name="CPV Heavy Destroyer (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M8&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="8-7-4"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4*"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(4&quot;), P*, PD(4)"/>
-      </characteristics>
-    </profile>
-    <profile id="a63b-f017-6bdd-4a2b" name="DSC Support Ship (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H4"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC4"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(4), G(4&quot;), L, PD(5)"/>
-      </characteristics>
-    </profile>
-    <profile id="b372-fabe-8975-d080" name="ORS Heavy Cruiser (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M5&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-6"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR5"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H6"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD5"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Large"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="CS, DA(5), G(3&quot;), PD(6)"/>
-      </characteristics>
-    </profile>
-    <profile id="3480-1f04-5046-3a4e" name="RCS Armored Cruiser (Supported)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M7&quot;"/>
-        <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="9-8-5"/>
-        <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
-        <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H3"/>
-        <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
-        <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
-        <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
-        <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
-        <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(3), G(3&quot;), PD(5)"/>
       </characteristics>
     </profile>
     <profile id="b5d5-db28-72c3-d20f" name="Type-28 Boarding Craft" hidden="false" profileTypeId="e2bb-69c6-0aee-1f0b">
@@ -6106,6 +6011,42 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Damage Track" characteristicTypeId="d15d-ee16-e2df-4ab8" value="6-0-0"/>
         <characteristic name="Security Detail" characteristicTypeId="d1c7-e3d7-8f93-699c" value="SD3"/>
         <characteristic name="Systems Loadouts" characteristicTypeId="3abb-5e1a-6975-c891" value="AS(1), HS(Zealot)"/>
+      </characteristics>
+    </profile>
+    <profile id="49e8-a09e-a94d-6a95" name="The Defensive Option" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Icons A/D/C" characteristicTypeId="d565-9474-f48b-03db" value="-/1/-"/>
+        <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="Increase the Firepower Rating of a Defensive Roll made by a Capital Ship by +1 this turn."/>
+        <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order must be issued after a Capital Element has been targeted by an enemy attack."/>
+        <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="efa3-a513-7f69-f3ae" name="Increased Firepower" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9" profileTypeName="Orders">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Icons A/D/C" characteristicTypeId="d565-9474-f48b-03db" value="1/-/-"/>
+        <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="An Element may increase the number of Attack Dice rolled in a Secondary Weapon Attack by +2."/>
+        <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order must be issued prior to any Inital Dice Roll."/>
+        <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="ee06-763e-036a-4268" name="Repair those Bulkheads" hidden="false" profileTypeId="0a73-7ae5-e666-8ed9" profileTypeName="Orders">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Icons A/D/C" characteristicTypeId="d565-9474-f48b-03db" value="-/1/-"/>
+        <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="The Element may remove a single Vulnerable Marker allocated to it."/>
+        <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order must be executed during the Execute Orders Step of the Order Dice Phase of a Turn."/>
+        <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
       </characteristics>
     </profile>
   </sharedProfiles>
