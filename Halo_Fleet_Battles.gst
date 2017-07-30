@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="7c36-0273-dca1-f058" name="Halo Fleet Battles" revision="3" battleScribeVersion="2.00" authorName="Lewis K" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="7c36-0273-dca1-f058" name="Halo Fleet Battles" revision="3" authorName="Lewis K" authorUrl="http://community.spartangames.co.uk">
+<categoryEntries>
+<categoryEntry id="80e8-a9dc-5b5c-9d2f" name="Fleet Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="98b2-d9b4-0e2a-42dc" name="Heroic Character" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="1efa-3cc7-f6ec-0bb8" name="Standard Battle Group" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="66fd-78fe-4e96-ac37" name="Specalist Battle Group" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+</categoryEntries>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -89,13 +118,8 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="f967-29af-0633-b04d" name="Standard Force" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryEntries>
-        <categoryEntry id="80e8-a9dc-5b5c-9d2f" name="Fleet Commander" hidden="false">
+<categoryLinks>
+<categoryLink id="f967-29af-0633-b04d-80e8-a9dc-5b5c-9d2f" targetId="80e8-a9dc-5b5c-9d2f" name="Fleet Commander" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -104,15 +128,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="98b2-d9b4-0e2a-42dc" name="Heroic Character" hidden="false">
+        </categoryLink>
+<categoryLink id="f967-29af-0633-b04d-98b2-d9b4-0e2a-42dc" targetId="98b2-d9b4-0e2a-42dc" name="Heroic Character" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="1efa-3cc7-f6ec-0bb8" name="Standard Battle Group" hidden="false">
+        </categoryLink>
+<categoryLink id="f967-29af-0633-b04d-1efa-3cc7-f6ec-0bb8" targetId="1efa-3cc7-f6ec-0bb8" name="Standard Battle Group" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -120,8 +144,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="66fd-78fe-4e96-ac37" name="Specalist Battle Group" hidden="false">
+        </categoryLink>
+<categoryLink id="f967-29af-0633-b04d-66fd-78fe-4e96-ac37" targetId="66fd-78fe-4e96-ac37" name="Specalist Battle Group" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -137,8 +161,14 @@
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-      </categoryEntries>
+        </categoryLink>
+</categoryLinks>
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      
       <forceEntries/>
     </forceEntry>
   </forceEntries>
