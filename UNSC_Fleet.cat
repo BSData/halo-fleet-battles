@@ -2025,7 +2025,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="226c-90de-a4ee-278e" hidden="false" targetId="31e9-c7a3-2aeb-e871" type="selectionEntry">
+                <entryLink id="226c-90de-a4ee-278e" name="Marathon Heavy Cruiser (Supported)" hidden="false" targetId="31e9-c7a3-2aeb-e871" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2041,7 +2041,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="e012-5644-5b5e-ab33" hidden="false" targetId="c1ba-bf41-1a5a-7e4a" type="selectionEntry">
+                <entryLink id="e012-5644-5b5e-ab33" name="Epoch Heavy Cruiser (Supported)" hidden="false" targetId="c1ba-bf41-1a5a-7e4a" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2089,7 +2089,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="c1a8-1e65-e119-0175" hidden="false" targetId="95ac-3856-2538-85a8" type="selectionEntry">
+                <entryLink id="c1a8-1e65-e119-0175" name="Epoch Heavy Cruiser (Defended)" hidden="false" targetId="95ac-3856-2538-85a8" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2130,6 +2130,22 @@
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="4788-74d1-8ea7-ab62" name="Phoenix-Class Colonial Support Vessel" hidden="false" targetId="ce58-94d6-f4bf-2a94" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="809b-5c22-1a9e-543a" name="Autumn Heavy Cruiser" hidden="false" targetId="4544-59ee-a738-8ba2" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="885c-b11f-fb50-9e6b" name="Autumn Heavy Cruiser (Escorted)" hidden="false" targetId="e74f-f1c7-9b8d-fde5" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5901,6 +5917,422 @@
         <cost name="BR" costTypeId="Build Rating" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4544-59ee-a738-8ba2" name="Autumn Heavy Cruiser" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="cc4c-1311-e4f4-fffd" name="Autumn Heavy Cruiser S1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Secondary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Missile Batteries"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R12/24&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Missiles"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F* or P+S"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D5"/>
+          </characteristics>
+        </profile>
+        <profile id="46a4-d07f-b503-05db" name="Autumn Heavy Cruiser P1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Primary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Heavy MAC"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R16/32&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="MAC(2)"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D7"/>
+          </characteristics>
+        </profile>
+        <profile id="3301-6dfd-e8c3-214e" name="Autumn Heavy Cruiser" book="Reference Sheet" page="1353" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M6&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="6-6-3"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR2"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD3"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="AT, DA(2), HB(3&quot;), MB*, PD(2), TA(2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="141b-362d-5bb4-b9cc" name="[HB] Hard Burn" hidden="false" targetId="832b-60db-8cd7-8c91" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="48fa-4176-980a-ec8f" hidden="false" targetId="a6bc-2cb7-5f63-b77e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2c2-a5b0-5e89-5c21" name="[PD] Point Defence" hidden="false" targetId="98c7-6410-cddf-f675" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4a5f-a0df-4d9a-2c51" hidden="false" targetId="8a23-fff0-82ec-7f61" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="53b3-ec0d-e30d-c316" hidden="false" targetId="da14-8c34-2ad1-187d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="181d-f817-703c-b511" hidden="false" targetId="0877-287d-9080-e907" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b7ff-4cab-c50c-c0e5" name="[DA] Defence Array" hidden="false" targetId="cb35-fd9c-dde3-c717" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7085-8cf5-bc21-591e" name="[AT] Advanced Targeting" hidden="false" targetId="7371-3146-900f-e66b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6f05-6e37-7e44-a5af" name="Boarding Craft" hidden="false" collective="false" defaultSelectionEntryId="7d87-1394-3214-f58e">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4903-1cc6-755b-ec14" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e1-c667-87fe-d470" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7d87-1394-3214-f58e" name="ODST Strike Team" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5b7a-ad7a-0fc2-3007" name="ODST Strike Teams" hidden="false" targetId="b1b8-cc27-6da7-c77a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="497f-e5c8-5d09-311b" name="[AS] Assault Specialist" hidden="false" targetId="3069-695c-b6f0-87c4" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="3420-ff31-341e-696e" name="[HS] Heroic Save" hidden="false" targetId="8afc-927c-eb75-5ce9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="00d8-4006-724c-fea9" name="Boarding Craft" hidden="false" collective="false" defaultSelectionEntryId="02e3-661f-494a-b731">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b49-ec18-5618-4c17" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d5-cf95-d08b-3ca9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="02e3-661f-494a-b731" name="ODST Strike Team" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="da5c-faf8-b802-724c" name="ODST Strike Teams" hidden="false" targetId="b1b8-cc27-6da7-c77a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ba5a-5652-860b-a7a5" name="[AS] Assault Specialist" hidden="false" targetId="3069-695c-b6f0-87c4" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="3684-99db-cee8-0071" name="[HS] Heroic Save" hidden="false" targetId="8afc-927c-eb75-5ce9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="100.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e74f-f1c7-9b8d-fde5" name="Autumn Heavy Cruiser (Escorted)" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="59fd-4d2b-ac6e-5807" name="Autumn Heavy Cruiser (Escorted) S1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Secondary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Missile Batteries"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R12/24&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Missiles"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F* or P+S"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D6"/>
+          </characteristics>
+        </profile>
+        <profile id="db0a-9799-c308-d1eb" name="Autumn Heavy Cruiser (Escorted) P1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Primary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Heavy MAC"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R16/32&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="MAC(2)"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D9"/>
+          </characteristics>
+        </profile>
+        <profile id="1715-1a80-07b7-1197" name="Autumn Heavy Cruiser (Escorted)" book="Reference Sheet" page="1353" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M6&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="7-6-3"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H2"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC2"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD4"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Medium"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="AT, DA(2), HB(2&quot;), MB*, PD(2), TA(3)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="de8c-5db0-71ed-f440" name="[HB] Hard Burn" hidden="false" targetId="832b-60db-8cd7-8c91" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e5f-6717-f1ee-432f" hidden="false" targetId="a6bc-2cb7-5f63-b77e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="38a3-e158-5a12-5308" name="[PD] Point Defence" hidden="false" targetId="98c7-6410-cddf-f675" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2cd-f2ab-a4aa-0424" hidden="false" targetId="8a23-fff0-82ec-7f61" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0f7-58b2-90ff-7009" hidden="false" targetId="da14-8c34-2ad1-187d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5662-55eb-aff9-c364" hidden="false" targetId="0877-287d-9080-e907" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af47-b944-be00-de2b" name="[DA] Defence Array" hidden="false" targetId="cb35-fd9c-dde3-c717" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2bb-9b47-feaf-e252" name="[AT] Advanced Targeting" hidden="false" targetId="7371-3146-900f-e66b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2fb4-9371-9db4-325c" name="Boarding Craft" hidden="false" collective="false" defaultSelectionEntryId="d5ab-0829-5781-49b1">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a41-473e-dc99-6deb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e8-7d58-7204-0b9c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d5ab-0829-5781-49b1" name="ODST Strike Team" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="48e5-0cf5-cb38-e9bd" name="ODST Strike Teams" hidden="false" targetId="b1b8-cc27-6da7-c77a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="43d1-6322-fe48-c41a" name="[AS] Assault Specialist" hidden="false" targetId="3069-695c-b6f0-87c4" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="2fe2-4d42-c547-b847" name="[HS] Heroic Save" hidden="false" targetId="8afc-927c-eb75-5ce9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7a60-afe0-9e41-038f" name="Boarding Craft" hidden="false" collective="false" defaultSelectionEntryId="47a3-1876-1669-a184">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3098-23f8-2fa9-0583" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf30-9502-d568-07cb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="47a3-1876-1669-a184" name="ODST Strike Team" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3d9c-dd8b-0c3b-bf1b" name="ODST Strike Teams" hidden="false" targetId="b1b8-cc27-6da7-c77a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="52f9-32e5-1984-83ce" name="[AS] Assault Specialist" hidden="false" targetId="3069-695c-b6f0-87c4" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="696f-dc80-61e5-0285" name="[HS] Heroic Save" hidden="false" targetId="8afc-927c-eb75-5ce9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="H" costTypeId="Hangers" value="2.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -6027,6 +6459,20 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
       <infoLinks/>
       <modifiers/>
       <description>During the Perform Carrier Actions step in the End Phase, you may place a single new Boarding Craft on the Phoenix&apos;s Formation Base. This Formation may never exceed its original boarding craft allocation at any given time.</description>
+    </rule>
+    <rule id="cb35-fd9c-dde3-c717" name="[DA] Defence Array" book="Core Rulebook" page="108" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>An Element with the Defence Arrays (Value) Loadout may add the Value listed in Parathesis to its Defence Dice Pool when defending against Attack by the enemy or when colliding with Terrain.</description>
+    </rule>
+    <rule id="7371-3146-900f-e66b" name="[AT] Advanced Targeting" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Formation may choose to re-roll any INITAL rolls of a SKULL when performing an Attack with its Heavy MAC Cannon. These dice must be rolled seperatly. The attack then moves to the re-roll Step as normal.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -6208,6 +6654,18 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="The Element may remove a single Vulnerable Marker allocated to it."/>
         <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order must be executed during the Execute Orders Step of the Order Dice Phase of a Turn."/>
         <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="b1b8-cc27-6da7-c77a" name="ODST Strike Teams" hidden="false" profileTypeId="e2bb-69c6-0aee-1f0b">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Movement" characteristicTypeId="8905-a627-3dd8-d2fd" value="M12&quot;"/>
+        <characteristic name="Damage Track" characteristicTypeId="d15d-ee16-e2df-4ab8" value="4-0-0"/>
+        <characteristic name="Security Detail" characteristicTypeId="d1c7-e3d7-8f93-699c" value="SD4"/>
+        <characteristic name="Systems Loadouts" characteristicTypeId="3abb-5e1a-6975-c891" value="AS(1) HS(Trooper)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
