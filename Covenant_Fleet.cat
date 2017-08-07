@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="22" battleScribeVersion="2.01" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="23" battleScribeVersion="2.01" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1093,7 +1093,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="6a46-6b7d-fa36-574f" hidden="false" targetId="6b62-761f-ef38-4433" type="selectionEntry">
+                <entryLink id="6a46-6b7d-fa36-574f" name="CCS Battlecruiser (Defended)" hidden="false" targetId="6b62-761f-ef38-4433" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1134,6 +1134,22 @@
                   <categoryLinks/>
                 </entryLink>
                 <entryLink id="fff8-0346-72ee-4ee1" name="Covenant Blockade Runner (Escorted)" hidden="false" targetId="5fbb-9b7d-1999-03f5" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="219c-1b06-9cbe-da52" name="Carrack Merchant Cruiser" hidden="false" targetId="277b-90af-3a16-25b9" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="950b-370d-47a3-a5de" name="Carrack Merchant Cruiser (Escorted)" hidden="false" targetId="598b-9bef-14e6-947b" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6333,6 +6349,228 @@
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="277b-90af-3a16-25b9" name="Carrack Merchant Cruiser" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="923e-2b9f-cbed-e3b8" name="Carrack Merchant Cruiser S1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Secondary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Cannons"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R10/20&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Plasma"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="P+S"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D11"/>
+          </characteristics>
+        </profile>
+        <profile id="e3ff-80f3-d2ef-e643" name="Carrack Merchant Cruiser" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M4&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-10-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR3"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H0"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Large"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(1), G(4&quot;), PD(3)"/>
+          </characteristics>
+        </profile>
+        <profile id="0705-5bac-ebae-a6b7" name="Carrack Merchant Cruiser P1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Primary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Beam"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R16/-&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Beam/Plasma"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D15/15/15"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d67c-667f-22ba-4ee1" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f15-712a-d00c-ca30" name="[DA] Defence Array" hidden="false" targetId="6e18-e6aa-aa5b-b1fa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e3b1-78ab-b23e-1574" name="[G] Glide" hidden="false" targetId="bd1d-02c5-3aa3-3b1a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eee9-6d31-1d20-fafb" name="Plasma" hidden="false" targetId="015b-430c-def9-611e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="75fc-c401-5510-3dab" name="Beam" hidden="false" targetId="962e-ce9f-93a6-8af8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ac84-743b-baae-7613" name="Type-28 Boarding Craft (Hunter)" hidden="false" targetId="552d-f56a-04bb-e586" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="19a8-f731-d4ca-32f9" name="[AS] Assault Specialist" hidden="false" targetId="01a7-55d0-ac0c-1e9f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="145.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="598b-9bef-14e6-947b" name="Carrack Merchant Cruiser (Escorted)" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="50a1-11ed-e0c2-38ca" name="Carrack Merchant Cruiser (Escorted) S1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Secondary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Cannons"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R10/20&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Plasma"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="P+S"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D13"/>
+          </characteristics>
+        </profile>
+        <profile id="d1dc-ce98-498d-2216" name="Carrack Merchant Cruiser (Escorted)" hidden="false" profileTypeId="ada5-a7de-6104-01ff">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8fa1-7e88-e559-0500" value="M4&quot;"/>
+            <characteristic name="Damage Track" characteristicTypeId="8c00-74c5-9f70-8cf6" value="11-11-6"/>
+            <characteristic name="Build Rating" characteristicTypeId="c6b2-9e68-686c-57ca" value="BR4"/>
+            <characteristic name="Hangers" characteristicTypeId="3d5e-f3b6-6b5d-4362" value="H0"/>
+            <characteristic name="Boarding Craft" characteristicTypeId="4e94-7718-ec73-70c5" value="BC3"/>
+            <characteristic name="Security Detail" characteristicTypeId="41c5-6d69-ba5e-bb54" value="SD6"/>
+            <characteristic name="Class" characteristicTypeId="66dc-5a43-86f3-5a9f" value="Capital"/>
+            <characteristic name="Size" characteristicTypeId="be70-6774-adfd-7240" value="Large"/>
+            <characteristic name="Systems Loadouts" characteristicTypeId="f70e-2e07-5545-faf7" value="DA(2), G(4&quot;), PD(5)"/>
+          </characteristics>
+        </profile>
+        <profile id="7443-1c06-049f-78f2" name="Carrack Merchant Cruiser (Escorted) P1" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Primary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="Beam"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R16/-&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Beam/Plasma"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D15/15/15"/>
+          </characteristics>
+        </profile>
+        <profile id="1cc0-39b1-7924-096d" name="Carrack Merchant Cruiser (Escorted) S2" hidden="false" profileTypeId="66b5-1f16-b76a-8212">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="e8f0-9979-bf35-75b4" value="Secondary"/>
+            <characteristic name="Weapon" characteristicTypeId="9141-7c49-8222-fa82" value="AND Torpedoes"/>
+            <characteristic name="Range" characteristicTypeId="f943-e25e-7fa8-c96d" value="R12/24&quot;"/>
+            <characteristic name="Loadouts" characteristicTypeId="d182-5097-35b9-78f7" value="Missiles/Plasma"/>
+            <characteristic name="Arc" characteristicTypeId="e213-0d74-774c-ebc7" value="F"/>
+            <characteristic name="Dice" characteristicTypeId="fc05-8509-413d-ed2c" value="D5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6583-8dd9-804f-e534" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="92da-cb21-ef6b-b6b0" name="[DA] Defence Array" hidden="false" targetId="6e18-e6aa-aa5b-b1fa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0b95-95b5-81c0-e1c8" name="[G] Glide" hidden="false" targetId="bd1d-02c5-3aa3-3b1a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0cb1-3660-2636-a30e" name="Plasma" hidden="false" targetId="015b-430c-def9-611e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9cbd-5d0d-e5de-a627" name="Beam" hidden="false" targetId="962e-ce9f-93a6-8af8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2dc4-6bb0-ccfd-183e" name="Type-28 Boarding Craft (Hunter)" hidden="false" targetId="552d-f56a-04bb-e586" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1155-9586-3a1b-bacd" name="[AS] Assault Specialist" hidden="false" targetId="01a7-55d0-ac0c-1e9f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="165.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -6649,6 +6887,18 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Effect" characteristicTypeId="3789-e78d-e265-a24f" value="The Element may remove a single Vulnerable Marker allocated to it."/>
         <characteristic name="Use" characteristicTypeId="9a4a-802a-b52b-2e10" value="This Order must be executed during the Execute Orders Step of the Order Dice Phase of a Turn."/>
         <characteristic name="Notes" characteristicTypeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="552d-f56a-04bb-e586" name="Type-28 Boarding Craft (Hunter)" hidden="false" profileTypeId="e2bb-69c6-0aee-1f0b">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Movement" characteristicTypeId="8905-a627-3dd8-d2fd" value="M12&quot;"/>
+        <characteristic name="Damage Track" characteristicTypeId="d15d-ee16-e2df-4ab8" value="6-0-0"/>
+        <characteristic name="Security Detail" characteristicTypeId="d1c7-e3d7-8f93-699c" value="SD5"/>
+        <characteristic name="Systems Loadouts" characteristicTypeId="3abb-5e1a-6975-c891" value="AS(2), HS(Trooper)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
