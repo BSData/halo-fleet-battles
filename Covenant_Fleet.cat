@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="23" battleScribeVersion="2.01" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet" revision="24" battleScribeVersion="2.01" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -834,7 +834,7 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="maxSelections" value="2.0">
+            <modifier type="increment" field="maxSelections" value="2">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5934-00a3-02f1-1f4e" repeats="1" roundUp="false"/>
               </repeats>
@@ -855,9 +855,23 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="maxSelections" value="2.0">
+            <modifier type="increment" field="maxSelections" value="2">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="459e-1bb9-6708-dca0" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="994d-0228-114c-f55e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5fbb-9b7d-1999-03f5" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -6451,6 +6465,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="145.0"/>
         <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="598b-9bef-14e6-947b" name="Carrack Merchant Cruiser (Escorted)" hidden="false" collective="false" type="model">
@@ -6569,6 +6584,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="165.0"/>
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="H" costTypeId="Hangers" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
