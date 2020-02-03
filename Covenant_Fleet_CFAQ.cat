@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -3582,7 +3582,7 @@ Hunters 0-3 per 1000pts
             <characteristic name="Security Detail" typeId="41c5-6d69-ba5e-bb54">SD4</characteristic>
             <characteristic name="Class" typeId="66dc-5a43-86f3-5a9f">Capital</characteristic>
             <characteristic name="Size" typeId="be70-6774-adfd-7240">Large</characteristic>
-            <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">CA(3), CS, DA(4), G(3&quot;), PD(3)</characteristic>
+            <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">CA(3), CS, DA(4), G(3&quot;), PD(5)</characteristic>
           </characteristics>
         </profile>
         <profile id="3ae6-a99e-51df-76aa" name="DSS Class Cruiser S2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
