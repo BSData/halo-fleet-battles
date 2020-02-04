@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -3540,7 +3540,7 @@ Hunters 0-3 per 1000pts
         <cost name="H" typeId="Hangers" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="256f-b8a5-fb72-a024" name="DSS Class Cruiser" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="256f-b8a5-fb72-a024" name="DDS Class Cruiser" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="a9a1-ebb4-69b4-6064" name="DSS Class Cruiser P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
@@ -3613,7 +3613,7 @@ Hunters 0-3 per 1000pts
         <cost name="BR" typeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e49-a1c6-0f8c-3e2a" name="DSS Class Cruiser (Supported)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4e49-a1c6-0f8c-3e2a" name="DDS Class Cruiser (Supported)" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4980-f8d2-3761-71fc" name="DSS Class Cruiser (Supported) P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
