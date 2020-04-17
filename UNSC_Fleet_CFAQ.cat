@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="1" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="2" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -3442,7 +3442,7 @@ Spartan 0-2 per 1000 pts
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
         <cost name="H" typeId="Hangers" value="3.0"/>
-        <cost name="BR" typeId="Build Rating" value="2.0"/>
+        <cost name="BR" typeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2d0-f13a-74e4-bf5a" name="Halcyon Light Cruiser (Escorted)" hidden="false" collective="false" import="true" type="model">
@@ -3495,7 +3495,7 @@ Spartan 0-2 per 1000 pts
       <costs>
         <cost name="pts" typeId="points" value="95.0"/>
         <cost name="H" typeId="Hangers" value="3.0"/>
-        <cost name="BR" typeId="Build Rating" value="2.0"/>
+        <cost name="BR" typeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3798-458f-3121-9c09" name="Halcyon Light Cruiser (Defended)" hidden="false" collective="false" import="true" type="model">
@@ -3548,7 +3548,7 @@ Spartan 0-2 per 1000 pts
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
         <cost name="H" typeId="Hangers" value="4.0"/>
-        <cost name="BR" typeId="Build Rating" value="2.0"/>
+        <cost name="BR" typeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10d6-deeb-e1f0-2a12" name="Halcyon Light Cruiser (Reinforced)" hidden="false" collective="false" import="true" type="model">
@@ -3601,7 +3601,7 @@ Spartan 0-2 per 1000 pts
       <costs>
         <cost name="pts" typeId="points" value="110.0"/>
         <cost name="H" typeId="Hangers" value="3.0"/>
-        <cost name="BR" typeId="Build Rating" value="2.0"/>
+        <cost name="BR" typeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
