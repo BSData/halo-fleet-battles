@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="2" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="3" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -1542,6 +1542,94 @@ Spartan 0-2 per 1000 pts
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ced-40c5-f872-79da" name="Preston Cole" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5bc8-2ad1-e0af-8dfc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f9a6-47ef-2f1a-5b79" name="Preston Cole" hidden="false" typeId="cdb8-9b5e-c8de-5a0e" typeName="UNSC Heroes">
+          <characteristics>
+            <characteristic name="Spartans" typeId="a821-d480-157e-a66e">0-1</characteristic>
+            <characteristic name="Per" typeId="b365-18ee-ebfa-4102">Full 1000pts</characteristic>
+            <characteristic name="KIA" typeId="ed77-ed06-99a1-b350">4 VPs</characteristic>
+            <characteristic name="Costs" typeId="f653-6785-f32f-0ad8">+40pts Per Spartan</characteristic>
+            <characteristic name="Order Dice" typeId="02b7-0d0d-8a43-b483">5</characteristic>
+            <characteristic name="No. Shared" typeId="8a7d-1ecf-be79-6ce6">2</characteristic>
+            <characteristic name="Notes" typeId="ccd3-8060-4bbc-9938"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1fc3-5093-ee0d-e12e" name="Unique Ability - Preston Cole" page="" hidden="false">
+          <description>During the Deployment step place a Cooldown Token on Preston Cole&apos;s Command Card, the CHOOSE ONE of the following;
+-Before deploying any Battle Groups select any ONE Battle Group to be held in Reserves, regardless of whether the scenario calls for it. During any of the Reserves arrived step remove the Cooldown Token on Preston Cole&apos;s Command Card to automatically bring in the pre-selected Battle Group, deploying it ANYWHERE on the Board. The Battle Group may then continue its activation as normal, though no Boarding Craft may be launched by it.
+-Once Per Game, instead of activating a Battle Group normally, remove the Cooldown Token from Preston Cole&apos;s Command Card to redeploy ONE unactivated Battle Group ANYWHERE on the Battlefield by executing a Slipspace Jump. The Selected Battle Group needs to be in coherency and can face any direction. The Battle Group may then continue its activation as normal, though no Boarding Craft may be launched by it.</description>
+        </rule>
+        <rule id="3095-e572-2013-64cc" name="Passive Ability - Preston Cole" hidden="false">
+          <description>When calculating the amount of VPs awarded based on the BR of a friendly Element&apos;s destruction, reduce the VP awarded by 1 (to a minimum of 1). Note that Elements with the &quot;High Value Target&quot; Loadout grant VPs as normal.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8e57-4ed7-6b76-5f69" hidden="false" targetId="80e8-a9dc-5b5c-9d2f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d467-b5bc-7e53-ba3a" name="Spartan" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="5bc5-b64f-8cce-e6ec" value="1.0">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="3ced-40c5-f872-79da" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5bc5-b64f-8cce-e6ec" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e4f4-9ae1-931a-f414" hidden="false" targetId="79c7-0e4b-a389-c516" type="profile"/>
+            <infoLink id="18b0-2742-0ded-f469" hidden="false" targetId="8afc-927c-eb75-5ce9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="H" typeId="Hangers" value="0.0"/>
+            <cost name="BR" typeId="Build Rating" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="725e-e35e-9c8e-137d" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c41-097e-c339-4019">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5d6-474b-8441-6566" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="898e-af53-b45e-b509" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8c41-097e-c339-4019" hidden="false" collective="false" import="true" targetId="ff31-9621-25b5-55aa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8c91-341e-e1e2-89c2" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="15a2-4e53-d9d7-6de5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="45f5-3b04-e46e-bbca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="31c6-7d69-2993-7f0b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="15a2-4e53-d9d7-6de5" name="Brace! Brace! Brace!" hidden="false" collective="false" import="true" targetId="1a31-4d0b-8f7b-607f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a426-4980-545e-008a" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bc3-cd65-28ab-50f5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="28d6-bedd-adb5-5248" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ba6b-1488-9d9f-c10b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3bc3-cd65-28ab-50f5" name="Enhanced Fire Control" hidden="false" collective="false" import="true" targetId="9757-2bb9-ff25-15a7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="140.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
@@ -3604,6 +3692,11 @@ Spartan 0-2 per 1000 pts
         <cost name="BR" typeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9757-2bb9-ff25-15a7" name="Enhanced Fire Control" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5050-c478-ebe0-1b72" name="Enhanced Fire Control" hidden="false" targetId="79bd-5ea0-5ae5-15a1" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="3069-695c-b6f0-87c4" name="[AS] Assault Specialist" publicationId="77a9-9244-pubN83846" page="113" hidden="false">
@@ -3810,6 +3903,14 @@ Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CAN
         <characteristic name="Damage Track" typeId="d15d-ee16-e2df-4ab8">4-0-0</characteristic>
         <characteristic name="Security Detail" typeId="d1c7-e3d7-8f93-699c">SD4</characteristic>
         <characteristic name="Systems Loadouts" typeId="3abb-5e1a-6975-c891">AS(1) HS(Trooper)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="79bd-5ea0-5ae5-15a1" name="Enhanced Fire Control" hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">1/-/-</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">Add TWO Halo Dice to any firing solution.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This Order may be issued at any time, but before the Defense Dice Pool is rolled.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
       </characteristics>
     </profile>
   </sharedProfiles>
