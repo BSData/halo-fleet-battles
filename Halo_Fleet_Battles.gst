@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="7c36-0273-dca1-f058" name="Halo Fleet Battles" revision="4" battleScribeVersion="2.03" authorName="Lewis K" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="7c36-0273-dca1-f058" name="Halo Fleet Battles" revision="5" battleScribeVersion="2.03" authorName="Lewis K" authorUrl="http://community.spartangames.co.uk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0"/>
     <costType id="Hangers" name="H" defaultCostLimit="0.0"/>
@@ -91,7 +91,7 @@
     <categoryEntry id="66fd-78fe-4e96-ac37" name="Specalist Battle Group" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="f967-29af-0633-b04d" name="Standard Force" hidden="false">
+    <forceEntry id="f967-29af-0633-b04d" name="UNSC Standard Force" hidden="false">
       <categoryLinks>
         <categoryLink id="f967-29af-0633-b04d-80e8-a9dc-5b5c-9d2f" name="Fleet Commander" hidden="false" targetId="80e8-a9dc-5b5c-9d2f" primary="false">
           <constraints>
@@ -126,6 +126,45 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="b3c4-c4f8-d962-e544" name="Covenant Standard Force" hidden="false">
+      <categoryLinks>
+        <categoryLink id="cc4e-ca5f-4a18-6700" name="Fleet Commander" hidden="false" targetId="80e8-a9dc-5b5c-9d2f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a136-8a87-2d17-88b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="2604-5ac3-1682-2294" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1be3-86a9-a243-94da" name="Heroic Character" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="false">
+          <modifiers>
+            <modifier type="increment" field="4cc4-5604-a84a-56e5" value="1.0">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc4-5604-a84a-56e5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7914-c70b-8c31-fe04" name="Standard Battle Group" hidden="false" targetId="1efa-3cc7-f6ec-0bb8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="faaf-082b-98cf-df50" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="608d-0947-09cb-a4e3" name="Specalist Battle Group" hidden="false" targetId="66fd-78fe-4e96-ac37" primary="false">
+          <modifiers>
+            <modifier type="increment" field="c5e8-637f-491a-7a0e" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="1efa-3cc7-f6ec-0bb8" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="c5e8-637f-491a-7a0e" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
