@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -7,10 +7,15 @@
   <selectionEntries>
     <selectionEntry id="83ee-88ba-c4d2-6182" name="Covenant Assault Carrier" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="5a1f-3250-546c-40a6" value="1">
+        <modifier type="increment" field="5a1f-3250-546c-40a6" value="1.0">
           <repeats>
             <repeat field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
           </repeats>
+        </modifier>
+        <modifier type="set" field="5a1f-3250-546c-40a6" value="0.0">
+          <conditions>
+            <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -82,109 +87,6 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="750.0"/>
-        <cost name="H" typeId="Hangers" value="0.0"/>
-        <cost name="BR" typeId="Build Rating" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="16fe-8cfc-ea81-28d8" name="Heroic Character" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="c6c5-381d-329d-16d2" value="1">
-          <repeats>
-            <repeat field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6c5-381d-329d-16d2" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="16fe-8cfc-ea81-28d8-98b2-d9b4-0e2a-42dc" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="12a8-cf37-8806-6560" name="Heroic Character" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6047-8f64-9392-86d8" name="Minister of Etiology" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxInForce" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="39f6-c352-3237-393d" name="Minister of Etiology" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
-                  <characteristics>
-                    <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0-2</characteristic>
-                    <characteristic name="Per" typeId="9173-5a05-122b-8ab2">Full 1000pts</characteristic>
-                    <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d">1 VP</characteristic>
-                    <characteristic name="Costs" typeId="0192-ad10-20b8-665e">+10pts Per Zealot</characteristic>
-                    <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">3</characteristic>
-                    <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">1</characteristic>
-                    <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6">Assigned</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="c6d2-bcc8-6bd4-0f62" name="Unique Ability - Minister of Etiology" publicationId="539f-2dab-pubN66236" page="1114" hidden="false">
-                  <description>Whilst utterly self-possed and concerned only with politics, the Minister claims a high rank within the covenant Hierarchy and can bend even Fleet Commanders to his will. After any Inital Order Dice have been rolled during the Order Dice Phase, the Minister may change a SINGLE friendly Covenant Order Dice to be any result.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="2a65-520f-4cb7-6ec9" hidden="false" targetId="c301-6ba5-af0d-8c8b" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="05b3-7802-8947-5962" name="Zealot" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="maxSelections" value="2">
-                      <repeats>
-                        <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="6047-8f64-9392-86d8" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="4a69-f6be-bd36-4d28" hidden="false" targetId="487b-758e-6cd1-f566" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                    <cost name="H" typeId="Hangers" value="0.0"/>
-                    <cost name="BR" typeId="Build Rating" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e684-eca2-70e8-dbbf" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="f952-497a-34cc-ceb0">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="f952-497a-34cc-ceb0" hidden="false" collective="false" import="true" targetId="c332-8ef4-5998-007d" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="a398-b947-6914-7cc5" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b2e-aa79-dda6-6054">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="6b2e-aa79-dda6-6054" hidden="false" collective="false" import="true" targetId="b4e8-6325-e780-72d7" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="80.0"/>
-                <cost name="H" typeId="Hangers" value="0.0"/>
-                <cost name="BR" typeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
@@ -519,9 +421,31 @@
               </constraints>
               <entryLinks>
                 <entryLink id="c994-349e-bc72-6543" hidden="false" collective="false" import="true" targetId="768b-2312-232c-897b" type="selectionEntry"/>
-                <entryLink id="28e5-9d60-8896-2beb" hidden="false" collective="false" import="true" targetId="1e4e-ff32-b9fd-02c7" type="selectionEntry"/>
+                <entryLink id="28e5-9d60-8896-2beb" hidden="false" collective="false" import="true" targetId="1e4e-ff32-b9fd-02c7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="a2d8-e384-cab3-6304" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d8-e384-cab3-6304" type="max"/>
+                  </constraints>
+                </entryLink>
                 <entryLink id="1f94-99b9-60f7-dd5f" hidden="false" collective="false" import="true" targetId="503c-289e-edfe-ff1c" type="selectionEntry"/>
-                <entryLink id="d31f-1973-bea8-0f2e" name="ORS Heavy Cruiser (Supported)" hidden="false" collective="false" import="true" targetId="98b2-87af-6bcd-bbed" type="selectionEntry"/>
+                <entryLink id="d31f-1973-bea8-0f2e" name="ORS Heavy Cruiser (Supported)" hidden="false" collective="false" import="true" targetId="98b2-87af-6bcd-bbed" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="a5ea-83c0-544d-37a8" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ea-83c0-544d-37a8" type="max"/>
+                  </constraints>
+                </entryLink>
                 <entryLink id="341c-72ae-091c-c72c" hidden="false" collective="false" import="true" targetId="378b-d0b8-4886-7150" type="selectionEntry"/>
                 <entryLink id="055b-8a31-554f-9ac0" hidden="false" collective="false" import="true" targetId="9263-b0cf-9173-a268" type="selectionEntry"/>
                 <entryLink id="fb9b-9e4f-f0ca-f618" hidden="false" collective="false" import="true" targetId="a89d-cdad-09e0-7566" type="selectionEntry"/>
@@ -540,10 +464,54 @@
                 <entryLink id="48d6-d794-1861-1734" hidden="false" collective="false" import="true" targetId="5934-00a3-02f1-1f4e" type="selectionEntry"/>
                 <entryLink id="d776-590f-8f98-1243" name="Covenant Blockade Runner" hidden="false" collective="false" import="true" targetId="994d-0228-114c-f55e" type="selectionEntry"/>
                 <entryLink id="fff8-0346-72ee-4ee1" name="Covenant Blockade Runner (Escorted)" hidden="false" collective="false" import="true" targetId="5fbb-9b7d-1999-03f5" type="selectionEntry"/>
-                <entryLink id="219c-1b06-9cbe-da52" name="Carrack Merchant Cruiser" hidden="false" collective="false" import="true" targetId="277b-90af-3a16-25b9" type="selectionEntry"/>
-                <entryLink id="950b-370d-47a3-a5de" name="Carrack Merchant Cruiser (Escorted)" hidden="false" collective="false" import="true" targetId="598b-9bef-14e6-947b" type="selectionEntry"/>
-                <entryLink id="2372-f990-be77-9de3" name="DSS Class Cruiser" hidden="false" collective="false" import="true" targetId="256f-b8a5-fb72-a024" type="selectionEntry"/>
-                <entryLink id="197d-f707-adc5-89b7" name="DSS Class Cruiser (Supported)" hidden="false" collective="false" import="true" targetId="4e49-a1c6-0f8c-3e2a" type="selectionEntry"/>
+                <entryLink id="219c-1b06-9cbe-da52" name="Carrack Merchant Cruiser" hidden="false" collective="false" import="true" targetId="277b-90af-3a16-25b9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="298b-20b1-59ee-ab0c" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="298b-20b1-59ee-ab0c" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="950b-370d-47a3-a5de" name="Carrack Merchant Cruiser (Escorted)" hidden="false" collective="false" import="true" targetId="598b-9bef-14e6-947b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="851f-1f5a-5369-b4a1" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="851f-1f5a-5369-b4a1" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="2372-f990-be77-9de3" name="DSS Class Cruiser" hidden="false" collective="false" import="true" targetId="256f-b8a5-fb72-a024" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="04ec-a463-12cb-ed0f" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ec-a463-12cb-ed0f" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="197d-f707-adc5-89b7" name="DSS Class Cruiser (Supported)" hidden="false" collective="false" import="true" targetId="4e49-a1c6-0f8c-3e2a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="3bc6-707b-c081-8689" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc6-707b-c081-8689" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -683,6 +651,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fa2f-5e11-4dd2-81ae" name="The Harbinger Battle Group" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0">
+          <conditions>
+            <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -899,6 +874,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9c98-4616-01b0-2472" name="The Solemn Vow Battle Group" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0">
+          <conditions>
+            <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -1068,7 +1050,8 @@
       </profiles>
       <rules>
         <rule id="99dc-3ea7-a5ba-9f4f" name="Unique Ability - Covenant Fleet Commander" publicationId="539f-2dab-pubN66236" page="1115" hidden="false">
-          <description>When rolling the order dice during the Order Dice Phase, you may Change 1 Order Dice of your own or any friendly commander to any desired result.</description>
+          <description>-When rolling the order dice during the Order Dice Phase, you may reroll 1 Order Dice. The Second result must be kept.
+-When you spend an Order Dice on an Order, after resolving the order roll a regular D6, on a result of 5 or 6 do not remove that Order Dice from the Commander&apos;s Command Card.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1293,7 +1276,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3937-07d9-87c4-409b" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3937-07d9-87c4-409b" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="f102-ce9b-b5c5-baae">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c64-0d0b-f1b7-a39e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd14-0b8a-a2b3-8360" type="max"/>
@@ -1302,7 +1285,7 @@
             <entryLink id="f102-ce9b-b5c5-baae" hidden="false" collective="false" import="true" targetId="03dd-b989-c5e7-6f25" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="06b5-bf87-ca91-f68e" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="06b5-bf87-ca91-f68e" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="1251-953a-8b23-26a1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f89-cb67-24df-1434" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38f3-2f08-be03-9c44" type="max"/>
@@ -1311,7 +1294,7 @@
             <entryLink id="1251-953a-8b23-26a1" hidden="false" collective="false" import="true" targetId="065d-f157-fe71-f459" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b546-022a-20f0-62df" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b546-022a-20f0-62df" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="8f62-25c2-9787-37c9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5288-4c24-fc08-1ea7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18ce-1e0f-fb15-de19" type="max"/>
@@ -1343,7 +1326,8 @@
       </profiles>
       <rules>
         <rule id="e983-030f-7709-e545" name="Unique Ability - Covenant Wing Commander" publicationId="539f-2dab-pubN66236" page="1115" hidden="false">
-          <description>Add 2 to your Faction’s Wing Size Limits.</description>
+          <description>-Add 2 to your Faction’s Wing Size Limits.
+-Add +1 Flight Token to every Wing generated by Elements with the Carrier Action Loadout during the Perform Carrier Actions Step of the End Phase.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1372,7 +1356,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dda0-fa47-b960-b28a" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="dda0-fa47-b960-b28a" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="547a-b2e8-8bc9-3c0c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e17d-0f35-dadf-6155" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7325-ff98-03c0-32ad" type="max"/>
@@ -1381,7 +1365,7 @@
             <entryLink id="547a-b2e8-8bc9-3c0c" hidden="false" collective="false" import="true" targetId="03dd-b989-c5e7-6f25" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="353c-e760-df4c-29da" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="353c-e760-df4c-29da" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ca4-b5eb-51c8-7fd7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eae9-f417-47ad-1493" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e9b1-a272-a0d4-d137" type="max"/>
@@ -1390,7 +1374,7 @@
             <entryLink id="4ca4-b5eb-51c8-7fd7" hidden="false" collective="false" import="true" targetId="065d-f157-fe71-f459" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0129-f413-ea6e-6fb5" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0129-f413-ea6e-6fb5" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="d79e-2af0-74b5-4cb1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="602d-9ec1-8859-358e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e648-3280-7252-72ba" type="max"/>
@@ -1410,7 +1394,7 @@
       <profiles>
         <profile id="48c7-2446-d5c2-14c3" name="Covenant Assault Commander" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
           <characteristics>
-            <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0-7</characteristic>
+            <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0-4</characteristic>
             <characteristic name="Per" typeId="9173-5a05-122b-8ab2">Per Full 1000pts</characteristic>
             <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d">1 VP</characteristic>
             <characteristic name="Costs" typeId="0192-ad10-20b8-665e">+10pts Per Zealot</characteristic>
@@ -1422,10 +1406,8 @@
       </profiles>
       <rules>
         <rule id="d077-2e5d-bfa5-65f7" name="Unique Ability - Covenant Assault Commander" publicationId="539f-2dab-pubN66236" page="1115" hidden="false">
-          <description>The assault commander has access to special boarding teams.
-Zealots 0-7 per 1000 pts
-Hunters 0-3 per 1000pts
-</description>
+          <description>You may reroll the result on the Boarding Results table during a Boarding Action. The second result must be kept. In addition, you may purchase special boarding craft as follows;
+-Any Covenant Element may replace any of its Type-28 Boarding craft with Hunter Assault Cadres for +15pts per team.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1434,7 +1416,7 @@ Hunters 0-3 per 1000pts
       <selectionEntries>
         <selectionEntry id="a9a1-b212-5086-b406" name="Zealot" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="3065-9296-1177-3f25" value="7.0">
+            <modifier type="increment" field="3065-9296-1177-3f25" value="4.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -1453,28 +1435,18 @@ Hunters 0-3 per 1000pts
           </costs>
         </selectionEntry>
         <selectionEntry id="d97b-e3ac-38af-154f" name="Hunter" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="f2f5-60f7-ec98-dea6" value="3.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="74e2-9123-51a0-c92e" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f2f5-60f7-ec98-dea6" type="max"/>
-          </constraints>
           <infoLinks>
             <infoLink id="52f7-9c78-e22a-8678" name="Type-28 Boarding Craft (Hunter)" hidden="false" targetId="552d-f56a-04bb-e586" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
             <cost name="H" typeId="Hangers" value="0.0"/>
             <cost name="BR" typeId="Build Rating" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d87d-d1a9-28d8-dd9b" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d87d-d1a9-28d8-dd9b" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="4fa1-6c82-56c0-0383">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e826-8f31-d6d0-2ce4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be62-004d-cfdd-5c26" type="max"/>
@@ -1483,7 +1455,7 @@ Hunters 0-3 per 1000pts
             <entryLink id="4fa1-6c82-56c0-0383" hidden="false" collective="false" import="true" targetId="03dd-b989-c5e7-6f25" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a2f5-e146-6624-b9f1" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a2f5-e146-6624-b9f1" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed9e-04ba-7740-d3af">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cb8-4ea2-055a-37a5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67c6-7ec0-6a73-db11" type="max"/>
@@ -1492,7 +1464,7 @@ Hunters 0-3 per 1000pts
             <entryLink id="ed9e-04ba-7740-d3af" hidden="false" collective="false" import="true" targetId="065d-f157-fe71-f459" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b7a1-0007-d154-09d7" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b7a1-0007-d154-09d7" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="d010-97d7-7953-6b54">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fe7a-3956-7a37-56bb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4cf-e33c-6b34-ecb7" type="max"/>
@@ -1504,6 +1476,227 @@ Hunters 0-3 per 1000pts
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd06-860b-e0d6-227d" name="Maccabeus" page="" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d0b0-0532-2093-e02c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="38e2-ae21-18d8-ec6b" name="Maccabeus" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
+          <characteristics>
+            <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0</characteristic>
+            <characteristic name="Per" typeId="9173-5a05-122b-8ab2"/>
+            <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d"/>
+            <characteristic name="Costs" typeId="0192-ad10-20b8-665e"/>
+            <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">5</characteristic>
+            <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">0</characteristic>
+            <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dcda-8f93-7a41-b5fe" name="Unique Ability - Maccabeus" hidden="false">
+          <description>-The Fleet being led by Maccabeus ignore ALL Damage Token penalties when resolving Attack Dice pools.
+-All boarding Craft in Maccabeus&apos; Fleet are replaced by Brute Boarding Craft - NO VPs for KIA</description>
+        </rule>
+        <rule id="48d3-b642-424f-4634" name="Fleet Restriction - Maccabeus" hidden="false">
+          <description>-Vulnerable Tokens are only repaired by a result of a &quot;2&quot; on Halo Dice, and this only repairs a SINGLE Vunerable Token. Additionally a result of &quot;SKULL&quot; adds one additional Vulnerable Token.
+-No Large or Massive Elements may be included in a Fleet led by Maccabeus.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a5df-a567-6623-a48d" hidden="false" targetId="80e8-a9dc-5b5c-9d2f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="847e-d2fb-b9c7-fb88" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="fbc9-547b-7d1a-4097">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6add-7454-62aa-b21a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8db-92f9-6ade-459e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fbc9-547b-7d1a-4097" name="Jiralhanae Frenzy" hidden="false" collective="false" import="true" targetId="a42c-0e21-0747-5df4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ba3b-658f-f122-dc4a" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5b0-33e7-3db4-6923">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a1a-fd43-9ed9-6ac0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c613-0215-34ac-e2b7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b5b0-33e7-3db4-6923" name="Burn The Heretics" hidden="false" collective="false" import="true" targetId="8d5b-e798-e711-1b47" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8355-ab8a-2b0a-8926" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="34f9-c708-6584-ec3b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7535-51f6-8687-0db8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6687-2da6-89d6-9867" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="34f9-c708-6584-ec3b" name="Pack Mentality" hidden="false" collective="false" import="true" targetId="53f7-188f-236a-3ef5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1fc3-1cff-aeea-d416" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="d98f-3f44-1c84-5f6e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea48-1335-7398-c5ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ffda-4471-fbb6-2feb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d98f-3f44-1c84-5f6e" name="Power to the Defences" hidden="false" collective="false" import="true" targetId="6d06-24ee-ab07-38e0" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f5fd-6971-4f82-45bc" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="4091-22ca-c748-0bc8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="45db-caa8-639e-3202" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3ac-77fd-428a-d30a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4091-22ca-c748-0bc8" name="Brutal Attack" hidden="false" collective="false" import="true" targetId="76d2-41d0-ae8f-278d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc54-05f6-deb2-b155" name="Lighter Than Some" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="92d9-a0e8-11bb-fb2e" value="1.0">
+          <conditions>
+            <condition field="selections" scope="80e8-a9dc-5b5c-9d2f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd06-860b-e0d6-227d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92d9-a0e8-11bb-fb2e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cdc2-c048-9627-0178" name="Lighter Than Some" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
+          <characteristics>
+            <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0</characteristic>
+            <characteristic name="Per" typeId="9173-5a05-122b-8ab2"></characteristic>
+            <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d"></characteristic>
+            <characteristic name="Costs" typeId="0192-ad10-20b8-665e"></characteristic>
+            <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">2</characteristic>
+            <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">2</characteristic>
+            <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6">Assigned</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fb8b-9b7f-fc21-c64e" name="Unique Ability - Lighter Than Some" publicationId="539f-2dab-pubN66236" page="1114" hidden="false">
+          <description>-The assigned Element for &quot;Lighter Than Some&quot; does not suffer the Vulnerable token restriction that Maccabeus grants. The assigned Element may repair Vulnerable Tokens as normal.
+-&quot;Lighter Than Some&quot; may only be taken as part of a Force Commandered by Maccabeus.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d729-aa57-2a2a-4ad3" hidden="false" targetId="c301-6ba5-af0d-8c8b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f6d5-5d41-cd4d-c3b3" name="Heroic Character" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6b9d-baf8-4a38-7dd9" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba3e-e9ae-3517-1906">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5089-7f17-d76c-1275" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6faf-3851-23dc-3b8f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ba3e-e9ae-3517-1906" name="Must get to Safety" hidden="false" collective="false" import="true" targetId="84d6-2f51-95a8-64eb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9496-3f33-1732-09bd" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="a6f0-a8f9-24dc-1f78">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ebd-da06-0a16-c414" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ab0-aaad-d158-8073" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a6f0-a8f9-24dc-1f78" name="This is Broken. Must be Fixed." hidden="false" collective="false" import="true" targetId="00a0-9fbe-bda2-8c5d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9f7-0631-746e-15b2" name="Minister of Etiology" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc52-8c78-0b84-5c99" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f05b-27e3-e2d1-c645" name="Minister of Etiology" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
+          <characteristics>
+            <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0-2</characteristic>
+            <characteristic name="Per" typeId="9173-5a05-122b-8ab2">Full 1000pts</characteristic>
+            <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d">1 VP</characteristic>
+            <characteristic name="Costs" typeId="0192-ad10-20b8-665e">+10pts Per Zealot</characteristic>
+            <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">3</characteristic>
+            <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">1</characteristic>
+            <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6">Assigned</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ce83-7a55-f9ea-f3a2" name="Unique Ability - Minister of Etiology" publicationId="539f-2dab-pubN66236" page="1114" hidden="false">
+          <description>Whilst utterly self-possed and concerned only with politics, the Minister claims a high rank within the covenant Hierarchy and can bend even Fleet Commanders to his will. After any Inital Order Dice have been rolled during the Order Dice Phase, the Minister may change a SINGLE friendly Covenant Order Dice to be any result.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="99fd-bb03-9a3c-f16a" hidden="false" targetId="c301-6ba5-af0d-8c8b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f003-c9fd-197f-90f2" name="New CategoryLink" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4413-4145-3149-c68b" name="Zealot" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="f544-a094-6fa5-48a4" value="2.0">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f544-a094-6fa5-48a4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f8fa-8984-924f-d078" hidden="false" targetId="487b-758e-6cd1-f566" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="H" typeId="Hangers" value="0.0"/>
+            <cost name="BR" typeId="Build Rating" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d65-9b36-2678-1418" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="44de-7108-77e4-7da7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87a0-38f9-99a6-ff56" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64b5-ae1a-22a4-04a5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="44de-7108-77e4-7da7" hidden="false" collective="false" import="true" targetId="c332-8ef4-5998-007d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="676d-14ed-e74f-3b1f" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="291e-7d5e-be79-a32a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="95be-77e4-9748-0c2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="224d-6a7b-71c2-853a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="291e-7d5e-be79-a32a" hidden="false" collective="false" import="true" targetId="b4e8-6325-e780-72d7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
@@ -3686,6 +3879,56 @@ Hunters 0-3 per 1000pts
         <cost name="BR" typeId="Build Rating" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="76d2-41d0-ae8f-278d" name="Brutal Attack" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4944-a2de-dc97-64c2" name="Brutal Attack" hidden="false" targetId="6860-fa3f-e591-d5a4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53f7-188f-236a-3ef5" name="Pack Mentality" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ce02-717a-3932-6eda" name="Pack Mentality" hidden="false" targetId="564f-d73d-b58c-8cad" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d5b-e798-e711-1b47" name="Burn The Heretics" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4b6f-9f28-c8a1-13fe" name="Burn The Heretics" hidden="false" targetId="081a-c34d-db27-3689" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a42c-0e21-0747-5df4" name="Jiralhanae Frenzy" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="350b-a438-793c-aa99" name="Jiralhanae Frenzy" hidden="false" targetId="33ae-3660-7488-5af3" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00a0-9fbe-bda2-8c5d" name="This is Broken. Must be Fixed." hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="65c8-8c47-efd6-92dd" name="This is Broken. Must be Fixed." hidden="false" targetId="db09-5cf8-a7bb-c6c0" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="84d6-2f51-95a8-64eb" name="Must get to Safety" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e91c-238b-ecdd-06ce" name="Must Get to Safety" hidden="false" targetId="d682-4001-84e9-eadd" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="01a7-55d0-ac0c-1e9f" name="[AS] Assault Specialist" publicationId="539f-2dab-pubN84848" page="113" hidden="false">
@@ -3885,6 +4128,54 @@ Due to the overwhelming power of Beam weapons, the Attack Dice Pools use a start
         <characteristic name="Damage Track" typeId="d15d-ee16-e2df-4ab8">3-0-0</characteristic>
         <characteristic name="Security Detail" typeId="d1c7-e3d7-8f93-699c">SD5</characteristic>
         <characteristic name="Systems Loadouts" typeId="3abb-5e1a-6975-c891">AS(2), HS(Trooper)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6860-fa3f-e591-d5a4" name="Brutal Attack" hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">1/-/-</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">Any attack may add TWO attack dice.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This order is issued after any Inital Dice are rolled during the Attack Segment.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="564f-d73d-b58c-8cad" name="Pack Mentality" hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">-/-/1</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">The Fleet Commander may order the rebuilding of a Battle Group up to a maximum of BR of 6 but ignores other restrictions on forming an Ad-Hoc Battle Group.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This Order may be issued during the Execute Orders Step of the Order Dice Phase.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="081a-c34d-db27-3689" name="Burn The Heretics" hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">1/-/1</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">A single Battle Group receives FOUR additional automatic hits on each of its firing solutions for the rest of its activation.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This order must be issued during the Execute Orders Step of the Order Dice Phase.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="33ae-3660-7488-5af3" name="Jiralhanae Frenzy" hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">1/-/1</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">Increase the Security Rating of ALL Brute Boarding Tokens in the fleet by 1 for the remainder of the turn.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This order must be issued during the Execute Orders Step of the Boarding Resolution Phase.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="d682-4001-84e9-eadd" name="Must Get to Safety" hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">-/-/1</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">Roll a Halo Dice, on a result of &quot;SKULL&quot; the order fails but the Command Dice are still expended. On any other result reassign Lighter Than Some to another Friendly Element within 12&quot; of his currently assigned Element.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This Order must be issued during the Element&apos;s activation.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
+      </characteristics>
+    </profile>
+    <profile id="db09-5cf8-a7bb-c6c0" name="This is Broken. Must be Fixed." hidden="false" typeId="0a73-7ae5-e666-8ed9" typeName="Orders">
+      <characteristics>
+        <characteristic name="Icons A/D/C" typeId="d565-9474-f48b-03db">-/1/-</characteristic>
+        <characteristic name="Effect" typeId="3789-e78d-e265-a24f">Remove a SINGLE Damage token from ANY Element in the Fleet.</characteristic>
+        <characteristic name="Use" typeId="9a4a-802a-b52b-2e10">This order must be issued at the start of the targeted Element&apos;s activation.</characteristic>
+        <characteristic name="Notes" typeId="2387-0454-d0a5-49c6"/>
       </characteristics>
     </profile>
   </sharedProfiles>

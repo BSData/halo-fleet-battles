@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="3" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="5" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -437,96 +437,6 @@
           <entryLinks>
             <entryLink id="47ec-72c8-a7c4-1de7" hidden="false" collective="false" import="true" targetId="bfc5-5642-ba69-9a7a" type="selectionEntry"/>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="H" typeId="Hangers" value="0.0"/>
-        <cost name="BR" typeId="Build Rating" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dbc6-b164-298b-38f9" name="Heroic Character" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="f71c-8715-65d8-e888" value="1">
-          <repeats>
-            <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f71c-8715-65d8-e888" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="dbc6-b164-298b-38f9-98b2-d9b4-0e2a-42dc" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f2da-5730-d5ee-57ee" name="Heroic Character" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="3eed-38d8-ad05-7d24" name="Cortana" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="2277-bbf2-e8db-81f5" name="Cortana" hidden="false" typeId="cdb8-9b5e-c8de-5a0e" typeName="UNSC Heroes">
-                  <characteristics>
-                    <characteristic name="Spartans" typeId="a821-d480-157e-a66e">None</characteristic>
-                    <characteristic name="Per" typeId="b365-18ee-ebfa-4102"/>
-                    <characteristic name="KIA" typeId="ed77-ed06-99a1-b350"/>
-                    <characteristic name="Costs" typeId="f653-6785-f32f-0ad8"/>
-                    <characteristic name="Order Dice" typeId="02b7-0d0d-8a43-b483">3</characteristic>
-                    <characteristic name="No. Shared" typeId="8a7d-1ecf-be79-6ce6">3</characteristic>
-                    <characteristic name="Notes" typeId="ccd3-8060-4bbc-9938"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="b38c-9f3c-640b-6c71" name="Unique Ability - Cortana" publicationId="77a9-9244-pubN68484" page="1116" hidden="false">
-                  <description>Cortana is resourceful and cunning, and her survival is a priority for the UNSC. Should the Element containing Cortana be Destroyed, roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, Cortana may be placed on a nearby friendly vessel within 12&quot;. Should Cortana roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, Cortana is removed from the game and the enemy Fleet gains an additional +4 VPs.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="6f6c-24a6-32ea-1968" hidden="false" targetId="68b7-713b-323d-841f" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="d609-611e-e197-19f8" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="8177-454f-0039-492c">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="8177-454f-0039-492c" hidden="false" collective="false" import="true" targetId="a6b0-17f8-e087-d4af" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="7239-f96b-d525-5ce8" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="0097-a6cf-0a51-537b">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="0097-a6cf-0a51-537b" hidden="false" collective="false" import="true" targetId="6026-7fff-fbca-d650" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="1009-a9c5-5d31-e8c9" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="3498-1e49-f48b-24e8">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="3498-1e49-f48b-24e8" hidden="false" collective="false" import="true" targetId="4593-cd94-a4b4-2cac" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="80.0"/>
-                <cost name="H" typeId="Hangers" value="0.0"/>
-                <cost name="BR" typeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1039,7 +949,8 @@
       </profiles>
       <rules>
         <rule id="884b-8e02-a70a-0d7b" name="Unique Ability - UNSC Fleet Commander" publicationId="77a9-9244-pubN68484" page="1115" hidden="false">
-          <description>When rolling the order dice during the Order Dice Phase, you may Change 1 Order Dice of your own or any friendly commander to any desired result.</description>
+          <description>-When rolling the order dice during the Order Dice Phase, you may reroll 1 Order Dice. The Second result must be kept.
+-When you spend an Order Dice on an Order, after resolving the order roll a regular D6, on a result of 5 or 6 do not remove that Order Dice from the Commander&apos;s Command Card.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1297,8 +1208,9 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="f6af-5403-10be-848a" name="Unique Ability - UNSC Wing Commander" publicationId="77a9-9244-pubN68484" page="1115" hidden="false">
-          <description>Add 2 to your Faction’s Wing Size Limits.</description>
+        <rule id="f6af-5403-10be-848a" name="Unique Ability - UNSC Wing Commander" page="" hidden="false">
+          <description>-Add 2 to your Faction’s Wing Size Limits.
+-Add +1 Flight Token to every Wing generated by Elements with the Carrier Action Loadout during the Perform Carrier Actions Step of the End Phase.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1328,7 +1240,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b66a-753f-6860-08f5" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b66a-753f-6860-08f5" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd20-8b2b-a2d1-83b4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5b7-c892-e8df-dfbd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1c0-86e0-a022-a577" type="max"/>
@@ -1337,7 +1249,7 @@
             <entryLink id="dd20-8b2b-a2d1-83b4" hidden="false" collective="false" import="true" targetId="5c90-b3a8-fd54-a3cd" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6d10-a55b-d0c5-6889" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6d10-a55b-d0c5-6889" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="815b-c362-9486-dde4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f81e-2f9c-d96a-b7e9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a69-786e-79d2-c3e6" type="max"/>
@@ -1346,7 +1258,7 @@
             <entryLink id="815b-c362-9486-dde4" hidden="false" collective="false" import="true" targetId="83eb-325b-cc5b-94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9329-089c-6cc6-ec45" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9329-089c-6cc6-ec45" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="d3a1-f0d8-ae41-f183">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee40-2e70-1ff4-8dbd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ae2-c079-f3df-581a" type="max"/>
@@ -1408,7 +1320,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="934f-13e0-4110-5840" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="934f-13e0-4110-5840" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9c0-da61-8f85-8ebd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3200-79af-6e7f-d8d6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="365f-d802-95dc-b5f8" type="max"/>
@@ -1417,7 +1329,7 @@
             <entryLink id="e9c0-da61-8f85-8ebd" hidden="false" collective="false" import="true" targetId="5c90-b3a8-fd54-a3cd" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4d94-656f-0832-f6f9" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4d94-656f-0832-f6f9" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="b725-7e24-4b59-a4a7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d8c-cb1c-fa44-c231" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea29-24cd-c0e2-9ddf" type="max"/>
@@ -1426,7 +1338,7 @@
             <entryLink id="b725-7e24-4b59-a4a7" hidden="false" collective="false" import="true" targetId="83eb-325b-cc5b-94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="83c2-900a-ef79-80bd" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="83c2-900a-ef79-80bd" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca1e-30d4-4b6e-118e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63aa-2ac1-d253-89f2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a79a-6e6c-eb1f-bd82" type="max"/>
@@ -1446,7 +1358,7 @@
       <profiles>
         <profile id="eb2c-7816-8b15-6d41" name="UNSC Assault Commander" hidden="false" typeId="cdb8-9b5e-c8de-5a0e" typeName="UNSC Heroes">
           <characteristics>
-            <characteristic name="Spartans" typeId="a821-d480-157e-a66e">0-2</characteristic>
+            <characteristic name="Spartans" typeId="a821-d480-157e-a66e">0-1</characteristic>
             <characteristic name="Per" typeId="b365-18ee-ebfa-4102">Full 1000pts</characteristic>
             <characteristic name="KIA" typeId="ed77-ed06-99a1-b350">4 VPs</characteristic>
             <characteristic name="Costs" typeId="f653-6785-f32f-0ad8">+40pts Per Spartan</characteristic>
@@ -1458,10 +1370,8 @@
       </profiles>
       <rules>
         <rule id="9fcf-480c-9018-939d" name="Unique Ability - UNSC Assault Commander" publicationId="77a9-9244-pubN68484" page="1115" hidden="false">
-          <description>The assault commander has access to special boarding teams.
-ODST 0-6 per 1000 pts
-Spartan 0-2 per 1000 pts
-</description>
+          <description>You may reroll the result on the Boarding Results table during a Boarding Action. The second result must be kept. In addition, you may purchase special boarding craft as follows;
+-Any UNSC Element may replace any of its Pelican Boarding craft with ODST Striker Teams for +10pts per team.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1470,7 +1380,7 @@ Spartan 0-2 per 1000 pts
       <selectionEntries>
         <selectionEntry id="8485-3012-a4cc-e281" name="Spartan" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="32ea-cb4a-1bc8-d32d" value="2.0">
+            <modifier type="increment" field="32ea-cb4a-1bc8-d32d" value="1.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -1490,16 +1400,6 @@ Spartan 0-2 per 1000 pts
           </costs>
         </selectionEntry>
         <selectionEntry id="89af-2b89-718c-b0fa" name="ODST Strike Teams" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="5d30-a8f0-bda9-f2db" value="6.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="6015-8ccd-d54f-35cc" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5d30-a8f0-bda9-f2db" type="max"/>
-          </constraints>
           <infoLinks>
             <infoLink id="28ab-201d-172e-5277" name="ODST Strike Teams" hidden="false" targetId="b1b8-cc27-6da7-c77a" type="profile"/>
             <infoLink id="826e-b79c-391c-44b9" hidden="false" targetId="8afc-927c-eb75-5ce9" type="rule"/>
@@ -1512,7 +1412,7 @@ Spartan 0-2 per 1000 pts
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="89d8-b7f2-dd4b-192f" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="89d8-b7f2-dd4b-192f" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4a7-6d12-a477-1145">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f4ad-26de-cdb9-e5d2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae3c-b6b0-c459-968b" type="max"/>
@@ -1521,7 +1421,7 @@ Spartan 0-2 per 1000 pts
             <entryLink id="f4a7-6d12-a477-1145" hidden="false" collective="false" import="true" targetId="5c90-b3a8-fd54-a3cd" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="96fa-2e7c-5c68-ef74" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="96fa-2e7c-5c68-ef74" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="2d72-ded6-4d7e-c058">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="71aa-f536-a128-0120" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9586-20b2-9827-277c" type="max"/>
@@ -1530,7 +1430,7 @@ Spartan 0-2 per 1000 pts
             <entryLink id="2d72-ded6-4d7e-c058" hidden="false" collective="false" import="true" targetId="83eb-325b-cc5b-94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cdb4-18be-ef7e-dfdc" name="Order" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cdb4-18be-ef7e-dfdc" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="e771-7d60-d51d-959d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c590-5b39-fce7-a84a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f25e-10f7-83ea-32bb" type="max"/>
@@ -1630,6 +1530,69 @@ Spartan 0-2 per 1000 pts
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00cb-05ff-26f2-ceba" name="Cortana" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44eb-a3bc-1d44-b849" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0195-a9d0-bc76-0e43" name="Cortana" hidden="false" typeId="cdb8-9b5e-c8de-5a0e" typeName="UNSC Heroes">
+          <characteristics>
+            <characteristic name="Spartans" typeId="a821-d480-157e-a66e">None</characteristic>
+            <characteristic name="Per" typeId="b365-18ee-ebfa-4102"/>
+            <characteristic name="KIA" typeId="ed77-ed06-99a1-b350"/>
+            <characteristic name="Costs" typeId="f653-6785-f32f-0ad8"/>
+            <characteristic name="Order Dice" typeId="02b7-0d0d-8a43-b483">3</characteristic>
+            <characteristic name="No. Shared" typeId="8a7d-1ecf-be79-6ce6">3</characteristic>
+            <characteristic name="Notes" typeId="ccd3-8060-4bbc-9938"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8f05-5fa2-6eed-3c16" name="Unique Ability - Cortana" publicationId="77a9-9244-pubN68484" page="1116" hidden="false">
+          <description>Cortana is resourceful and cunning, and her survival is a priority for the UNSC. Should the Element containing Cortana be Destroyed, roll a Halo Dice - on a roll of any result other than a &quot;SKULL&quot;, Cortana may be placed on a nearby friendly vessel within 12&quot;. Should Cortana roll a &quot;SKULL&quot; when trying to escape, or have no friendly Formation Base within 12&quot; however, Cortana is removed from the game and the enemy Fleet gains an additional +4 VPs.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3640-a72b-a276-8326" hidden="false" targetId="68b7-713b-323d-841f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ac04-80ea-cffe-00db" name="New CategoryLink" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4192-f2ac-14ee-2a77" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="597b-3707-69e1-429d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8ab-6a2c-e08b-95e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4824-0830-a59a-2ea6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="597b-3707-69e1-429d" hidden="false" collective="false" import="true" targetId="a6b0-17f8-e087-d4af" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="86f8-62f6-73c7-9a6a" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="b833-66eb-8039-84f0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a00e-5164-cbea-a5b3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73ba-6629-6252-c33a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b833-66eb-8039-84f0" hidden="false" collective="false" import="true" targetId="6026-7fff-fbca-d650" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="27c4-94b5-1379-6bd2" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="f3dd-4ddf-385e-4142">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a54-f677-10ae-a697" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e802-87b3-2bd5-f746" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f3dd-4ddf-385e-4142" hidden="false" collective="false" import="true" targetId="4593-cd94-a4b4-2cac" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
@@ -3696,6 +3659,11 @@ Spartan 0-2 per 1000 pts
       <infoLinks>
         <infoLink id="5050-c478-ebe0-1b72" name="Enhanced Fire Control" hidden="false" targetId="79bd-5ea0-5ae5-15a1" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

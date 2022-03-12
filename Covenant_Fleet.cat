@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet - Spartan Close" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="539f-2dab-5cf9-3363" name="Covenant Fleet - Spartan Close" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -82,109 +82,6 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="750.0"/>
-        <cost name="H" typeId="Hangers" value="0.0"/>
-        <cost name="BR" typeId="Build Rating" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="16fe-8cfc-ea81-28d8" name="Heroic Character" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="c6c5-381d-329d-16d2" value="1">
-          <repeats>
-            <repeat field="limit::points" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6c5-381d-329d-16d2" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="16fe-8cfc-ea81-28d8-98b2-d9b4-0e2a-42dc" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="12a8-cf37-8806-6560" name="Heroic Character" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6047-8f64-9392-86d8" name="Minister of Etiology" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxInForce" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="39f6-c352-3237-393d" name="Minister of Etiology" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
-                  <characteristics>
-                    <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0-2</characteristic>
-                    <characteristic name="Per" typeId="9173-5a05-122b-8ab2">Full 1000pts</characteristic>
-                    <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d">1 VP</characteristic>
-                    <characteristic name="Costs" typeId="0192-ad10-20b8-665e">+10pts Per Zealot</characteristic>
-                    <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">3</characteristic>
-                    <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">1</characteristic>
-                    <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6">Assigned</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="c6d2-bcc8-6bd4-0f62" name="Unique Ability - Minister of Etiology" publicationId="539f-2dab-pubN66236" page="1114" hidden="false">
-                  <description>Whilst utterly self-possed and concerned only with politics, the Minister claims a high rank within the covenant Hierarchy and can bend even Fleet Commanders to his will. After any Inital Order Dice have been rolled during the Order Dice Phase, the Minister may change a SINGLE friendly Covenant Order Dice to be any result.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="2a65-520f-4cb7-6ec9" hidden="false" targetId="c301-6ba5-af0d-8c8b" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="05b3-7802-8947-5962" name="Zealot" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="maxSelections" value="2">
-                      <repeats>
-                        <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="6047-8f64-9392-86d8" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="4a69-f6be-bd36-4d28" hidden="false" targetId="487b-758e-6cd1-f566" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                    <cost name="H" typeId="Hangers" value="0.0"/>
-                    <cost name="BR" typeId="Build Rating" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e684-eca2-70e8-dbbf" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="f952-497a-34cc-ceb0">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="f952-497a-34cc-ceb0" hidden="false" collective="false" import="true" targetId="c332-8ef4-5998-007d" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="a398-b947-6914-7cc5" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b2e-aa79-dda6-6054">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="6b2e-aa79-dda6-6054" hidden="false" collective="false" import="true" targetId="b4e8-6325-e780-72d7" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="80.0"/>
-                <cost name="H" typeId="Hangers" value="0.0"/>
-                <cost name="BR" typeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
@@ -1125,6 +1022,82 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83ff-f8d6-0d06-1781" name="Minister of Etiology" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3e2-c802-3200-7bb7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ee7d-00e3-8aa7-e921" name="Minister of Etiology" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
+          <characteristics>
+            <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0-2</characteristic>
+            <characteristic name="Per" typeId="9173-5a05-122b-8ab2">Full 1000pts</characteristic>
+            <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d">1 VP</characteristic>
+            <characteristic name="Costs" typeId="0192-ad10-20b8-665e">+10pts Per Zealot</characteristic>
+            <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">3</characteristic>
+            <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">1</characteristic>
+            <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6">Assigned</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d320-cc57-1651-a048" name="Unique Ability - Minister of Etiology" publicationId="539f-2dab-pubN66236" page="1114" hidden="false">
+          <description>Whilst utterly self-possed and concerned only with politics, the Minister claims a high rank within the covenant Hierarchy and can bend even Fleet Commanders to his will. After any Inital Order Dice have been rolled during the Order Dice Phase, the Minister may change a SINGLE friendly Covenant Order Dice to be any result.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8bff-a127-b4c2-26cd" hidden="false" targetId="c301-6ba5-af0d-8c8b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2458-e87b-6215-5ef3" name="New CategoryLink" hidden="false" targetId="98b2-d9b4-0e2a-42dc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2815-7011-f388-872b" name="Zealot" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="88ea-aa64-063b-091b" value="2.0">
+              <repeats>
+                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88ea-aa64-063b-091b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4a22-81bb-92b5-285a" hidden="false" targetId="487b-758e-6cd1-f566" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="H" typeId="Hangers" value="0.0"/>
+            <cost name="BR" typeId="Build Rating" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="219f-e829-59a4-7180" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="580f-333c-5f3a-b8f6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c41-a368-21bc-9217" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a7a-2aee-6eb6-3bfa" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="580f-333c-5f3a-b8f6" hidden="false" collective="false" import="true" targetId="c332-8ef4-5998-007d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="30ab-57b9-dc32-0462" name="Order" hidden="false" collective="false" import="true" defaultSelectionEntryId="3988-170d-9c84-8cc0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eeff-9afd-0307-99c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6297-bb14-3931-9b28" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3988-170d-9c84-8cc0" hidden="false" collective="false" import="true" targetId="b4e8-6325-e780-72d7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
