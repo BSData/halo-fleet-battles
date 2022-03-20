@@ -91,7 +91,7 @@
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c8e4-9689-3d37-61c3" name="Penitent Battle group" publicationId="539f-2dab-pubN66236" page="1109" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c8e4-9689-3d37-61c3" name="Penitent Battle group (RCS)" publicationId="539f-2dab-pubN66236" page="1109" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -104,13 +104,12 @@
         <categoryLink id="c8e4-9689-3d37-61c3-66fd-78fe-4e96-ac37" hidden="false" targetId="66fd-78fe-4e96-ac37" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="04d1-6faa-18e1-c259" name="Capital Element" hidden="false" collective="false" import="true" defaultSelectionEntryId="003d-f7ab-8a4c-6681">
+        <selectionEntryGroup id="04d1-6faa-18e1-c259" name="Capital Element" hidden="false" collective="false" import="true" defaultSelectionEntryId="1091-f69e-5171-a84f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="003d-f7ab-8a4c-6681" hidden="false" collective="false" import="true" targetId="11bb-03a3-16f4-d55a" type="selectionEntry"/>
             <entryLink id="1091-f69e-5171-a84f" hidden="false" collective="false" import="true" targetId="3d95-086f-fcb7-58a8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1578,9 +1577,9 @@
         <profile id="cdc2-c048-9627-0178" name="Lighter Than Some" hidden="false" typeId="bf24-0efa-b186-13c4" typeName="Covenant Heroes">
           <characteristics>
             <characteristic name="Zealots" typeId="32de-5f20-0d39-5386">0</characteristic>
-            <characteristic name="Per" typeId="9173-5a05-122b-8ab2"></characteristic>
-            <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d"></characteristic>
-            <characteristic name="Costs" typeId="0192-ad10-20b8-665e"></characteristic>
+            <characteristic name="Per" typeId="9173-5a05-122b-8ab2"/>
+            <characteristic name="KIA" typeId="66d5-dac9-0978-7f6d"/>
+            <characteristic name="Costs" typeId="0192-ad10-20b8-665e"/>
             <characteristic name="Order Dice" typeId="8274-0d7a-138e-014c">2</characteristic>
             <characteristic name="No. Shared" typeId="bf85-a166-65ef-1c0b">2</characteristic>
             <characteristic name="Notes" typeId="31a7-68b6-8d13-c2b6">Assigned</characteristic>
@@ -1697,6 +1696,56 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ef7-e520-98a4-dd7d" name="Penitent Battle group (CCS)" publicationId="539f-2dab-pubN66236" page="1109" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2723-5ded-eba5-058e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="40bd-a2dc-8409-cd7b" name="Focused Wrath" hidden="false">
+          <description>All Plasma Cannon Array Attacks made by this Element may re-roll a single Attack Dice for each friendly Zealot on-board.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2989-af2a-5098-f2c8" hidden="false" targetId="66fd-78fe-4e96-ac37" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a016-a016-c124-bf9f" name="Capital Element" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ff2-74c8-b706-e1d4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5154-c089-51f0-86b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f6b-24c9-a0ec-8f7d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4ff2-74c8-b706-e1d4" hidden="false" collective="false" import="true" targetId="11bb-03a3-16f4-d55a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6735-f2bc-74ce-f385" name="Wings - Flight Tokens" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7278-1ac0-1646-6085" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="31b9-a6c5-fb41-93de" name="Interceptors - Seraph" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ded-dfa6-3416-a390" name="Bombers - Tarasque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
@@ -3923,11 +3972,21 @@
       <infoLinks>
         <infoLink id="65c8-8c47-efd6-92dd" name="This is Broken. Must be Fixed." hidden="false" targetId="db09-5cf8-a7bb-c6c0" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="84d6-2f51-95a8-64eb" name="Must get to Safety" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e91c-238b-ecdd-06ce" name="Must Get to Safety" hidden="false" targetId="d682-4001-84e9-eadd" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="BR" typeId="Build Rating" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
