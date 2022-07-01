@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -3782,9 +3782,9 @@
         <cost name="H" typeId="Hangers" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="256f-b8a5-fb72-a024" name="DDS Class Cruiser" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="256f-b8a5-fb72-a024" name="DDS Class Carrier" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="a9a1-ebb4-69b4-6064" name="DSS Class Cruiser P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="a9a1-ebb4-69b4-6064" name="DSS Class Carrier P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Lance</characteristic>
@@ -3794,7 +3794,7 @@
             <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D12</characteristic>
           </characteristics>
         </profile>
-        <profile id="6aaf-7e64-b072-8826" name="DSS Class Cruiser P2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="6aaf-7e64-b072-8826" name="DSS Class Carrier P2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">OR Beam</characteristic>
@@ -3804,7 +3804,7 @@
             <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D9/9/9</characteristic>
           </characteristics>
         </profile>
-        <profile id="a23a-65e3-a7c4-6e2b" name="DSS Class Cruiser S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="a23a-65e3-a7c4-6e2b" name="DSS Class Carrier S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Cannons</characteristic>
@@ -3814,7 +3814,7 @@
             <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D8</characteristic>
           </characteristics>
         </profile>
-        <profile id="3869-4eed-67fa-e171" name="DSS Class Cruiser" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
+        <profile id="3869-4eed-67fa-e171" name="DSS Class Carrier" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
           <characteristics>
             <characteristic name="Movement" typeId="8fa1-7e88-e559-0500">M6&quot;</characteristic>
             <characteristic name="Damage Track" typeId="8c00-74c5-9f70-8cf6">10-8-4</characteristic>
@@ -3827,7 +3827,7 @@
             <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">CA(3), CS, DA(4), G(3&quot;), PD(5)</characteristic>
           </characteristics>
         </profile>
-        <profile id="3ae6-a99e-51df-76aa" name="DSS Class Cruiser S2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="3ae6-a99e-51df-76aa" name="DSS Class Carrier S2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">AND Torpedoes</characteristic>
@@ -3855,9 +3855,9 @@
         <cost name="BR" typeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e49-a1c6-0f8c-3e2a" name="DDS Class Cruiser (Supported)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4e49-a1c6-0f8c-3e2a" name="DDS Class Carrier (Supported)" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4980-f8d2-3761-71fc" name="DSS Class Cruiser (Supported) P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="4980-f8d2-3761-71fc" name="DSS Class Carrier (Supported) P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Lance</characteristic>
@@ -3867,7 +3867,7 @@
             <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D12</characteristic>
           </characteristics>
         </profile>
-        <profile id="e54b-e069-a11d-a798" name="DSS Class Cruiser (Supported) P2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="e54b-e069-a11d-a798" name="DSS Class Carrier (Supported) P2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">OR Beam</characteristic>
@@ -3877,7 +3877,7 @@
             <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D9/9/9</characteristic>
           </characteristics>
         </profile>
-        <profile id="203d-d118-6742-72e2" name="DSS Class Cruiser (Supported) S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="203d-d118-6742-72e2" name="DSS Class Carrier (Supported) S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Cannons</characteristic>
@@ -3887,7 +3887,7 @@
             <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D9</characteristic>
           </characteristics>
         </profile>
-        <profile id="8392-9900-d2c1-f2f4" name="DSS Class Cruiser (Supported)" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
+        <profile id="8392-9900-d2c1-f2f4" name="DSS Class Carrier (Supported)" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
           <characteristics>
             <characteristic name="Movement" typeId="8fa1-7e88-e559-0500">M6&quot;</characteristic>
             <characteristic name="Damage Track" typeId="8c00-74c5-9f70-8cf6">10-8-5</characteristic>
@@ -3900,7 +3900,7 @@
             <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">CA(3), CS, DA(5), G(3&quot;), PD(6)</characteristic>
           </characteristics>
         </profile>
-        <profile id="18b6-e100-e25b-1a36" name="DSS Class Cruiser (Supported) S2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+        <profile id="18b6-e100-e25b-1a36" name="DSS Class Carrier (Supported) S2" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
             <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">AND Torpedoes</characteristic>
