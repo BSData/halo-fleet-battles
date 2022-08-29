@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="5" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="6" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -1681,7 +1681,7 @@
         <cost name="BR" typeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="11f3-ac3f-c0d5-5e96" name="Epoch Heavy Cruiser" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="11f3-ac3f-c0d5-5e96" name="Epoch Heavy Carrier" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="eba7-c185-726a-0bc2" name="Epoch Heavy Cruiser S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
@@ -1733,7 +1733,7 @@
         <cost name="BR" typeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95ac-3856-2538-85a8" name="Epoch Heavy Cruiser (Defended)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="95ac-3856-2538-85a8" name="Epoch Heavy Carrier (Defended)" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="925e-b565-6802-bce2" name="Epoch Heavy Cruiser (Defended) S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
@@ -1785,7 +1785,7 @@
         <cost name="BR" typeId="Build Rating" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1ba-bf41-1a5a-7e4a" name="Epoch Heavy Cruiser (Supported)" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c1ba-bf41-1a5a-7e4a" name="Epoch Heavy Carrier (Supported)" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="03c7-78bd-be84-a45a" name="Epoch Heavy Cruiser (Supported) P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
           <characteristics>
