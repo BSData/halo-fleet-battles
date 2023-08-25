@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" name="UNSC Fleet - Spartan Close" revision="31" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" name="UNSC Fleet - Spartan Close" revision="32" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -2978,7 +2978,7 @@ In addition, Point Defence systems can also be used to defend against attacks ma
 
 &gt;If the combined Values of the MACs is 4-5, roll ONE Halo Dice and on a result of a &quot;SKULL&quot; or a &quot;2&quot;  the Target Element gains a Vunerable Token.
 
-&gt;If the combined Values of the MACs is 6 or above, the Target Element automatically gains a Vunerable Token and no roll is nescessary.
+&gt;If the combined Values of the MACs is 6 or above, roll ONE Halo Dice and on a result of a &quot;2&quot; or a &quot;1&quot; or a &quot;MISS&quot;  the Target Element gains a Vunerable Token.
 
 Remember that this effect takes palce BEFORE any Defence Dice Pool rolls and CANNOT be affected by Loadouts.</description>
     </rule>
