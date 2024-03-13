@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a9-9244-34e8-0d37" name="UNSC Fleet - Spartan Close" revision="32" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a9-9244-34e8-0d37" name="UNSC Fleet - Spartan Close" revision="33" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -1260,7 +1260,7 @@
         <infoLink id="2060-499d-9c9e-0be4" hidden="false" targetId="8a23-fff0-82ec-7f61" type="rule"/>
         <infoLink id="68f2-18cb-aa86-94da" hidden="false" targetId="da14-8c34-2ad1-187d" type="rule"/>
         <infoLink id="adb5-f191-9dbd-2b76" hidden="false" targetId="0877-287d-9080-e907" type="rule"/>
-        <infoLink id="5aca-e847-2d69-2fa0" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
+        <infoLink id="5aca-e847-2d69-2fa0" name="Pelican Boarding Craft" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="175.0"/>
@@ -1563,7 +1563,7 @@
         <infoLink id="896d-2ec0-37d9-f656" hidden="false" targetId="8a23-fff0-82ec-7f61" type="rule"/>
         <infoLink id="fb30-041c-fee8-0898" hidden="false" targetId="da14-8c34-2ad1-187d" type="rule"/>
         <infoLink id="e490-0249-c249-83dd" hidden="false" targetId="0877-287d-9080-e907" type="rule"/>
-        <infoLink id="1713-6b05-d289-2ad9" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
+        <infoLink id="1713-6b05-d289-2ad9" name="Pelican Boarding Craft" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="95.0"/>
@@ -2802,6 +2802,15 @@
                 <cost name="H" typeId="Hangers" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="48d7-1e59-d111-dda0" name="Pelican Boarding Craft" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="17c3-bb3a-498f-0151" name="Pelican Boarding Craft" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="00d8-4006-724c-fea9" name="Boarding Craft" hidden="false" collective="false" import="true" defaultSelectionEntryId="02e3-661f-494a-b731">
@@ -2818,6 +2827,15 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f17f-9b33-7056-a1d4" name="Pelican Boarding Craft" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e2a6-3b84-d1be-14f6" name="Pelican Boarding Craft" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
+              </infoLinks>
+              <costs>
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
               </costs>
@@ -2896,6 +2914,15 @@
                 <cost name="H" typeId="Hangers" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="d3a1-42da-2dc1-bc2f" name="Pelican Boarding Craft" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c2ce-2145-de41-c804" name="Pelican Boarding Craft" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7a60-afe0-9e41-038f" name="Boarding Craft" hidden="false" collective="false" import="true" defaultSelectionEntryId="47a3-1876-1669-a184">
@@ -2912,6 +2939,15 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e682-4167-a091-679c" name="Pelican Boarding Craft" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1ee6-67a0-28eb-649c" name="Pelican Boarding Craft" hidden="false" targetId="74eb-e3c2-9ea6-a519" type="profile"/>
+              </infoLinks>
+              <costs>
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
               </costs>
