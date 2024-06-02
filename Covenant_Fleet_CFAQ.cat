@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -82,6 +82,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="11cb-8895-56c6-5514" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -126,6 +133,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f3af-e8b0-bd84-4430" name="Bombers - Tarasque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="589e-b085-b8f3-6ff2" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -397,6 +411,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b6bf-7785-6f97-31f0" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="6d22-86d0-b84a-cd95" name="Components" hidden="false" collective="false" import="true">
@@ -412,6 +433,7 @@
                 <entryLink id="64e6-3944-1f09-e675" hidden="false" collective="false" import="true" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry"/>
                 <entryLink id="f17a-d187-e5c5-22e9" hidden="false" collective="false" import="true" targetId="22be-214b-b811-e5f2" type="selectionEntry"/>
                 <entryLink id="fa57-1bcd-b610-d9c6" hidden="false" collective="false" import="true" targetId="6d84-c8d1-c65e-223f" type="selectionEntry"/>
+                <entryLink id="4e35-b9a5-50e4-51a3" name="CAR Frigates in Oblique Formation" hidden="false" collective="false" import="true" targetId="90f1-561c-43b4-9be2" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="e054-8a01-2bed-45bc" name="Capital Elements" hidden="false" collective="false" import="true">
@@ -581,6 +603,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="75c1-c982-7ed1-bc1e" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -640,6 +669,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="8ddd-ed2e-a759-23d7" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -688,7 +724,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cbf6-64cf-9a0f-99bb" hidden="false" collective="false" import="true" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry"/>
+            <entryLink id="cbf6-64cf-9a0f-99bb" name="SDV Heavy Corvettes in Line Formation" hidden="false" collective="false" import="true" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b5ea-af14-7b86-6529" name="Non-Capital Element" hidden="false" collective="false" import="true" defaultSelectionEntryId="930d-6123-b50e-8b88">
@@ -697,7 +733,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="930d-6123-b50e-8b88" hidden="false" collective="false" import="true" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry"/>
+            <entryLink id="930d-6123-b50e-8b88" name="SDV Heavy Corvettes in Line Formation" hidden="false" collective="false" import="true" targetId="c4d0-58b1-c4e6-0192" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="4c14-0400-107c-0f16" name="Wings - Flight Tokens" hidden="false" collective="false" import="true">
@@ -713,6 +749,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="7957-e14c-57d1-1b61" name="Bombers - Tarasque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ed7-d507-5c1c-6178" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -791,6 +834,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="e5c5-0806-4f92-b672" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -863,6 +913,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="6685-5183-ab66-2d05" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -918,6 +975,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="8730-a3da-c626-712c" name="Bombers - Tarasque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ab7-27b5-f05e-b338" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -1158,6 +1222,13 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="530a-fc7d-93a6-9bc9" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9c7f-2502-848f-c8fd" name="Capital Element" hidden="false" collective="false" import="true" defaultSelectionEntryId="097d-6699-acc7-89c9">
@@ -1215,6 +1286,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="a06c-0025-b10e-2bd5" name="Bombers - Tarasque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bff9-86d7-ec70-aeed" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -1735,6 +1813,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4ded-dfa6-3416-a390" name="Bombers - Tarasque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="BR" typeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9780-21a4-6e7b-9a10" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -3986,6 +4071,54 @@
         <cost name="BR" typeId="Build Rating" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90f1-561c-43b4-9be2" name="CAR Frigates in Oblique Formation" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b955-f017-ef37-d289" name="CAR Frigates in Oblique Formation P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
+            <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Lance</characteristic>
+            <characteristic name="Range" typeId="f943-e25e-7fa8-c96d">R16/32&quot;</characteristic>
+            <characteristic name="Loadouts" typeId="d182-5097-35b9-78f7">Plasma</characteristic>
+            <characteristic name="Arc" typeId="e213-0d74-774c-ebc7">F/P/S</characteristic>
+            <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c6f-427b-3df5-8180" name="CAR Frigates in Oblique Formation S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
+            <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Cannons</characteristic>
+            <characteristic name="Range" typeId="f943-e25e-7fa8-c96d">R10/20&quot;</characteristic>
+            <characteristic name="Loadouts" typeId="d182-5097-35b9-78f7">Plasma</characteristic>
+            <characteristic name="Arc" typeId="e213-0d74-774c-ebc7">F/P/S</characteristic>
+            <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9dcd-ec51-ef09-9114" name="CAR Frigates in Oblique Formation" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
+          <characteristics>
+            <characteristic name="Movement" typeId="8fa1-7e88-e559-0500">M9&quot;</characteristic>
+            <characteristic name="Damage Track" typeId="8c00-74c5-9f70-8cf6">4-3-3</characteristic>
+            <characteristic name="Build Rating" typeId="c6b2-9e68-686c-57ca">BR1</characteristic>
+            <characteristic name="Hangers" typeId="3d5e-f3b6-6b5d-4362">H0</characteristic>
+            <characteristic name="Boarding Craft" typeId="4e94-7718-ec73-70c5">BC1</characteristic>
+            <characteristic name="Security Detail" typeId="41c5-6d69-ba5e-bb54">SD1</characteristic>
+            <characteristic name="Class" typeId="66dc-5a43-86f3-5a9f">Non-Capital</characteristic>
+            <characteristic name="Size" typeId="be70-6774-adfd-7240">Small</characteristic>
+            <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">DA(2), E, G(5&quot;), PD(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9031-bba5-2ee7-be7c" name="[PD] Point Defence" hidden="false" targetId="7be2-48c0-aa34-1063" type="rule"/>
+        <infoLink id="82fe-e29d-87cf-17ae" name="[DA] Defence Array" hidden="false" targetId="6e18-e6aa-aa5b-b1fa" type="rule"/>
+        <infoLink id="2f79-7cd7-5eac-16ab" hidden="false" targetId="bd1d-02c5-3aa3-3b1a" type="rule"/>
+        <infoLink id="6cdb-6106-6313-0896" hidden="false" targetId="6bb8-b2e0-af1f-96d0" type="rule"/>
+        <infoLink id="213b-ad84-dfc7-e35d" name="Plasma" hidden="false" targetId="015b-430c-def9-611e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="BR" typeId="Build Rating" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
