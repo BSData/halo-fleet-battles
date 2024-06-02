@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="8" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="99cb-7c4e-7cb8-1890" name="UNSC Fleet - CFAQ" revision="9" battleScribeVersion="2.03" authorName="Lewis K" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="77a9-9244-pubN68484" name="Reference Sheet"/>
     <publication id="77a9-9244-pubN83846" name="Core Rulebook"/>
@@ -874,7 +874,7 @@
                 <entryLink id="4164-8341-ef50-b2a5" hidden="false" collective="false" import="true" targetId="f2fe-55f6-924b-6e5e" type="selectionEntry"/>
                 <entryLink id="2a37-19fd-d0df-bb98" hidden="false" collective="false" import="true" targetId="ccc2-f70a-36e4-52e1" type="selectionEntry"/>
                 <entryLink id="616e-c40d-9227-a87b" hidden="false" collective="false" import="true" targetId="0834-e85e-80c3-667e" type="selectionEntry"/>
-                <entryLink id="c1a8-1e65-e119-0175" name="Epoch Heavy Cruiser (Defended)" hidden="false" collective="false" import="true" targetId="95ac-3856-2538-85a8" type="selectionEntry"/>
+                <entryLink id="c1a8-1e65-e119-0175" name="Epoch Heavy Carrier (Defended)" hidden="false" collective="false" import="true" targetId="95ac-3856-2538-85a8" type="selectionEntry"/>
                 <entryLink id="97e5-a2b0-8a93-8f20" hidden="false" collective="false" import="true" targetId="70fe-c313-7a13-2ca0" type="selectionEntry"/>
                 <entryLink id="b484-3ed7-731e-8b57" hidden="false" collective="false" import="true" targetId="7bc7-a2df-cb12-0150" type="selectionEntry"/>
                 <entryLink id="a12a-76bb-acd7-6ca8" hidden="false" collective="false" import="true" targetId="fe8f-a6a3-49f7-6f09" type="selectionEntry"/>
@@ -887,6 +887,8 @@
                 <entryLink id="efd6-7059-b18d-66a7" name="Halcyon Light Cruiser (Escorted)" hidden="false" collective="false" import="true" targetId="e2d0-f13a-74e4-bf5a" type="selectionEntry"/>
                 <entryLink id="1889-6abd-e05d-5ec3" name="Halcyon Light Cruiser" hidden="false" collective="false" import="true" targetId="ba3c-a2ba-814a-baed" type="selectionEntry"/>
                 <entryLink id="2240-6221-38c1-e32a" name="Halcyon Light Cruiser (Supported)" hidden="false" collective="false" import="true" targetId="6a79-3708-47b1-625e" type="selectionEntry"/>
+                <entryLink id="b992-e28a-0e88-5083" name="Eion Light Carrier" hidden="false" collective="false" import="true" targetId="84e4-5d21-ce39-7932" type="selectionEntry"/>
+                <entryLink id="dc24-523c-88b1-c403" name="Eion Light Carrier (Supported)" hidden="false" collective="false" import="true" targetId="c0c0-de5f-f445-b635" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="e7b4-1cce-3044-65db" name="Non-Capital Element" hidden="false" collective="false" import="true">
@@ -3274,6 +3276,7 @@
               <costs>
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3303,6 +3306,7 @@
               <costs>
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3386,6 +3390,7 @@
               <costs>
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3415,6 +3420,7 @@
               <costs>
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3699,6 +3705,108 @@
         <cost name="BR" typeId="Build Rating" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="H" typeId="Hangers" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84e4-5d21-ce39-7932" name="Eion Light Carrier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="00e5-d300-dc7e-0a5b" name="Eion Light Carrier S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
+            <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Missile Batteries</characteristic>
+            <characteristic name="Range" typeId="f943-e25e-7fa8-c96d">R12/24&quot;</characteristic>
+            <characteristic name="Loadouts" typeId="d182-5097-35b9-78f7">Missiles</characteristic>
+            <characteristic name="Arc" typeId="e213-0d74-774c-ebc7">F* or P+S</characteristic>
+            <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5763-5886-1e15-9505" name="Eion Light Carrier P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
+            <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Light MAC</characteristic>
+            <characteristic name="Range" typeId="f943-e25e-7fa8-c96d">R10/20&quot;</characteristic>
+            <characteristic name="Loadouts" typeId="d182-5097-35b9-78f7">MAC(1)</characteristic>
+            <characteristic name="Arc" typeId="e213-0d74-774c-ebc7">F</characteristic>
+            <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="35a0-601c-3e6f-e5a1" name="Eion Light Carrier" publicationId="77a9-9244-pubN68484" page="1078" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
+          <characteristics>
+            <characteristic name="Movement" typeId="8fa1-7e88-e559-0500">M7&quot;</characteristic>
+            <characteristic name="Damage Track" typeId="8c00-74c5-9f70-8cf6">5-4-4</characteristic>
+            <characteristic name="Build Rating" typeId="c6b2-9e68-686c-57ca">BR2</characteristic>
+            <characteristic name="Hangers" typeId="3d5e-f3b6-6b5d-4362">H3</characteristic>
+            <characteristic name="Boarding Craft" typeId="4e94-7718-ec73-70c5">BC0</characteristic>
+            <characteristic name="Security Detail" typeId="41c5-6d69-ba5e-bb54">SD2</characteristic>
+            <characteristic name="Class" typeId="66dc-5a43-86f3-5a9f">Capital</characteristic>
+            <characteristic name="Size" typeId="be70-6774-adfd-7240">Medium</characteristic>
+            <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">CA(1), HB(2&quot;), MB*, PD(4), TA(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1ffa-4f57-7241-98e8" name="[HB] Hard Burn" hidden="false" targetId="832b-60db-8cd7-8c91" type="rule"/>
+        <infoLink id="3548-cd57-30a6-c282" hidden="false" targetId="a6bc-2cb7-5f63-b77e" type="rule"/>
+        <infoLink id="13ec-db79-d06f-c0e2" hidden="false" targetId="98c7-6410-cddf-f675" type="rule"/>
+        <infoLink id="ce44-25fa-5546-74f5" name="[TA] Titanium Armour" hidden="false" targetId="8a23-fff0-82ec-7f61" type="rule"/>
+        <infoLink id="85c7-931f-63d8-20c7" name="MAC" hidden="false" targetId="da14-8c34-2ad1-187d" type="rule"/>
+        <infoLink id="8310-f1bf-7aec-02e7" hidden="false" targetId="0877-287d-9080-e907" type="rule"/>
+        <infoLink id="6a03-65c7-fcc3-f3bc" name="[CA] Carrier Action" hidden="false" targetId="8264-58a6-992f-782c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="85.0"/>
+        <cost name="H" typeId="Hangers" value="3.0"/>
+        <cost name="BR" typeId="Build Rating" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0c0-de5f-f445-b635" name="Eion Light Carrier (Supported)" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6a5c-7ada-169e-794c" name="Eion Light Carrier (Supported) S1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Secondary</characteristic>
+            <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Missile Batteries</characteristic>
+            <characteristic name="Range" typeId="f943-e25e-7fa8-c96d">R12/24&quot;</characteristic>
+            <characteristic name="Loadouts" typeId="d182-5097-35b9-78f7">Missiles</characteristic>
+            <characteristic name="Arc" typeId="e213-0d74-774c-ebc7">F* or P+S</characteristic>
+            <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c7da-8c89-091a-f154" name="Eion Light Carrier (Supported) P1" hidden="false" typeId="66b5-1f16-b76a-8212" typeName="Main Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="e8f0-9979-bf35-75b4">Primary</characteristic>
+            <characteristic name="Weapon" typeId="9141-7c49-8222-fa82">Light MAC</characteristic>
+            <characteristic name="Range" typeId="f943-e25e-7fa8-c96d">R10/20&quot;</characteristic>
+            <characteristic name="Loadouts" typeId="d182-5097-35b9-78f7">MAC(2)</characteristic>
+            <characteristic name="Arc" typeId="e213-0d74-774c-ebc7">F</characteristic>
+            <characteristic name="Dice" typeId="fc05-8509-413d-ed2c">D6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e053-62f2-c53b-9f46" name="Eion Light Carrier (Supported)" publicationId="77a9-9244-pubN68484" page="" hidden="false" typeId="ada5-a7de-6104-01ff" typeName="Element">
+          <characteristics>
+            <characteristic name="Movement" typeId="8fa1-7e88-e559-0500">M7&quot;</characteristic>
+            <characteristic name="Damage Track" typeId="8c00-74c5-9f70-8cf6">6-4-4</characteristic>
+            <characteristic name="Build Rating" typeId="c6b2-9e68-686c-57ca">BR3</characteristic>
+            <characteristic name="Hangers" typeId="3d5e-f3b6-6b5d-4362">H4</characteristic>
+            <characteristic name="Boarding Craft" typeId="4e94-7718-ec73-70c5">BC0</characteristic>
+            <characteristic name="Security Detail" typeId="41c5-6d69-ba5e-bb54">SD3</characteristic>
+            <characteristic name="Class" typeId="66dc-5a43-86f3-5a9f">Capital</characteristic>
+            <characteristic name="Size" typeId="be70-6774-adfd-7240">Medium</characteristic>
+            <characteristic name="Systems Loadouts" typeId="f70e-2e07-5545-faf7">CA(1), HB(2&quot;), MB*, PD(4), TA(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ef8a-4a2f-183a-6d14" name="[HB] Hard Burn" hidden="false" targetId="832b-60db-8cd7-8c91" type="rule"/>
+        <infoLink id="b947-ffe6-8f75-68c6" hidden="false" targetId="a6bc-2cb7-5f63-b77e" type="rule"/>
+        <infoLink id="3186-ef1e-42bb-4b52" hidden="false" targetId="98c7-6410-cddf-f675" type="rule"/>
+        <infoLink id="9dbb-294f-bb2d-3301" name="[TA] Titanium Armour" hidden="false" targetId="8a23-fff0-82ec-7f61" type="rule"/>
+        <infoLink id="7843-d90e-714a-f18c" name="MAC" hidden="false" targetId="da14-8c34-2ad1-187d" type="rule"/>
+        <infoLink id="18b0-2078-451c-84d1" hidden="false" targetId="0877-287d-9080-e907" type="rule"/>
+        <infoLink id="7a40-fdc1-ca68-9bb6" name="[CA] Carrier Action" hidden="false" targetId="8264-58a6-992f-782c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="H" typeId="Hangers" value="3.0"/>
+        <cost name="BR" typeId="Build Rating" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
