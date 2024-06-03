@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b311-0157-cdff-2692" name="Covenant Fleet - CFAQ" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="7c36-0273-dca1-f058" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="539f-2dab-pubN66236" name="Reference Sheet"/>
     <publication id="539f-2dab-pubN84848" name="Core Rulebook"/>
@@ -82,7 +82,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="11cb-8895-56c6-5514" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="11cb-8895-56c6-5514" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -139,7 +139,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="589e-b085-b8f3-6ff2" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="589e-b085-b8f3-6ff2" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -411,7 +411,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b6bf-7785-6f97-31f0" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="b6bf-7785-6f97-31f0" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -603,7 +603,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="75c1-c982-7ed1-bc1e" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="75c1-c982-7ed1-bc1e" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -669,7 +669,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8ddd-ed2e-a759-23d7" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8ddd-ed2e-a759-23d7" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -755,7 +755,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9ed7-d507-5c1c-6178" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9ed7-d507-5c1c-6178" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -834,7 +834,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e5c5-0806-4f92-b672" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="e5c5-0806-4f92-b672" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -913,7 +913,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6685-5183-ab66-2d05" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6685-5183-ab66-2d05" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -981,7 +981,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7ab7-27b5-f05e-b338" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="7ab7-27b5-f05e-b338" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -1222,7 +1222,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="530a-fc7d-93a6-9bc9" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="530a-fc7d-93a6-9bc9" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -1292,7 +1292,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bff9-86d7-ec70-aeed" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="bff9-86d7-ec70-aeed" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -1819,7 +1819,7 @@
                 <cost name="BR" typeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9780-21a4-6e7b-9a10" name="Interceptors - 2x Type-27 Exoatmospheric Multirole Fighter (2 Tokens)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9780-21a4-6e7b-9a10" name="2x Covenant Space Banshee (2 Tokens)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="H" typeId="Hangers" value="0.0"/>
@@ -4119,6 +4119,7 @@
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
         <cost name="BR" typeId="Build Rating" value="1.0"/>
+        <cost name="H" typeId="Hangers" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
